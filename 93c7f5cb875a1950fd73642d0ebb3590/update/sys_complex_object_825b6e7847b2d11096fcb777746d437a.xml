@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDce5b6e7827b2d11050a58def7e6a2a79</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FDce5b6e7827b2d11050a58def7e6a2a79":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDce5b6e7827b2d11050a58def7e6a2a79.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Json array\",\"mandatory\":\"false\",\"child_name\":\"Json_array_obj\",\"uiUniqueId\":\"4a462491-f357-4b32-a56a-6f38798c3ad3\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDce5b6e7827b2d11050a58def7e6a2a79\",\"child_label\":\"Json_array_obj\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"26c7fe1f-0bf2-4ca2-b23c-223c139d7829\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-25 05:10:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>825b6e7847b2d11096fcb777746d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_825b6e7847b2d11096fcb777746d437a</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-25 05:10:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

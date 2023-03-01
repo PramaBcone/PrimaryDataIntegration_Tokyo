@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Ledger Accounts" max_length="40" name="sn_sap_data_int_gl_stg" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Accounting Clerk Abbreviation" max_length="5" name="u_accounting_clerk_abbreviation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Account currency" max_length="10" name="u_account_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Account is reconciliation account" max_length="10" name="u_account_is_reconciliation_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternative Account Number in Company Code" max_length="10" name="u_alternative_account_number_in_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Authorization Group" max_length="10" name="u_authorization_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cash receipt account" max_length="1" name="u_cash_receipt_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Clearing Specific to Ledger Groups" max_length="1" name="u_clearing_specific_to_ledger_groups" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="3" name="u_client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Commitment Item" max_length="14" name="u_commitment_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company Code" max_length="10" name="u_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of the last interest calculation run" max_length="10" name="u_date_of_the_last_interest_calculation_run" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date on which the Record Was Created" max_length="40" name="u_date_on_which_the_record_was_created" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="ERP source" max_length="32" name="u_erp_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Field status group" max_length="10" name="u_field_status_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Financial Budget Item" max_length="3" name="u_financial_budget_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L account additional text" max_length="50" name="u_g_l_account_additional_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L Account Number" mandatory="true" max_length="20" name="u_g_l_account_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ID for account details" max_length="5" name="u_id_for_account_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Indicator: Account Managed in External System" max_length="10" name="u_indicator_account_managed_in_external_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Account marked for deletion?" max_length="1" name="u_indicator_account_marked_for_deletion" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Indicator: Can Line Items Be Displayed by Account?" max_length="1" name="u_indicator_can_line_items_be_displayed_by_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Is account blocked for posting?" max_length="1" name="u_indicator_is_account_blocked_for_posting" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Indicator: Is account only posted to automatically?" max_length="1" name="u_indicator_is_account_only_posted_to_automatically" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Indicator: Manage Balances in Local Currency Only" max_length="1" name="u_indicator_manage_balances_in_local_currency_only" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Open Item Management?" max_length="1" name="u_indicator_open_item_management" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Reconcil.acct ready for input at time of posting?" max_length="1" name="u_indicator_reconcil_acct_ready_for_input_at_time_of_posting" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Supplement for automatic postings ?" max_length="1" name="u_indicator_supplement_for_automatic_postings" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Tax code is not a required field" max_length="1" name="u_indicator_tax_code_is_not_a_required_field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Inflation Key" max_length="8" name="u_inflation_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Interest Calculation Frequency in Months" max_length="10" name="u_interest_calculation_frequency_in_months" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Interest calculation indicator" max_length="5" name="u_interest_calculation_indicator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key Date of Last Interest Calculation" max_length="10" name="u_key_date_of_last_interest_calculation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Key for Exchange Rate Differences in Foreign Currency Accts" max_length="10" name="u_key_for_exchange_rate_differences_in_foreign_currency_accts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Key for sorting according to assignment numbers" max_length="1" name="u_key_for_sorting_according_to_assignment_numbers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MCA Key" max_length="5" name="u_mca_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Person who Created the Object" max_length="20" name="u_name_of_person_who_created_the_object" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Planning group" max_length="20" name="u_planning_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Planning Level" max_length="10" name="u_planning_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery Indicator" max_length="2" name="u_recovery_indicator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short key for a house bank" max_length="5" name="u_short_key_for_a_house_bank" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tax Category in Account Master Record" max_length="10" name="u_tax_category_in_account_master_record" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tolerance Group for G/L Accounts" max_length="4" name="u_tolerance_group_for_g_l_accounts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Valuation Group" max_length="10" name="u_valuation_group" type="string"/>
+    </element>
+</database>

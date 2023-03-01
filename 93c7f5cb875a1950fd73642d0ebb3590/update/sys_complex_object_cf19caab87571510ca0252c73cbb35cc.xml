@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0f19caab365715109eb3cf69a61b65cc</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD0f19caab365715109eb3cf69a61b65cc":{"$COCollectionField":[{"Ledger_Account_Data":{"SPRAS":"String","SPRAS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Language Key\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"5a76af21-3beb-479c-a80d-c7fc537fa098\"}"},"MANDT":"String","MANDT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Client\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6a2c13ec-5961-481e-b249-77cabd66f0ae\"}"},"SAKNR":"Integer","SAKNR.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"G/L Account\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"2fad0e45-2886-4df4-ab3a-03e3c379e7d5\"}"},"TXT20":"String","TXT20.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Text\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"e9f74b63-fd3e-44f1-a1ce-85c04390a458\"}"},"MCOD1":"String","MCOD1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"G/L long text\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"7d827677-b1b4-4347-9073-0eaae881ef7b\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"36d88703-c7a1-4f81-9cf2-3bb4fa6228ce\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ledger Account\",\"mandatory\":\"false\",\"child_name\":\"Ledger_Account_Data\",\"uiUniqueId\":\"09be95c1-b08c-43a5-9ae9-4954cbac8dbd\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0f19caab365715109eb3cf69a61b65cc\",\"child_label\":\"Ledger Account Data\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"eb3b316f-4a52-4336-bd95-9a3fcf7d3917\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"042e6424-ea58-4cbf-a6fc-b6aa3bd82078\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0f19caab365715109eb3cf69a61b65cc.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"36d88703-c7a1-4f81-9cf2-3bb4fa6228ce\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ledger Account\",\"mandatory\":\"false\",\"child_name\":\"Ledger_Account_Data\",\"uiUniqueId\":\"09be95c1-b08c-43a5-9ae9-4954cbac8dbd\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0f19caab365715109eb3cf69a61b65cc\",\"child_label\":\"Ledger Account Data\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"eb3b316f-4a52-4336-bd95-9a3fcf7d3917\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"042e6424-ea58-4cbf-a6fc-b6aa3bd82078\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Priyanshi</sys_created_by>
+        <sys_created_on>2022-11-27 12:16:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf19caab87571510ca0252c73cbb35cc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FD0f19caab365715109eb3cf69a61b65cc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_cf19caab87571510ca0252c73cbb35cc</sys_update_name>
+        <sys_updated_by>Priyanshi</sys_updated_by>
+        <sys_updated_on>2022-11-27 17:25:34</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FDe197b815be17911056fe88d5b7740d1a</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-11-20 06:33:32</sys_created_on>
+        <sys_id>e197b8154717911096fcb777746d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Center﻿</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_e197b8154717911096fcb777746d431c</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-11-20 06:33:32</sys_updated_on>
+        <template_label>Cost Center﻿</template_label>
+        <template_name>cost_center</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

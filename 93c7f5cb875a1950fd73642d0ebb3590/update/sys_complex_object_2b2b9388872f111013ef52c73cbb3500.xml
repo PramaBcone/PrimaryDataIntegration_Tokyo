@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD572b9388cf2f111032a5bad4d3915900</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD572b9388cf2f111032a5bad4d3915900":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD572b9388cf2f111032a5bad4d3915900.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD572b9388cf2f111032a5bad4d3915900\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":null,\"label\":\"IT OPTIONS\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-11-29 07:31:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b2b9388872f111013ef52c73cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD572b9388cf2f111032a5bad4d3915900</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_2b2b9388872f111013ef52c73cbb3500</sys_update_name>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-11-29 07:31:35</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

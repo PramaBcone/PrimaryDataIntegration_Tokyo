@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Exchange Rate" max_length="40" name="fx_rate" sizeclass="1651" type="collection">
+        <element label="Client Code" max_length="100" name="sn_sap_data_int_u_client_code" type="string"/>
+    </element>
+</database>

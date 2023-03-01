@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="969abc79470f991096fcb777746d431c" sys_domain="global" table="sn_sap_data_int_purc_grp_stg" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>5a9abc79470f991096fcb777746d4323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <position>1</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>529abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchasing_group</element>
+            <position>2</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>d29abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>spool_output_device</element>
+            <position>3</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>569abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_of_purchasing_group</element>
+            <position>4</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>d69abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>5a9abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telephone_number_of_purchasing_group_buyer_group</element>
+            <position>6</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>da9abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telephone_no_dialling_code_number</element>
+            <position>7</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>5e9abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fax_number_of_purchasing_buyer_group</element>
+            <position>8</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>de9abc79470f991096fcb777746d4324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telephone_no_extension</element>
+            <position>9</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>529abc79470f991096fcb777746d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>e29abc79470f991096fcb777746d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e_mail_address</element>
+            <position>11</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:59</sys_created_on>
+            <sys_id>669abc79470f991096fcb777746d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>erp_source</element>
+            <position>12</position>
+            <sys_created_by>krishna</sys_created_by>
+            <sys_created_on>2023-02-16 09:06:17</sys_created_on>
+            <sys_id>b476e2251b05a910c42e62c2b24bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_grp_stg" sys_domain="global" view="Default view">969abc79470f991096fcb777746d431c</sys_ui_section>
+            <sys_updated_by>krishna</sys_updated_by>
+            <sys_updated_on>2023-02-16 09:06:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_sap_data_int_purc_grp_stg</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-11-09 09:47:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>969abc79470f991096fcb777746d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_purc_grp_stg</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_section_969abc79470f991096fcb777746d431c</sys_update_name>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-11-09 09:47:58</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

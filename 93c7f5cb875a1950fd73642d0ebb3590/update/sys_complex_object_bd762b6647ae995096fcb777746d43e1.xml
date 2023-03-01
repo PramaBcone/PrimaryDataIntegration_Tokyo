@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf9762b66efae9950d124ff1b1b5c0ce1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FDf9762b66efae9950d124ff1b1b5c0ce1":{"controlling_area":"String","controlling_area.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Controlling Area\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"01be74fd-f3be-4344-9f02-7fe9b30d7ff4\"}"},"cost_center":"String","cost_center.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Cost Center\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c0115f55-b95c-4c36-82dc-918534a2d9d0\"}"},"profit_center":"String","profit_center.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Profit Center\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"3784a99e-5391-4649-b9aa-f2e690a6c7bb\"}"},"company_code":"String","company_code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Company Code\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"e7be4ebc-0ecd-4741-90cf-7512195c27ff\"}"},"lock_indicator_for_plan_primary_costs":"String","lock_indicator_for_plan_primary_costs.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Lock Indicator for Plan Primary Cost\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"1fc9e052-ecfa-446d-8f0b-b16267765626\"}"},"valid_from_date":"String","valid_from_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Valid From Date\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"d4453c6f-c2a6-482a-b32d-4e7fb25b82d9\"}"},"valid_to_date":"String","valid_to_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Valid to Date\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"7118fddd-543e-4507-b109-3379418e9fcc\"}"}},"FlowDesigner:FDf9762b66efae9950d124ff1b1b5c0ce1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"5c90cdc8-c85d-48e4-aca1-ad195d154069\",\"default_value\":\"\",\"label\":\"Cost Center Obj\",\"mandatory\":\"false\",\"uiUniqueId\":\"9db90fc8-69c1-4110-add6-35885807d633\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf9762b66efae9950d124ff1b1b5c0ce1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"57d50acd-c064-4076-9193-dc15a40ce441\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-18 09:42:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd762b6647ae995096fcb777746d43e1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FDf9762b66efae9950d124ff1b1b5c0ce1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_bd762b6647ae995096fcb777746d43e1</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-18 10:04:06</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

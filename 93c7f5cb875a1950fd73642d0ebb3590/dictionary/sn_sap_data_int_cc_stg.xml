@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Cost Centers" max_length="40" name="sn_sap_data_int_cc_stg" sizeclass="5315" type="collection">
+        <element label="Alternative function of cost center" max_length="40" name="alternative_function_of_cost_center" type="string"/>
+        <element label="Append structure for Regulatory Reporting" max_length="40" name="append_structure_for_regulatory_reporting" type="string"/>
+        <element label="Application" max_length="40" name="application" type="string"/>
+        <element label="Business Area" max_length="40" name="business_area" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label=" Client" max_length="40" name="client" type="string"/>
+        <element label="Company Code" max_length="40" name="company_code" type="string"/>
+        <element label="Completion flag for the cost center master record" max_length="40" name="completion_flag_for_the_cost_center_master_record" type="string"/>
+        <element label="Controlling Area" max_length="40" name="controlling_area" type="string"/>
+        <element label="Costing Sheet" max_length="40" name="costing_sheet" type="string"/>
+        <element label="Cost Center" max_length="40" name="cost_center" type="string"/>
+        <element label="Cost Center Category" max_length="40" name="cost_center_category" type="string"/>
+        <element label="Cost collector key" max_length="40" name="cost_collector_key" type="string"/>
+        <element label="Country Key" max_length="40" name="country_key" type="string"/>
+        <element label="CO-CCA Overhead Key" max_length="40" name="co_cca_overhead_key" type="string"/>
+        <element label="Created on" max_length="40" name="created_on" type="string"/>
+        <element label="Currency Key" max_length="40" name="currency_key" type="string"/>
+        <element label="Data communication line no." max_length="40" name="data_communication_line_no" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="District" max_length="40" name="district" type="string"/>
+        <element label="Entered by" max_length="40" name="entered_by" type="string"/>
+        <element label="Equity type" max_length="40" name="equity_type" type="string"/>
+        <element label="ERP Source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element label="Fax Number" max_length="40" name="fax_number" type="string"/>
+        <element label="First telephone number" max_length="40" name="first_telephone_number" type="string"/>
+        <element label="Functional Area" max_length="40" name="functional_area" type="string"/>
+        <element label="Function of cost center" max_length="40" name="function_of_cost_center" type="string"/>
+        <element label="Indicator for Allowed Allocation Methods" max_length="40" name="indicator_for_allowed_allocation_methods" type="string"/>
+        <element label="Indicator for Recording Consumption Quantities" max_length="40" name="indicator_for_recording_consumption_quantities" type="string"/>
+        <element label="Indicator. object is statistical" max_length="40" name="indicator_object_is_statistical" type="string"/>
+        <element label="JIB/JIBE Class" max_length="40" name="jib_jibe_class" type="string"/>
+        <element label="JIB/JIBE Subclass A" max_length="40" name="jib_jibe_subclass_a" type="string"/>
+        <element label="Joint venture" max_length="40" name="joint_venture" type="string"/>
+        <element label="Joint Venture Object Type" max_length="40" name="joint_venture_object_type" type="string"/>
+        <element label="Language Key" max_length="40" name="language_key" type="string"/>
+        <element label="Lock Indicator for Actual Primary Postings" max_length="40" name="lock_indicator_for_actual_primary_postings" type="string"/>
+        <element label="Lock Indicator for Actual Revenue Postings" max_length="40" name="lock_indicator_for_actual_revenue_postings" type="string"/>
+        <element label="Lock Indicator for Commitment Update" max_length="40" name="lock_indicator_for_commitment_update" type="string"/>
+        <element label="Lock Indicator for Planning Revenues" max_length="40" name="lock_indicator_for_planning_revenues" type="string"/>
+        <element label="Lock Indicator for Plan Primary Costs" max_length="40" name="lock_indicator_for_plan_primary_costs" type="string"/>
+        <element label="Lock Indicator for Plan Secondary Costs" max_length="40" name="lock_indicator_for_plan_secondary_costs" type="string"/>
+        <element label="Logical System" max_length="40" name="logical_system" type="string"/>
+        <element display="true" label="Name 1" max_length="40" name="name_1" type="string"/>
+        <element label="Name 2" max_length="40" name="name_2" type="string"/>
+        <element label="Name 3" max_length="40" name="name_3" type="string"/>
+        <element label="Name 4" max_length="40" name="name_4" type="string"/>
+        <element label="Object number" max_length="40" name="object_number" type="string"/>
+        <element label="Person Responsible" max_length="40" name="person_responsible" type="string"/>
+        <element label="Plant" max_length="40" name="plant" type="string"/>
+        <element label="Postal Code" max_length="40" name="postal_code" type="string"/>
+        <element label="PO Box" max_length="40" name="po_box" type="string"/>
+        <element label="Printer destination for CCtr report" max_length="40" name="printer_destination_for_cctr_report" type="string"/>
+        <element label="Profit Center" max_length="40" name="profit_center" type="string"/>
+        <element label="P.O. Box Postal Code" max_length="40" name="p_o_box_postal_code" type="string"/>
+        <element label="Recovery Indicator" max_length="40" name="recovery_indicator" type="string"/>
+        <element label="Region (State, Province, County)" max_length="40" name="region_state_province_county" type="string"/>
+        <element label="Regulatory indicator" max_length="40" name="regulatory_indicator" type="string"/>
+        <element label="Second telephone number" max_length="40" name="second_telephone_number" type="string"/>
+        <element label="Standard Hierarchy Area" max_length="40" name="standard_hierarchy_area" type="string"/>
+        <element label="Street and House Number" max_length="40" name="street_and_house_number" type="string"/>
+        <element label="Subsequent cost center" max_length="40" name="subsequent_cost_center" type="string"/>
+        <element label="Tax Jurisdiction" max_length="40" name="tax_jurisdiction" type="string"/>
+        <element label="Telebox number" max_length="40" name="telebox_number" type="string"/>
+        <element label="Teletex number" max_length="40" name="teletex_number" type="string"/>
+        <element label="Telex number" max_length="40" name="telex_number" type="string"/>
+        <element label="Template: Activity-Dependent Allocation to Cost Center" max_length="40" name="template_activity_dependent_allocation_to_cost_center" type="string"/>
+        <element label="Template: Activity-Independent Allocation to Cost Center" max_length="40" name="template_activity_independent_allocation_to_cost_center" type="string"/>
+        <element label="Template: Actual Statistical Key Figure on Cost Center" max_length="40" name="template_actual_statistical_key_figure_on_cost_center" type="string"/>
+        <element label="Template: Act. Stat. Key Figure - Cost Center/Activity Type" max_length="40" name="template_act_stat_key_figure_cost_center_activity_type" type="string"/>
+        <element label="Template for Activity-Dependent Formula Planning" max_length="40" name="template_for_activity_dependent_formula_planning" type="string"/>
+        <element label="Template for Activity-Independent Formula Planning" max_length="40" name="template_for_activity_independent_formula_planning" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Usage of the condition table" max_length="40" name="usage_of_the_condition_table" type="string"/>
+        <element label="User Responsible" max_length="40" name="user_responsible" type="string"/>
+        <element label="Valid from Date" max_length="40" name="valid_from_date" type="glide_date_time"/>
+        <element label="Valid to Date" max_length="40" name="valid_to_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="erp_source"/>
+        </index>
+    </element>
+</database>

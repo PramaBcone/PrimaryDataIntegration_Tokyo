@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2603b8f958171510b400ba556e5be281</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD2603b8f958171510b400ba556e5be281":{"LFBK":["Any"],"LFBK.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Bank Details\",\"mandatory\":\"false\",\"child_name\":\"XEZER\",\"uiUniqueId\":\"4e863143-f8a4-4823-9173-dbe0feb87843\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Collection Authorization\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"e164055b-f345-46d8-a35a-360552466767\"}"},"LFA1":["Any"],"LFA1.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Suppliers\",\"mandatory\":\"false\",\"child_name\":\"SPERM\",\"uiUniqueId\":\"3814e390-4ec1-42d7-b03f-ae7de1c43604\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Centrally Imposed Purchasing Block\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"0\",\"child_uiUniqueId\":\"1a88d27e-2f2b-43c0-b1c7-d969f8cedff5\"}"},"WYT3":["Any"],"WYT3.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Partner Functions\",\"mandatory\":\"false\",\"child_name\":\"DEFPA\",\"uiUniqueId\":\"b52113c0-effd-467b-9179-ff4a44d9f37c\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Default Partner Information\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"0\",\"child_uiUniqueId\":\"81e7ce9d-c7ce-4c6a-913e-5bc314b0db2d\"}"},"LFB1":["Any"],"LFB1.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Company Codes\",\"mandatory\":\"false\",\"child_name\":\"AD_HASH\",\"uiUniqueId\":\"10022d38-ac9f-4583-8c0c-9cbd8168373e\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"E-Mail Address for Avis: Hash Value\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"0\",\"child_uiUniqueId\":\"a7263c7f-c34b-4fe6-b09e-450660e25d10\"}"},"LFM1":["Any"],"LFM1.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Purchasing Organizations\",\"mandatory\":\"false\",\"child_name\":\"ABUEB\",\"uiUniqueId\":\"d1a91d23-80a5-446e-89d8-53ef2cfcb665\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Release Creation Profile\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"0\",\"child_uiUniqueId\":\"20f781f0-897e-42e2-b617-8fb886052dd7\"}"}},"FlowDesigner:FD2603b8f958171510b400ba556e5be281.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2603b8f958171510b400ba556e5be281\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Vendor\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-21 19:30:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e603b8f94717151086887562846d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_e603b8f94717151086887562846d4381</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-21 19:30:38</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

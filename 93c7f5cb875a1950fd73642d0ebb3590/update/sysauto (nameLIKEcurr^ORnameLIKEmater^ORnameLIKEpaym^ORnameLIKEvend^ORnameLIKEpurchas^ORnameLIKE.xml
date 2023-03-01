@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-12-08 09:57:25">
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<business_calendar display_value=""/>
+<condition/>
+<conditional>false</conditional>
+<entered_time>1970-01-01 00:00:00</entered_time>
+<name>Purchase Organisation Schedule</name>
+<offset/>
+<offset_type>0</offset_type>
+<run_as display_value="Prama ">aa6b660847eb1110cb762430a46d43d5</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2022-12-01 09:24:43</run_start>
+<run_time>1970-01-01 08:00:00</run_time>
+<run_type>monthly</run_type>
+<script><![CDATA[//comments
+var gr = new GlideRecord("sn_sap_data_int_integrations_source");
+gr.addQuery('sys_id', 'dd85f27847f6991086887562846d43fb');
+gr.query();
+if (gr.next()) {
+    var job_running = new sn_sap_data_int.IntegrationsUtilsSNC().isNotRunning(gr.getValue("sys_id"));
+    if (job_running) {
+        var inputs = {};
+        inputs['source'] = gr;
+        inputs['job_name'] = gr.name + ' Job';
+		var gr_con = new GlideRecord('sys_alias');
+        gr_con.addQuery('sys_id', gr.connection);
+        gr_con.query();
+        if (gr_con.next()) {
+            inputs['connection_name'] = gr_con;
+        }
+        sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+    }
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>Prama</sys_created_by>
+<sys_created_on>2022-12-08 09:52:15</sys_created_on>
+<sys_id>ffa1924f4767d910cb762430a46d4343</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Purchase Organisation Schedule</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sysauto_script_ffa1924f4767d910cb762430a46d4343</sys_update_name>
+<sys_updated_by>Prama</sys_updated_by>
+<sys_updated_on>2022-12-08 09:52:15</sys_updated_on>
+<time_zone/>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<business_calendar display_value=""/>
+<condition/>
+<conditional>false</conditional>
+<entered_time>1970-01-01 00:00:00</entered_time>
+<name>Vendor Details Schedule</name>
+<offset/>
+<offset_type>0</offset_type>
+<run_as display_value="Prama ">aa6b660847eb1110cb762430a46d43d5</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2022-12-01 09:24:43</run_start>
+<run_time>1970-01-01 08:00:00</run_time>
+<run_type>monthly</run_type>
+<script><![CDATA[//comments
+var gr = new GlideRecord("sn_sap_data_int_integrations_source");
+gr.addQuery('sys_id', '5fbe0ac2470b1d1096fcb777746d43ab');
+gr.query();
+if (gr.next()) {
+    var job_running = new sn_sap_data_int.IntegrationsUtilsSNC().isNotRunning(gr.getValue("sys_id"));
+    if (job_running) {
+        var inputs = {};
+        inputs['source'] = gr;
+        inputs['job_name'] = gr.name + ' Job';
+		var gr_con = new GlideRecord('sys_alias');
+        gr_con.addQuery('sys_id', gr.connection);
+        gr_con.query();
+        if (gr_con.next()) {
+            inputs['connection_name'] = gr_con;
+        }
+        sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+    }
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>Prama</sys_created_by>
+<sys_created_on>2022-12-08 09:40:20</sys_created_on>
+<sys_id>41fe0ecb4767d910cb762430a46d437c</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Vendor Details Schedule</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sysauto_script_41fe0ecb4767d910cb762430a46d437c</sys_update_name>
+<sys_updated_by>Prama</sys_updated_by>
+<sys_updated_on>2022-12-08 09:51:20</sys_updated_on>
+<time_zone/>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<business_calendar display_value=""/>
+<condition/>
+<conditional>false</conditional>
+<entered_time>1970-01-01 00:00:00</entered_time>
+<name>Purchase Group _Daily</name>
+<offset/>
+<offset_type>0</offset_type>
+<run_as display_value="">5af8c30c472f1110cb762430a46d4397</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2022-12-08 09:42:53</run_start>
+<run_time>1970-01-01 11:00:00</run_time>
+<run_type>daily</run_type>
+<script><![CDATA[gs.info("schedule job SAP ECC 1");
+var gr = new GlideRecord("sn_sap_data_int_integrations_source");
+gr.addQuery('sys_id', 'd840ce80478f511086887562846d43ac');
+gr.query();
+if (gr.next()) {
+    var job_running = new sn_sap_data_int.IntegrationsUtils().isNotRunning(gr.getValue("sys_id"));
+    gs.info("schedule job SAP ECC 4 iside IF");
+    if (job_running) {
+        var inputs = {};
+        inputs['source'] = gr;
+        inputs['job_name'] = gr.name + ' Job';
+        sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+    }
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>krishna</sys_created_by>
+<sys_created_on>2022-12-08 09:44:49</sys_created_on>
+<sys_id>268f860f4767d910cb762430a46d43aa</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Purchase Group _Daily</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sysauto_script_268f860f4767d910cb762430a46d43aa</sys_update_name>
+<sys_updated_by>Prama</sys_updated_by>
+<sys_updated_on>2022-12-08 09:47:49</sys_updated_on>
+<time_zone/>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<business_calendar display_value=""/>
+<condition/>
+<conditional>false</conditional>
+<entered_time>1970-01-01 00:00:00</entered_time>
+<name>Payment Term Schedule</name>
+<offset/>
+<offset_type>0</offset_type>
+<run_as display_value="Prama ">aa6b660847eb1110cb762430a46d43d5</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2022-12-01 09:24:43</run_start>
+<run_time>1970-01-01 08:00:00</run_time>
+<run_type>monthly</run_type>
+<script><![CDATA[//comments
+var gr = new GlideRecord("sn_sap_data_int_integrations_source");
+gr.addQuery('sys_id', 'f8b75d0d478f951096fcb777746d4311');
+gr.query();
+if (gr.next()) {
+    var job_running = new sn_sap_data_int.IntegrationsUtilsSNC().isNotRunning(gr.getValue("sys_id"));
+    if (job_running) {
+        var inputs = {};
+        inputs['source'] = gr;
+        inputs['job_name'] = gr.name + ' Job';
+		var gr_con = new GlideRecord('sys_alias');
+        gr_con.addQuery('sys_id', gr.connection);
+        gr_con.query();
+        if (gr_con.next()) {
+            inputs['connection_name'] = gr_con;
+        }
+        sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+    }
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>Prama</sys_created_by>
+<sys_created_on>2022-12-01 09:26:10</sys_created_on>
+<sys_id>c4488efc4727d110cb762430a46d4380</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Payment Term Schedule</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sysauto_script_c4488efc4727d110cb762430a46d4380</sys_update_name>
+<sys_updated_by>Prama</sys_updated_by>
+<sys_updated_on>2022-12-06 11:46:18</sys_updated_on>
+<time_zone/>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<business_calendar display_value=""/>
+<condition/>
+<conditional>false</conditional>
+<entered_time>1970-01-01 00:00:00</entered_time>
+<name>Legal Entity Schedule</name>
+<offset/>
+<offset_type>0</offset_type>
+<run_as display_value="Akash ">aa0f3e44472f1110cb762430a46d4370</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2022-11-29 10:53:07</run_start>
+<run_time>1970-01-01 08:00:00</run_time>
+<run_type>daily</run_type>
+<script><![CDATA[var gr = new GlideRecord("sn_sap_data_int_integrations_source");
+gr.addQuery('sys_id', '8fec2af847b2d11096fcb777746d434d');
+gr.query();
+if (gr.next()) {
+    var job_running = new sn_sap_data_int.IntegrationsUtilsSNC().isNotRunning(gr.getValue("sys_id"));
+    if (job_running) {
+        var inputs = {};
+        inputs['source'] = gr;
+        inputs['job_name'] = gr.name + ' Job';
+		var gr_con = new GlideRecord('sys_alias');
+        gr_con.addQuery('sys_id', gr.connection);
+        gr_con.query();
+        if (gr_con.next()) {
+            inputs['connection_name'] = gr_con;
+        }
+        sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+    }
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>Akash</sys_created_by>
+<sys_created_on>2022-11-29 10:55:21</sys_created_on>
+<sys_id>6b490c9847e35110cb762430a46d4359</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Legal Entity Schedule</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sysauto_script_6b490c9847e35110cb762430a46d4359</sys_update_name>
+<sys_updated_by>Akash</sys_updated_by>
+<sys_updated_on>2022-11-29 12:50:10</sys_updated_on>
+<time_zone/>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+<sysauto_script action="INSERT_OR_UPDATE">
+<active>true</active>
+<business_calendar display_value=""/>
+<condition/>
+<conditional>false</conditional>
+<entered_time>1970-01-01 00:00:00</entered_time>
+<name>Currency Rate Job Scheduler</name>
+<offset/>
+<offset_type>0</offset_type>
+<run_as display_value="">f636896c479e511096fcb777746d43c6</run_as>
+<run_as_tz/>
+<run_dayofmonth>1</run_dayofmonth>
+<run_dayofweek>1</run_dayofweek>
+<run_period/>
+<run_start>2022-10-31 10:58:17</run_start>
+<run_time>1970-01-01 10:57:00</run_time>
+<run_type>daily</run_type>
+<script><![CDATA[gs.info("schedule job SAP ECC 1");
+var gr = new GlideRecord("sn_sap_data_int_integrations_source");
+gr.addQuery('sys_id', '3d79f16147365d1086887562846d4350');
+gr.query();
+if (gr.next()) {
+    var job_running = new sn_sap_data_int.IntegrationsUtils().isNotRunning(gr.getValue("sys_id"));
+    gs.info("schedule job SAP ECC 4 iside IF");
+    if (job_running) {
+        var inputs = {};
+        inputs['source'] = gr;
+        inputs['job_name'] = gr.name + ' Job';
+        sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+    }
+}]]></script>
+<sys_class_name>sysauto_script</sys_class_name>
+<sys_created_by>bcone</sys_created_by>
+<sys_created_on>2022-10-31 11:00:55</sys_created_on>
+<sys_id>d86476fe473a511096fcb777746d43a9</sys_id>
+<sys_mod_count>5</sys_mod_count>
+<sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sysauto_script_d86476fe473a511096fcb777746d43a9</sys_update_name>
+<sys_updated_by>bcone</sys_updated_by>
+<sys_updated_on>2022-11-04 09:56:35</sys_updated_on>
+<time_zone/>
+<upgrade_safe>false</upgrade_safe>
+</sysauto_script>
+</unload>

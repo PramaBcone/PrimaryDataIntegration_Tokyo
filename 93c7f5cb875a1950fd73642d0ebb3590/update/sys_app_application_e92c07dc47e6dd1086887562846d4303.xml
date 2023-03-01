@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Look up Legal Entity</name>
+        <order>100</order>
+        <roles>sn_sap_data_int.le_stg_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>akash</sys_created_by>
+        <sys_created_on>2022-10-11 08:01:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e92c07dc47e6dd1086887562846d4303</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Legal Entity Staging</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_app_application_e92c07dc47e6dd1086887562846d4303</sys_update_name>
+        <sys_updated_by>Akash</sys_updated_by>
+        <sys_updated_on>2022-11-30 06:11:50</sys_updated_on>
+        <title>Legal Entity Staging</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

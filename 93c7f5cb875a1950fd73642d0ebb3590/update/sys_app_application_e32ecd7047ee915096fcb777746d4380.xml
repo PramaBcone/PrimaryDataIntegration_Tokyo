@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Global">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Purchasing Organisation Staging Table (S</name>
+        <order>100</order>
+        <roles>sn_sap_data_int.purc_org_stg_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-12 12:08:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e32ecd7047ee915096fcb777746d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchasing Organisation Staging Table (S</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_app_application_e32ecd7047ee915096fcb777746d4380</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-12 12:08:13</sys_updated_on>
+        <title>Purchasing Organisation Staging Table (S</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f625aa59472a555096fcb777746d4397" sys_domain="global" table="sn_sap_data_int_purc_org_stg" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>f625ae59472a555096fcb777746d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>calculation_schema_for_market_price</element>
+            <position>1</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>fe25ae59472a555096fcb777746d4381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <position>2</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>7225ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_code</element>
+            <position>3</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>f225ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_code_for_subsequent_settlement_at_plant_level</element>
+            <position>4</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>7625ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complimentary_close</element>
+            <position>5</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>f625ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_of_purchasing_organisation</element>
+            <position>6</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>7a25ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchasing_organisation</element>
+            <position>7</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>fa25ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>7e25ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>effective_price</element>
+            <position>9</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>fe25ae59472a555096fcb777746d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>footer_lines</element>
+            <position>10</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>7225ae59472a555096fcb777746d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_for_calculation_schema_purchasing_organization</element>
+            <position>11</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>f225ae59472a555096fcb777746d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>letter_heading</element>
+            <position>12</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>4725ae59472a555096fcb777746d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sender_line</element>
+            <position>13</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>c725ae59472a555096fcb777746d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_code_ref</element>
+            <position>14</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>4b25ae59472a555096fcb777746d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:14</sys_created_on>
+            <sys_id>cb25ae59472a555096fcb777746d4383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>erp_source</element>
+            <position>16</position>
+            <sys_created_by>Midhat</sys_created_by>
+            <sys_created_on>2022-11-19 11:25:28</sys_created_on>
+            <sys_id>08d0b4894753511096fcb777746d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_purc_org_stg" sys_domain="global" view="Default view">f625aa59472a555096fcb777746d4397</sys_ui_section>
+            <sys_updated_by>Midhat</sys_updated_by>
+            <sys_updated_on>2022-11-19 11:25:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_sap_data_int_purc_org_stg</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>midhat.zehra@snc</sys_created_by>
+            <sys_created_on>2022-10-14 07:45:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f625aa59472a555096fcb777746d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_purc_org_stg</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_section_f625aa59472a555096fcb777746d4397</sys_update_name>
+            <sys_updated_by>midhat.zehra@snc</sys_updated_by>
+            <sys_updated_on>2022-10-14 07:45:13</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

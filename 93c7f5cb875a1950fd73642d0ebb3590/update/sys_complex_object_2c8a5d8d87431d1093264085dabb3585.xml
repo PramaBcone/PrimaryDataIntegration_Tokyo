@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD688a5d8d20431d109cfcb977e9623b85</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD688a5d8d20431d109cfcb977e9623b85":{"$COCollectionField":[{"payment_term":{"SPRAS":"String","SPRAS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Language Key\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"9f6bc611-2f4e-4ba1-8448-f911325bb59c\"}"},"VTEXT":"String","VTEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"c9d3f75a-ae01-4f9c-aea8-8d8c476c5c4e\"}"},"ZTERM":"String","ZTERM.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Terms of Payment\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"4642747e-ae2e-48d8-9323-f5d03a379cd9\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Payment Terms\",\"mandatory\":\"false\",\"child_name\":\"payment_term\",\"uiUniqueId\":\"da79329d-bf72-4a5f-be48-8ff996a0a07f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD688a5d8d20431d109cfcb977e9623b85\",\"child_label\":\"Payment Term\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"81e1486d-ebc9-4f05-8f23-ef4a9f8f75ee\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD688a5d8d20431d109cfcb977e9623b85.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Payment Terms\",\"mandatory\":\"false\",\"child_name\":\"payment_term\",\"uiUniqueId\":\"da79329d-bf72-4a5f-be48-8ff996a0a07f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD688a5d8d20431d109cfcb977e9623b85\",\"child_label\":\"Payment Term\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"81e1486d-ebc9-4f05-8f23-ef4a9f8f75ee\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-07 04:11:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c8a5d8d87431d1093264085dabb3585</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FD688a5d8d20431d109cfcb977e9623b85</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_2c8a5d8d87431d1093264085dabb3585</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-12-29 06:46:30</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

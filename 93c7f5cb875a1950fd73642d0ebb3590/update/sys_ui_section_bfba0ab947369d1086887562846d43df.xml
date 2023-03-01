@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bfba0ab947369d1086887562846d43df" sys_domain="global" table="sn_sap_data_int_fx_rate_stg" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>client</element>
+            <position>0</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>b7ba0ab947369d1086887562846d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exchange_rate_type</element>
+            <position>1</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>00ca0ab947369d1086887562846d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_currency</element>
+            <position>2</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>c8ca4ab947369d1086887562846d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_currency</element>
+            <position>3</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>ccca4ab947369d1086887562846d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>effective_date</element>
+            <position>4</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>c0ca4ab947369d1086887562846d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>exchange_rate</element>
+            <position>5</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>c4ca4ab947369d1086887562846d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>from_ratio</element>
+            <position>6</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>c8ca4ab947369d1086887562846d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to_ratio</element>
+            <position>7</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:28</sys_created_on>
+            <sys_id>ccca4ab947369d1086887562846d43ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_erp_source</element>
+            <position>8</position>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-11-18 09:09:58</sys_created_on>
+            <sys_id>d5384fec47db111096fcb777746d4374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_fx_rate_stg" sys_domain="global" view="Default view">bfba0ab947369d1086887562846d43df</sys_ui_section>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-11-18 09:09:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_sap_data_int_fx_rate_stg</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2022-10-28 05:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfba0ab947369d1086887562846d43df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_fx_rate_stg</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_section_bfba0ab947369d1086887562846d43df</sys_update_name>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2022-10-28 05:22:27</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

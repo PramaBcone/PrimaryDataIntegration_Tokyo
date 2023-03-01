@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FDf45693eb1c07d1505ddd4e6c33de664c</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>shreenag.araga@snc</sys_created_by>
+        <sys_created_on>2022-11-15 07:37:43</sys_created_on>
+        <sys_id>f85693eb4707d15096fcb777746d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Currency Data﻿</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_f85693eb4707d15096fcb777746d434e</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2022-11-15 07:37:43</sys_updated_on>
+        <template_label>Currency Data﻿</template_label>
+        <template_name>currency_data</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

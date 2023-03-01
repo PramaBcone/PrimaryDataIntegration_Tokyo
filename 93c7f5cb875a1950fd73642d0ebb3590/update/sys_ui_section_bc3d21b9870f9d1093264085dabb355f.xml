@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bc3d21b9870f9d1093264085dabb355f" sys_domain="global" table="sn_sap_data_int_supplier_stg" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchasing_organization</element>
+            <position>0</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>343d21b9870f9d1093264085dabb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_code</element>
+            <position>1</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>3c3d21b9870f9d1093264085dabb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incoterms_part_1</element>
+            <position>2</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>bc3d21b9870f9d1093264085dabb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>terms_of_payment_key</element>
+            <position>3</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>303d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>4</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>b03d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_number</element>
+            <position>5</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>343d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_telephone_number</element>
+            <position>6</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>b43d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_jurisdiction</element>
+            <position>7</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>383d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_on_which_the_record_was_created</element>
+            <position>8</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>b83d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reconciliation_account_in_general_ledger</element>
+            <position>9</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>3c3d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>currency</element>
+            <position>10</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>bc3d21b9870f9d1093264085dabb3566</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fax_number</element>
+            <position>11</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>303d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region_state_province_county</element>
+            <position>12</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>b03d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>postal_code</element>
+            <position>13</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>343d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street_and_house_number</element>
+            <position>14</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>b43d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_box</element>
+            <position>15</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>383d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>district_1</element>
+            <position>16</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>b83d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_1</element>
+            <position>17</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>3c3d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>district_2</element>
+            <position>18</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>bc3d21b9870f9d1093264085dabb3567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_number_of_vendor_or_creditor</element>
+            <position>19</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_id>303d21b9870f9d1093264085dabb3568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>erp_source</element>
+            <position>20</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-16 12:49:37</sys_created_on>
+            <sys_id>1347ad848797d55093264085dabb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-16 12:49:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>central_deletion_block_for_master_record</element>
+            <position>21</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-16 17:32:24</sys_created_on>
+            <sys_id>a5086680879bd55093264085dabb3506</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-16 17:32:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>posting_block_for_company_code</element>
+            <position>22</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-16 17:33:11</sys_created_on>
+            <sys_id>4138a680879bd55093264085dabb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-16 17:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>deletion_bock_for_master_record_company_code_level</element>
+            <position>23</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-16 17:33:44</sys_created_on>
+            <sys_id>4d58aa80879bd55093264085dabb357d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-16 17:33:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchasing_block_at_purchasing_organization_level</element>
+            <position>24</position>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-16 17:34:24</sys_created_on>
+            <sys_id>b2786e80879bd55093264085dabb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-16 17:34:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_sap_data_int_supplier_stg</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2022-11-09 13:29:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc3d21b9870f9d1093264085dabb355f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_supplier_stg</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_section_bc3d21b9870f9d1093264085dabb355f</sys_update_name>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2022-11-09 13:29:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

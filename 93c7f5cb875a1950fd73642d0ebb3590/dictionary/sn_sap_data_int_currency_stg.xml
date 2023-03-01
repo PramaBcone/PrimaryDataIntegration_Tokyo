@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Currencies" max_length="40" name="sn_sap_data_int_currency_stg" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Alternative key for currencies" max_length="100" name="alternative_key_for_currencies" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="10" name="client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Currency Key" max_length="100" name="currency_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date until which the currency is valid" max_length="100" name="date_until_which_the_currency_is_valid" type="string"/>
+        <element attributes="encode_utf8=false" label="ERP Source" max_length="32" name="erp_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISO Currency Code" max_length="100" name="iso_currency_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Long Text" max_length="400" name="long_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Primary SAP Currency Code for ISO Code" max_length="100" name="primary_sap_currency_code_for_iso_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Text" max_length="200" name="short_text" type="string"/>
+        <index name="index">
+            <element name="erp_source"/>
+        </index>
+    </element>
+</database>

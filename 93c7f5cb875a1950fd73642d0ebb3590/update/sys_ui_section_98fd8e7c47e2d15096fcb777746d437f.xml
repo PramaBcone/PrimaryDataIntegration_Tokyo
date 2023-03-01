@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="98fd8e7c47e2d15096fcb777746d437f" sys_domain="global" table="sn_sap_data_int_gl_stg" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e8fd8e7c47e2d15096fcb777746d4386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_accounting_clerk_abbreviation</element>
+            <position>1</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>60fd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_account_currency</element>
+            <position>2</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e0fd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_account_is_reconciliation_account</element>
+            <position>3</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>64fd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_alternative_account_number_in_company_code</element>
+            <position>4</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e4fd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_authorization_group</element>
+            <position>5</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>68fd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cash_receipt_account</element>
+            <position>6</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e8fd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_clearing_specific_to_ledger_groups</element>
+            <position>7</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>6cfd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_client</element>
+            <position>8</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>ecfd8e7c47e2d15096fcb777746d4387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_commitment_item</element>
+            <position>9</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>60fd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company_code</element>
+            <position>10</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e0fd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_of_the_last_interest_calculation_run</element>
+            <position>11</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>64fd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_on_which_the_record_was_created</element>
+            <position>12</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e4fd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_field_status_group</element>
+            <position>13</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>68fd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_financial_budget_item</element>
+            <position>14</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e8fd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_g_l_account_additional_text</element>
+            <position>15</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>6cfd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_g_l_account_number</element>
+            <position>16</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>ecfd8e7c47e2d15096fcb777746d4388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_id_for_account_details</element>
+            <position>17</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>60fd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_account_managed_in_external_system</element>
+            <position>18</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e0fd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_account_marked_for_deletion</element>
+            <position>19</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>64fd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_can_line_items_be_displayed_by_account</element>
+            <position>20</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e4fd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_is_account_blocked_for_posting</element>
+            <position>21</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>68fd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>22</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e8fd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_is_account_only_posted_to_automatically</element>
+            <position>23</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>6cfd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_open_item_management</element>
+            <position>24</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>ecfd8e7c47e2d15096fcb777746d4389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_reconcil_acct_ready_for_input_at_time_of_posting</element>
+            <position>25</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>60fd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_supplement_for_automatic_postings</element>
+            <position>26</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e0fd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_tax_code_is_not_a_required_field</element>
+            <position>27</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>64fd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_inflation_key</element>
+            <position>28</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e4fd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_interest_calculation_frequency_in_months</element>
+            <position>29</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>68fd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_interest_calculation_indicator</element>
+            <position>30</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>e8fd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_key_date_of_last_interest_calculation</element>
+            <position>31</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>6cfd8e7c47e2d15096fcb777746d438a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_key_for_exchange_rate_differences_in_foreign_currency_accts</element>
+            <position>32</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>a4fd8e7c47e2d15096fcb777746d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_key_for_sorting_according_to_assignment_numbers</element>
+            <position>33</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>28fd8e7c47e2d15096fcb777746d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mca_key</element>
+            <position>34</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>a8fd8e7c47e2d15096fcb777746d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name_of_person_who_created_the_object</element>
+            <position>35</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>2cfd8e7c47e2d15096fcb777746d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_planning_group</element>
+            <position>36</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>acfd8e7c47e2d15096fcb777746d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_planning_level</element>
+            <position>37</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>20fd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_recovery_indicator</element>
+            <position>38</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>a0fd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_key_for_a_house_bank</element>
+            <position>39</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>24fd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tax_category_in_account_master_record</element>
+            <position>40</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>a4fd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tolerance_group_for_g_l_accounts</element>
+            <position>41</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>28fd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_valuation_group</element>
+            <position>42</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>a8fd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_indicator_manage_balances_in_local_currency_only</element>
+            <position>43</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>2cfd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>44</position>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:48</sys_created_on>
+            <sys_id>acfd8e7c47e2d15096fcb777746d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_erp_source</element>
+            <position>45</position>
+            <sys_created_by>Priyanshi</sys_created_by>
+            <sys_created_on>2022-11-19 16:26:24</sys_created_on>
+            <sys_id>54b5f18d4757511086887562846d436d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_gl_stg" sys_domain="global" view="Default view">98fd8e7c47e2d15096fcb777746d437f</sys_ui_section>
+            <sys_updated_by>Priyanshi</sys_updated_by>
+            <sys_updated_on>2022-11-19 16:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_sap_data_int_gl_stg</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>bcone</sys_created_by>
+            <sys_created_on>2022-10-12 16:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98fd8e7c47e2d15096fcb777746d437f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_gl_stg</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_section_98fd8e7c47e2d15096fcb777746d437f</sys_update_name>
+            <sys_updated_by>bcone</sys_updated_by>
+            <sys_updated_on>2022-10-12 16:46:47</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>sn_sap_data_int.look_up_service_master_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>look_up_service_master_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-10-11 11:49:47</sys_created_on>
+        <sys_id>0060842047eadd1086887562846d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_sap_data_int.look_up_service_master_user</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_user_role_0060842047eadd1086887562846d436e</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-10-11 11:49:47</sys_updated_on>
+    </sys_user_role>
+</record_update>

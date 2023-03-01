@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <map display_value="Transform Suppliers">e135c7758743dd1093264085dabb3589</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+
+	var loc_id = "";
+
+	var gr_location = new GlideRecord('cmn_location');
+	gr_location.addEncodedQuery("streetLIKE"+source.street_and_house_number+"^cityLIKE"+source.district_1 + " " +source.district_2+"^stateLIKE"+source.region_state_province_county+"^countryLIKE"+source.country_key+"^zipLIKE"+source.postal_code);
+	gr_location.query();
+	if(!gr_location){
+		var gr_loc = new GlideRecord('cmn_location');
+		gr_loc.initialize();
+		gr_loc.street = source.street_and_house_number;
+		gr_loc.city = source.district_1 + " " +source.district_2;
+		gr_loc.state = source.region_state_province_county;
+		gr_loc.zip = source.postal_code;
+		gr_loc.country = source.country_key;
+		//gr_loc.name = source.street_and_house_number+ "," +source.district_1 + " " +source.district_2 + ","+source.region_state_province_county+","+source.postal_code;
+		gr_loc.insert();
+		if(gr_loc){
+			loc_id = gr_location.getUniqueValue();
+		}
+	} else {
+		loc_id = gr_location.getUniqueValue();
+	}
+
+	var gr = new GlideRecord('sn_supplier_m2m_location');
+	gr.addQuery("external_unique_id", target.getValue("erp_company_code"));
+	gr.query();
+	if(!gr){
+		var gr_m2m = new GlideRecord('sn_supplier_m2m_location');
+		gr_m2m.initialize();
+		gr_m2m.location = loc_id;
+		gr_m2m.supplier = target.getValue("sys_id");
+		gr_m2m.external_unique_id = target.getValue("erp_company_code");
+		gr_m2m.insert();
+	}
+	
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-01-09 07:08:57</sys_created_on>
+        <sys_id>e77aded147d0a11002367562846d43c8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_script_e77aded147d0a11002367562846d43c8</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-01-20 03:34:27</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

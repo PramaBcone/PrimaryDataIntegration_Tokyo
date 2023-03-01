@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDefbcacb0abeadd50bc51809b90cfcadc</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FDefbcacb0abeadd50bc51809b90cfcadc":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDefbcacb0abeadd50bc51809b90cfcadc.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Import Set Tables\",\"mandatory\":\"false\",\"child_name\":\"import_set_table\",\"uiUniqueId\":\"6f00f3b7-0e59-4afe-9c2b-9d11edb43895\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDefbcacb0abeadd50bc51809b90cfcadc\",\"child_label\":\"Import Set Table\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"bbd6a05a-a5c7-4f22-adaa-fce80c833dde\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-12 09:42:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3bcacb087eadd50fd73642d0ebb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDefbcacb0abeadd50bc51809b90cfcadc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_a3bcacb087eadd50fd73642d0ebb35dd</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-10-12 09:42:08</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

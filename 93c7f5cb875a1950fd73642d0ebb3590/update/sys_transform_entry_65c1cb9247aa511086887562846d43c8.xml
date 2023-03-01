@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform FX Rates">ef3e76de476a511086887562846d43ea</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>u_erp_source</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	var gr = new GlideRecord("sn_fin_erp_source");
+	gr.get(source.u_erp_source);
+	return gr;
+
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_fx_rate_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-10-17 12:25:06</sys_created_on>
+        <sys_id>65c1cb9247aa511086887562846d43c8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>u_erp_source</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_65c1cb9247aa511086887562846d43c8</sys_update_name>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-11-29 14:02:08</sys_updated_on>
+        <target_field>erp_source</target_field>
+        <target_table>sn_fin_fx_rate</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

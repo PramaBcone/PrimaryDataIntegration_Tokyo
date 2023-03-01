@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD97c6752d6bf25d10843999141294f118</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD97c6752d6bf25d10843999141294f118":{"TFACT":"String","TFACT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ratio for the \\\"to\\\" currency units\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\",\"uiUniqueId\":\"f75a68f8-b2e2-4243-a1a3-b5d08844e314\"}"},"KURST":"String","KURST.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Exchange rate type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"79e62967-f1f5-42d3-87dc-e0cd78f708be\"}"},"MANDT":"String","MANDT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Client\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"c425c701-1eb7-4056-89dc-87cc7e89af97\"}"},"UKURS":"String","UKURS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Exchange Rate\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\",\"uiUniqueId\":\"d788964a-248e-49e9-b92c-a1e3e1695d5c\"}"},"FCURR":"String","FCURR.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"From currency\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"4592449a-d989-4f7e-af87-dd77ea7d282c\"}"},"FFACT":"String","FFACT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Ratio for the \\\"from\\\" currency units\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\",\"uiUniqueId\":\"abdf5781-a8a1-41c2-8c75-087fb6ad756e\"}"},"TCURR":"String","TCURR.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"To currency\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"bef22617-ce66-4ce7-9253-6b743ee5f186\"}"},"GDATU":"String","GDATU.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Date As of Which the Exchange Rate Is Effective\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"206e7bf8-a5f2-4c56-92c9-16f132baecad\"}"}},"FlowDesigner:FD97c6752d6bf25d10843999141294f118.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"87883d34-4fa8-47c2-9a79-6e4d02702fdd\",\"default_value\":\"\",\"label\":\"Exchange Data\",\"mandatory\":\"false\",\"uiUniqueId\":\"e4fa68e0-a5fb-4888-adc1-a205bb919e3d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD97c6752d6bf25d10843999141294f118\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3b1b8f41-eb3b-499e-8220-f77dfe4b8768\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>shreenag.araga@snc</sys_created_by>
+        <sys_created_on>2022-10-27 09:16:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bc6752d47f25d1086887562846d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_5bc6752d47f25d1086887562846d4318</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2022-10-27 09:16:49</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

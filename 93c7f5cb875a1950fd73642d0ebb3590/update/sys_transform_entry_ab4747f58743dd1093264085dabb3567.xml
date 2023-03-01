@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>ignore</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Suppliers">e135c7758743dd1093264085dabb3589</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+	
+	var gr_entity = new GlideRecord("sn_fin_purchasing_entity");
+	gr_entity.addQuery('erp_number', source.purchasing_organization);
+	gr_entity.addQuery('erp_source', source.erp_source);
+	gr_entity.query();
+	if(gr_entity.next()){
+		if(target.purchasing_entities.toString() != ""){
+			var listArr = target.purchasing_entities.toString().split(',');
+			var presentValue = gr_entity.getUniqueValue().toString();
+			if(listArr.indexOf(presentValue) == -1){
+				listArr.push(gr_entity.getUniqueValue().toString());
+			}
+			return listArr.join(',');
+		} else {
+			return gr_entity.getUniqueValue();
+		}
+	}
+	
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_supplier_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2022-11-09 20:02:44</sys_created_on>
+        <sys_id>ab4747f58743dd1093264085dabb3567</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_ab4747f58743dd1093264085dabb3567</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-01-25 05:18:42</sys_updated_on>
+        <target_field>purchasing_entities</target_field>
+        <target_table>sn_fin_supplier</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

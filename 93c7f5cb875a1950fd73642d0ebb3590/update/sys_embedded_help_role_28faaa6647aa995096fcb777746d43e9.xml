@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="Primary Data Integration with SAP" name="sn_sap_data.int_cc_stg_user">acfaaa6647aa995096fcb777746d43e5</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Midhat</sys_created_by>
+        <sys_created_on>2022-10-18 05:22:53</sys_created_on>
+        <sys_id>28faaa6647aa995096fcb777746d43e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acfaaa6647aa995096fcb777746d43e5</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_embedded_help_role_28faaa6647aa995096fcb777746d43e9</sys_update_name>
+        <sys_updated_by>Midhat</sys_updated_by>
+        <sys_updated_on>2022-10-18 05:22:53</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

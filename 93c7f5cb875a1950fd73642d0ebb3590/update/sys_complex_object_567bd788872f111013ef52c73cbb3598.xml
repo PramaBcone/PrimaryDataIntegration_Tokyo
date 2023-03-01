@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD927bd7883a2f111009c74ee7ca386c98</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD927bd7883a2f111009c74ee7ca386c98":{"$COCollectionField":[{"IT_OPTIONS":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0e1c4ddc-5d1d-44cb-9be6-0de471868ec8\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"c2308885-e40a-4cf3-ba8a-3a0aa369cefc\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD927bd7883a2f111009c74ee7ca386c98\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD927bd7883a2f111009c74ee7ca386c98.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"c2308885-e40a-4cf3-ba8a-3a0aa369cefc\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD927bd7883a2f111009c74ee7ca386c98\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-11-29 07:32:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>567bd788872f111013ef52c73cbb3598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD927bd7883a2f111009c74ee7ca386c98</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_567bd788872f111013ef52c73cbb3598</sys_update_name>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-11-29 07:32:52</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

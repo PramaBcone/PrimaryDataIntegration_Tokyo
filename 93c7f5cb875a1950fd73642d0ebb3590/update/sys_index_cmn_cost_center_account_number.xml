@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>account_number</col_name_string>
+        <index_col_name element="account_number" name="cmn_cost_center">3ced3e1328201110a866e68fbebfdfe4</index_col_name>
+        <logical_table_name>cmn_cost_center</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-18 06:58:48</sys_created_on>
+        <sys_id>f5e0cf2e47ea995096fcb777746d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmn_cost_center</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_index_cmn_cost_center_account_number</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-18 06:58:48</sys_updated_on>
+        <table display_value="Cost Center" name="cmn_cost_center">38ed3e1328201110a866e68fbebfdfe0</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

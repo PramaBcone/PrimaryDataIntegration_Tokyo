@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_designer_co_template">
+    <sys_hub_flow_designer_co_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <complex_definition>FDd1a5f1e940f25d1062060969fe262313</complex_definition>
+        <sys_class_name>sys_hub_flow_designer_co_template</sys_class_name>
+        <sys_created_by>shreenag.araga@snc</sys_created_by>
+        <sys_created_on>2022-11-15 08:00:18</sys_created_on>
+        <sys_id>6b7b93a34747d15096fcb777746d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exchange FX Data﻿</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_hub_flow_designer_co_template_6b7b93a34747d15096fcb777746d43bb</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2022-11-15 08:00:18</sys_updated_on>
+        <template_label>Exchange FX Data﻿</template_label>
+        <template_name>exchange_fx_data</template_name>
+    </sys_hub_flow_designer_co_template>
+</record_update>

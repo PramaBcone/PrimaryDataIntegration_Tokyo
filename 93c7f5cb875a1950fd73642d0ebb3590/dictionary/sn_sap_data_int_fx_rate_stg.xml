@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="FX Rates" max_length="40" name="sn_sap_data_int_fx_rate_stg" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="100" name="client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date As of Which the Exchange Rate Is Effective" max_length="500" name="effective_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Exchange Rate" max_length="500" name="exchange_rate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Exchange rate type" max_length="100" name="exchange_rate_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="From currency" max_length="100" name="from_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ratio for the &quot;from&quot; currency units" max_length="500" name="from_ratio" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="To currency" max_length="100" name="to_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ratio for the &quot;to&quot; currency units" max_length="500" name="to_ratio" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ERP Source" max_length="32" name="u_erp_source" type="string"/>
+    </element>
+</database>

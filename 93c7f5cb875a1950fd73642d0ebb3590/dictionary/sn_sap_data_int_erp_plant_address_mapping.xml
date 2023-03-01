@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ERP Plant Address Mapping" max_length="40" name="sn_sap_data_int_erp_plant_address_mapping" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Default" max_length="40" name="default" type="boolean">
+            <choice/>
+        </element>
+        <element label="ERP Location ID" max_length="32" name="erp_location_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="ERP source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Legal Entity" max_length="32" name="legal_entity" reference="sn_fin_legal_entity" reference_key="erp_source" reference_qual="javascript: 'erp_source=' + current.erp_source;" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Location" max_length="32" name="location" reference="sn_shop_office_location" type="reference"/>
+        <element label="Name" max_length="400" name="name" type="string"/>
+        <index name="index">
+            <element name="erp_source"/>
+        </index>
+        <index name="index2">
+            <element name="country"/>
+        </index>
+        <index name="index3">
+            <element name="legal_entity"/>
+        </index>
+        <index name="index4">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

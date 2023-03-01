@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa95a31e93897d1103d6e2fb64184eb3b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FDa95a31e93897d1103d6e2fb64184eb3b":{"$COCollectionField":[{"Plant_Address_Data":{"BUKRS":"String","BUKRS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Company Code\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"8ac49f71-7bc0-483b-b6f7-6d05d55cfb25\"}"},"BWKEY":"String","BWKEY.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Valuation Area\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f0f76a23-51c2-470f-8b92-c798b8d1fd0b\"}"},"MANDT":"String","MANDT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Client\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"9af3c7cd-669d-44de-83b4-0caad66c43bf\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Plant Address\",\"mandatory\":\"false\",\"child_name\":\"Plant_Address_Data\",\"uiUniqueId\":\"51c50339-243e-4261-889b-8f79257cfd1e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDa95a31e93897d1103d6e2fb64184eb3b\",\"child_label\":\"Plant Address Data\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b4ec6b4d-5517-4b1b-b7af-7046ac10d120\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDa95a31e93897d1103d6e2fb64184eb3b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Plant Address\",\"mandatory\":\"false\",\"child_name\":\"Plant_Address_Data\",\"uiUniqueId\":\"51c50339-243e-4261-889b-8f79257cfd1e\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDa95a31e93897d1103d6e2fb64184eb3b\",\"child_label\":\"Plant Address Data\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b4ec6b4d-5517-4b1b-b7af-7046ac10d120\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Priyanshi</sys_created_by>
+        <sys_created_on>2022-11-21 06:03:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d5a31e94797d11086887562846d433b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FDa95a31e93897d1103d6e2fb64184eb3b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_6d5a31e94797d11086887562846d433b</sys_update_name>
+        <sys_updated_by>Priyanshi</sys_updated_by>
+        <sys_updated_on>2022-11-28 04:16:36</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

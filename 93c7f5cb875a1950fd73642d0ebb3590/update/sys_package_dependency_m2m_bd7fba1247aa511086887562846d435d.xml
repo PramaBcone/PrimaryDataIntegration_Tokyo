@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Finance Common" source="sn_fin">067a068f53312300a3bd2a2db5dc3407</dependency>
+        <min_version>6.2.1</min_version>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-10-17 12:14:03</sys_created_on>
+        <sys_id>bd7fba1247aa511086887562846d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-10-17 12:14:03</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

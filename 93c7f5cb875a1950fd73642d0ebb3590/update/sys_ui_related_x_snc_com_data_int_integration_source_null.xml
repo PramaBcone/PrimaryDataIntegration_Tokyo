@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sn_sap_data_int_integration_source" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Integration Source(not required) - Default view" name="sn_sap_data_int_integration_source" related_list="NULL" sys_domain="global" view="Default view">f51d642087aa9d50fd73642d0ebb3524</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sn_sap_data_int_integrations_service.source</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-11 15:05:10</sys_created_on>
+            <sys_id>791d642087aa9d50fd73642d0ebb3525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-11 15:05:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Integration Source(not required) - Default view</calculated_name>
+            <filter/>
+            <name>sn_sap_data_int_integration_source</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Mayank</sys_created_by>
+            <sys_created_on>2022-10-11 15:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f51d642087aa9d50fd73642d0ebb3524</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Integration Source - Default view</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_related_sn_sap_data_int_integration_source_null</sys_update_name>
+            <sys_updated_by>Mayank</sys_updated_by>
+            <sys_updated_on>2022-10-11 15:05:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa56b97889b2f1110ed2f741fea34215f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FDa56b97889b2f1110ed2f741fea34215f":{"$COCollectionField":[{"IT_OPTIONS":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0e1c4ddc-5d1d-44cb-9be6-0de471868ec8\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"c2308885-e40a-4cf3-ba8a-3a0aa369cefc\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDa56b97889b2f1110ed2f741fea34215f\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDa56b97889b2f1110ed2f741fea34215f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"c2308885-e40a-4cf3-ba8a-3a0aa369cefc\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDa56b97889b2f1110ed2f741fea34215f\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>shreenag.araga</sys_created_by>
+        <sys_created_on>2022-11-29 07:32:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>696b9788872f111013ef52c73cbb355f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FDa56b97889b2f1110ed2f741fea34215f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_696b9788872f111013ef52c73cbb355f</sys_update_name>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2022-11-29 07:32:44</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

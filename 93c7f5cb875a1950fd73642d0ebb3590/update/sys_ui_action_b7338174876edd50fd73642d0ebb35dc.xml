@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>run_job</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>new sn_sap_data_int.IntegrationsUtils().isNotRunning(current.sys_id)</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Run Job</name>
+        <onclick/>
+        <order>1001</order>
+        <script><![CDATA[var inputs = {};
+gs.info("inside run Job ");
+var conn = current.connection;
+gs.info("inside run Job conn " + conn);
+//var arr = [];
+//arr = conn.split(',');
+//for (var i = 0; i < arr.length; i++) {
+   var gr_con = new GlideRecord('sys_alias');
+   gr_con.addQuery('sys_id', conn);
+   gr_con.query();
+    if (gr_con.next()) {
+
+//     gs.info("inside run Job arr[i] " + arr[i]);
+inputs['source'] = current;
+inputs['job_name'] = current.name + ' Job';
+  inputs['connection_name'] = gr_con;
+sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_job').inBackground().withInputs(inputs).run();
+//    }
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Mayank</sys_created_by>
+        <sys_created_on>2022-10-12 11:23:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7338174876edd50fd73642d0ebb35dc</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_ui_action_b7338174876edd50fd73642d0ebb35dc</sys_update_name>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2022-11-03 10:29:10</sys_updated_on>
+        <table>sn_sap_data_int_integrations_source</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

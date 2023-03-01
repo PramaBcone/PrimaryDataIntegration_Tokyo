@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Transform Legal Entities</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>sn_sap_data_int_le_stg</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>akash</sys_created_by>
+        <sys_created_on>2022-10-13 07:50:22</sys_created_on>
+        <sys_id>797c11cd47ea515086887562846d43da</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Transform Legal Entities</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_map_797c11cd47ea515086887562846d43da</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2022-11-25 16:20:57</sys_updated_on>
+        <target_table>sn_fin_legal_entity</target_table>
+    </sys_transform_map>
+</record_update>

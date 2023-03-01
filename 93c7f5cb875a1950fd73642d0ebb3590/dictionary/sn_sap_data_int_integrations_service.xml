@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Integration Service" max_length="40" name="sn_sap_data_int_integrations_service" sizeclass="40" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="ERP Source configuration" max_length="32" name="erp_source_configuration" reference="sn_fcms_intg_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Flow" max_length="32" name="flow" reference="sys_hub_flow" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Import set tables" max_length="4000" name="import_set_tables" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Properties" max_length="4000" name="properties" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Source" max_length="32" name="source" reference="sn_sap_data_int_integrations_source" type="reference"/>
+        <index name="index">
+            <element name="erp_source_configuration"/>
+        </index>
+        <index name="index">
+            <element name="source"/>
+        </index>
+        <index name="index3">
+            <element name="flow"/>
+        </index>
+    </element>
+</database>

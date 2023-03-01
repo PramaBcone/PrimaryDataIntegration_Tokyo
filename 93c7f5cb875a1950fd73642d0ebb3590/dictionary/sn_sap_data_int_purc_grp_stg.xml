@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Purchase Group" max_length="40" name="sn_sap_data_int_purc_grp_stg" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="3" name="client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description of purchasing group" max_length="20" name="description_of_purchasing_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="ERP Source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="E-Mail Address" max_length="241" name="e_mail_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fax number of purchasing (buyer) group" max_length="31" name="fax_number_of_purchasing_buyer_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Purchasing Group" max_length="3" name="purchasing_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Spool: Output device" max_length="4" name="spool_output_device" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone no.: dialling code+number" max_length="30" name="telephone_no_dialling_code_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone no.: Extension" max_length="10" name="telephone_no_extension" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone number of purchasing group (buyer group)" max_length="12" name="telephone_number_of_purchasing_group_buyer_group" type="string"/>
+        <index name="index">
+            <element name="erp_source"/>
+        </index>
+    </element>
+</database>

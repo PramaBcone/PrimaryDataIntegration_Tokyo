@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Integration Job Tracker" max_length="40" name="sn_sap_data_int_integration_job_tracker" sizeclass="192" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Error message" max_length="1000" name="error_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Job end time" max_length="40" name="job_end_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Job name" max_length="40" name="job_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Job start time" max_length="40" name="job_start_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Source" max_length="32" name="source" reference="sn_fcms_intg_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="running" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="Failed" value="failed"/>
+                <element inactive_on_update="false" label="Hold" value="hold"/>
+                <element inactive_on_update="false" label="Running" value="running"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="source"/>
+        </index>
+    </element>
+</database>

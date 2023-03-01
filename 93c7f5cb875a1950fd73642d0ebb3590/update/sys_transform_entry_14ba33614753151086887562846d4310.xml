@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>ignore</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Plant Address - SN_SHOP_OFFICE_LOCATION">248aae6c475b111096fcb777746d439b</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    var gr = new GlideRecord("core_country");
+    gr.addQuery('iso3166_2', source.u_country_key);
+    gr.query();
+    if (gr.next()) {
+        return gr.getUniqueValue();
+    }
+
+})(source);]]></source_script>
+        <source_table>sn_sap_data_int_plant_add_stg</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Priyanshi</sys_created_by>
+        <sys_created_on>2022-11-21 15:27:14</sys_created_on>
+        <sys_id>14ba33614753151086887562846d4310</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_transform_entry_14ba33614753151086887562846d4310</sys_update_name>
+        <sys_updated_by>shreenag.araga</sys_updated_by>
+        <sys_updated_on>2023-02-06 18:14:41</sys_updated_on>
+        <target_field>country</target_field>
+        <target_table>sn_shop_office_location</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>payment_term</col_name_string>
+        <index_col_name element="payment_term" name="sn_shop_payment_term">372b1ffc4752d11086887562846d43dd</index_col_name>
+        <logical_table_name>sn_shop_payment_term</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-31 10:41:49</sys_created_on>
+        <sys_id>17903e3e87f6151093264085dabb355c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_shop_payment_term</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_index_sn_shop_payment_term_payment_term</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-31 10:41:49</sys_updated_on>
+        <table display_value="Payment Terms" name="sn_shop_payment_term">bf2b1ffc4752d11086887562846d43d3</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

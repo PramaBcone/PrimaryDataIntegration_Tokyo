@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Integration Service Job Tracker" max_length="40" name="sn_sap_data_int_integration_service_job_tracker" sizeclass="121" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Errors" max_length="40" name="errors" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Error code" max_length="40" name="error_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Error message" max_length="1000" name="error_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flow execution ID" max_length="40" name="flow_execution_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Integrations job tracker" max_length="32" name="integrations_job_tracker" reference="sn_sap_data_int_integration_job_tracker" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Integration service" max_length="32" name="integration_service" reference="sn_sap_data_int_integrations_service" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Last run date" max_length="40" name="last_run_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Load ended at" max_length="40" name="load_ended_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Load started at" max_length="40" name="load_started_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Sets" max_length="4000" name="sets" reference="sys_import_set" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="running" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancel requested" value="cancel_requested"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="Complete with errors" value="complete_with_errors"/>
+                <element inactive_on_update="false" label="Did not complete" value="incomplete"/>
+                <element inactive_on_update="false" label="Failed" value="failed"/>
+                <element inactive_on_update="false" label="Hold" value="hold"/>
+                <element inactive_on_update="false" label="Loaded" value="loaded"/>
+                <element inactive_on_update="false" label="Loading" value="loading"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Running" value="running"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Transform ended at" max_length="40" name="transform_ended_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Transform started at" max_length="40" name="transform_started_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Completed Batches Count" max_length="5000" name="u_batch_count" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Flows Completed" max_length="40" name="u_completed_count" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Failed Batches Information" max_length="4000" name="u_failed_batches" read_only="true" type="simple_name_values"/>
+        <element label="Helper Notes" max_length="4000" name="u_helper_notes_field" read_only="true" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Batch Resume Counter" max_length="40" name="u_resume_count" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="integration_service"/>
+        </index>
+        <index name="index2">
+            <element name="integrations_job_tracker"/>
+        </index>
+    </element>
+</database>

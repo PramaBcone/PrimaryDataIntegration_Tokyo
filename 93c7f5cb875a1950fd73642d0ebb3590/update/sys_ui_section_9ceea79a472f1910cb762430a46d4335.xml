@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9ceea79a472f1910cb762430a46d4335" sys_domain="global" table="sn_sap_data_int_erp_plant_address_mapping" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>d2fe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>erp_location_id</element>
+            <position>1</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>56fe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>d6fe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>erp_source</element>
+            <position>3</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>5afe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legal_entity</element>
+            <position>4</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>dafe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>5efe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>6</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>defe2b9a472f1910cb762430a46d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>7</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>52fe2b9a472f1910cb762430a46d43af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:25</sys_created_on>
+            <sys_id>d2fe2b9a472f1910cb762430a46d43af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>default</element>
+            <position>9</position>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-07 05:47:43</sys_created_on>
+            <sys_id>3f10d4ba87639910a3e3cbb4dabb35ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_erp_plant_address_mapping" sys_domain="global" view="Default view">9ceea79a472f1910cb762430a46d4335</sys_ui_section>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-07 05:47:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_sap_data_int_erp_plant_address_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>shreenag.araga</sys_created_by>
+            <sys_created_on>2022-12-06 08:44:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ceea79a472f1910cb762430a46d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_erp_plant_address_mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_section_9ceea79a472f1910cb762430a46d4335</sys_update_name>
+            <sys_updated_by>shreenag.araga</sys_updated_by>
+            <sys_updated_on>2022-12-06 08:44:00</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

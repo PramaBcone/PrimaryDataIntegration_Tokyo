@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Plant Address" max_length="40" name="sn_sap_data_int_plant_add_stg" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Activating requirements planning" max_length="1" name="u_activating_requirements_planning" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="10" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Batch Record: Type of DMS Used" max_length="1" name="u_batch_record_type_of_dms_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Business Place" max_length="4" name="u_business_place" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Central archiving marker for master record" max_length="1" name="u_central_archiving_marker_for_master_record" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="25" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" City Code" max_length="4" name="u_city_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="3" name="u_client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company Code" max_length="40" name="u_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Control data for fashion BOM maintenance" max_length="1" name="u_control_data_for_fashion_bom_maintenance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Control of Credit of Cost Centers" max_length="1" name="u_control_of_credit_of_cost_centers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Cost Object Controlling linking active" max_length="1" name="u_cost_object_controlling_linking_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Country Key" max_length="3" name="u_country_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="County Code" max_length="3" name="u_county_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer number of plant" max_length="10" name="u_customer_number_of_plant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Distribution channel for intercompany billing" max_length="2" name="u_distribution_channel_for_intercompany_billing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Distribution profile at plant level" max_length="3" name="u_distribution_profile_at_plant_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Division for intercompany billing" max_length="2" name="u_division_for_intercompany_billing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ERP source" max_length="32" name="u_erp_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Exchange valuation indicator" max_length="1" name="u_exchange_valuation_indicator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Factory calendar key" max_length="2" name="u_factory_calendar_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: batch status management active" max_length="1" name="u_indicator_batch_status_management_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Conditions at plant level" max_length="1" name="u_indicator_conditions_at_plant_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Indicator: Season Active in Inventory Management" max_length="1" name="u_indicator_season_active_in_inventory_management" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Indicator: Source list requirement" max_length="1" name="u_indicator_source_list_requirement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Invoke Added-Function Source Determination via ATP" max_length="1" name="u_invoke_added_function_source_determination_via_atp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" IPI credit allowed" max_length="1" name="u_ipi_credit_allowed" type="string"/>
+        <element label=" Language Key" max_length="1" name="u_language_key" type="language"/>
+        <element attributes="edge_encryption_enabled=true" label="Maintenance Planning Plant" max_length="4" name="u_maintenance_planning_plant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="30" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Name 2" max_length="30" name="u_name_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Node type: supply chain network" max_length="3" name="u_node_type_supply_chain_network" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Number of Days for First Reminder/Expediter" max_length="3" name="u_number_of_days_for_first_reminder_expediter" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of days for PO tolerance - Compress info records - SU" max_length="3" name="u_number_of_days_for_po_tolerance_compress_info_records_su" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Number of Days for Second Reminder/Expediter" max_length="3" name="u_number_of_days_for_second_reminder_expediter" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Number of Days for Third Reminder/Expediter" max_length="3" name="u_number_of_days_for_third_reminder_expediter" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Order Allocation Run" max_length="1" name="u_order_allocation_run" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Plant" max_length="4" name="u_plant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Plant category" max_length="1" name="u_plant_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Postal Code" max_length="10" name="u_postal_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" PO Box" max_length="10" name="u_po_box" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Purchasing Organization" max_length="4" name="u_purchasing_organization" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region (State, Province, County)" max_length="3" name="u_region_state_province_county" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Rule for determining the sales area for stock transfers" max_length="2" name="u_rule_for_determining_the_sales_area_for_stock_transfers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sales district" max_length="6" name="u_sales_district" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Sales organization for intercompany billing" max_length="4" name="u_sales_organization_for_intercompany_billing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Shipping Point/Receiving Point" max_length="4" name="u_shipping_point_receiving_point" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" SOP plant" max_length="1" name="u_sop_plant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Store Category to Differentiate Store, Dep. Store, Shop" max_length="1" name="u_store_category_to_differentiate_store_dep_store_shop" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Street and House Number" max_length="30" name="u_street_and_house_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Structure for name formation" max_length="4" name="u_structure_for_name_formation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Superior Department Store" max_length="4" name="u_superior_department_store" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Supply region" max_length="10" name="u_supply_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Take regular vendor into account" max_length="1" name="u_take_regular_vendor_into_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tax Indicator: Plant (Purchasing)" max_length="1" name="u_tax_indicator_plant_purchasing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tax Jurisdiction" max_length="15" name="u_tax_jurisdiction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Text name of 1st dunning of vendor declarations" max_length="16" name="u_text_name_of_1st_dunning_of_vendor_declarations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Text name of 3rd dunning of vendor declarations" max_length="16" name="u_text_name_of_3rd_dunning_of_vendor_declarations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Text name of the 2nd dunning of vendor declarations" max_length="16" name="u_text_name_of_the_2nd_dunning_of_vendor_declarations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Update of Activity Consumption in the Quantity Structure" max_length="1" name="u_update_of_activity_consumption_in_the_quantity_structure" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Updating is active for mixed costing" max_length="1" name="u_updating_is_active_for_mixed_costing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Updating is active in actual costing" max_length="1" name="u_updating_is_active_in_actual_costing" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Valuation Area" max_length="4" name="u_valuation_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Variance Key" max_length="6" name="u_variance_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label=" Vendor number of plant" max_length="10" name="u_vendor_number_of_plant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor type (refinery/mill/other) (Brazil)" max_length="1" name="u_vendor_type_refinery_mill_other_brazil" type="string"/>
+    </element>
+</database>

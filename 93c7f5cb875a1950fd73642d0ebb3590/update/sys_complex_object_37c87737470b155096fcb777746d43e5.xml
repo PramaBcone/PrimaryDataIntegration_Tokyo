@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD73c87737210b15508004663f881c91e5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD73c87737210b15508004663f881c91e5":{"SPRAS":"String","SPRAS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Language Key\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"57c0077a-670f-48cc-af7d-0bd7c72520ca\"}"},"ASKTX":"String","ASKTX.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Short Description of Service Type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"2fd0a650-3390-49d3-8325-385003848805\"}"},"ASNUM":"String","ASNUM.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Activity Number\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"081d2c59-dae5-4a0d-a4d9-55c945a957e7\"}"}},"FlowDesigner:FD73c87737210b15508004663f881c91e5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"4abe81d1-4117-4736-b02b-6c263930bcb8\",\"default_value\":\"\",\"label\":\"Service Master\",\"mandatory\":\"false\",\"uiUniqueId\":\"b05f1fa4-3047-458c-bcf1-17db143d9051\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD73c87737210b15508004663f881c91e5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"61850ff4-b2ed-4f3f-9fe4-b7976db75917\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-11-16 04:46:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37c87737470b155096fcb777746d43e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_37c87737470b155096fcb777746d43e5</sys_update_name>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-11-16 04:46:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

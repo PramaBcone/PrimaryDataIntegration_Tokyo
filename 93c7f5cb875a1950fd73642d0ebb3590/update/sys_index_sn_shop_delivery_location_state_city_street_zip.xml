@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>state,city,street,zip</col_name_string>
+        <index_col_name>a0cb53704792d11086887562846d4396,eccb53704792d11086887562846d4393,64cb53704792d11086887562846d4385,64cb53704792d11086887562846d4398</index_col_name>
+        <logical_table_name>sn_shop_delivery_location</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-10 07:50:03</sys_created_on>
+        <sys_id>7839a14a470f991086887562846d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_shop_delivery_location</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_index_sn_shop_delivery_location_state_city_street_zip</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-10 07:50:03</sys_updated_on>
+        <table display_value="Delivery Location" name="sn_shop_delivery_location">e8cb53704792d11086887562846d4347</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

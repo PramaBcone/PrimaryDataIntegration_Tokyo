@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9ee8f5c1ab97511006ac81c1759fabc3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD9ee8f5c1ab97511006ac81c1759fabc3":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD9ee8f5c1ab97511006ac81c1759fabc3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Ledger Account\",\"mandatory\":\"false\",\"child_name\":\"ledger_account_child0\",\"uiUniqueId\":\"585f765f-b1e5-40d4-8f7d-7fd0fc2a2688\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD9ee8f5c1ab97511006ac81c1759fabc3\",\"child_label\":\"Ledger Account_child0\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"ed3f6198-7d8f-488e-91d4-d9fea417f4ed\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Priyanshi</sys_created_by>
+        <sys_created_on>2022-11-19 16:40:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>52e8f5c14797511086887562846d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>93c7f5cb875a1950fd73642d0ebb3590</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_52e8f5c14797511086887562846d43c4</sys_update_name>
+        <sys_updated_by>Priyanshi</sys_updated_by>
+        <sys_updated_on>2022-11-19 16:40:28</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

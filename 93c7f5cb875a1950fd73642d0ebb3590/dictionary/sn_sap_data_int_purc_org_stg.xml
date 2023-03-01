@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Purchase Organizations" max_length="40" name="sn_sap_data_int_purc_org_stg" sizeclass="565" type="collection">
+        <element label="Calculation Schema for Market Price" max_length="6" name="calculation_schema_for_market_price" type="string"/>
+        <element label="Client" max_length="3" name="client" type="string"/>
+        <element label="Company Code" max_length="4" name="company_code" type="string"/>
+        <element label="Company code for subsequent settlement at plant level" max_length="40" name="company_code_for_subsequent_settlement_at_plant_level" type="string"/>
+        <element label="Complimentary Close" max_length="40" name="complimentary_close" type="string"/>
+        <element label="Description of Purchasing Organisation" max_length="40" name="description_of_purchasing_organisation" type="string"/>
+        <element label="Effective Price" max_length="40" name="effective_price" type="string"/>
+        <element label="ERP Source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element label="Footer Lines" max_length="40" name="footer_lines" type="string"/>
+        <element label="Group for Calculation Schema (Purchasing Organization)" max_length="40" name="group_for_calculation_schema_purchasing_organization" type="string"/>
+        <element label="Letter Heading" max_length="40" name="letter_heading" type="string"/>
+        <element label="Purchasing Organisation" max_length="4" name="purchasing_organisation" type="string"/>
+        <element label="Sender Line" max_length="40" name="sender_line" type="string"/>
+        <index name="index">
+            <element name="erp_source"/>
+        </index>
+    </element>
+</database>

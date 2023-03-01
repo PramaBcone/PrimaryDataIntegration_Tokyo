@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Finance - ERP Integration" source="sn_fcms_intg">0b4eadd1531113008f12ddeeff7b126d</dependency>
+        <min_version>8.2.1</min_version>
+        <sys_created_by>bcone</sys_created_by>
+        <sys_created_on>2022-11-11 08:33:59</sys_created_on>
+        <sys_id>0edcfede474f5d1096fcb777746d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_updated_by>bcone</sys_updated_by>
+        <sys_updated_on>2022-11-11 08:33:59</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
