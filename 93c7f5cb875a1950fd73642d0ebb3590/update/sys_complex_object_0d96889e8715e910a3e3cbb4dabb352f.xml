@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4996889ef815e9101124d01c7b7f3f2f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FD4996889ef815e9101124d01c7b7f3f2f":{"$COCollectionField":[{"cost_center_data_child0":{"KTEXT":"String","KTEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"4dc907fe-5e52-44f1-a7be-41d1cabab86d\"}"},"KOSTL":"String","KOSTL.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Cost Center\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"c67d9317-8a68-4e4a-9b99-bd44b414e31f\"}"},"DATBI":"String","DATBI.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Valid To Date\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"3dcd0b8f-d7e6-44f9-b8fc-338d9038962f\"}"},"KOKRS":"String","KOKRS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Controlling Area\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"69fbee39-5ec5-40e7-ab6b-073cc6ccbd52\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Cost Center Data\",\"mandatory\":\"false\",\"child_name\":\"cost_center_data_child0\",\"uiUniqueId\":\"032a84cf-6511-43ab-98be-f35355a2fcc3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD4996889ef815e9101124d01c7b7f3f2f\",\"child_label\":\"Cost Center Data_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"96d34f92-187d-4f52-be64-185bb9751d01\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4996889ef815e9101124d01c7b7f3f2f.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Cost Center Data\",\"mandatory\":\"false\",\"child_name\":\"cost_center_data_child0\",\"uiUniqueId\":\"032a84cf-6511-43ab-98be-f35355a2fcc3\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD4996889ef815e9101124d01c7b7f3f2f\",\"child_label\":\"Cost Center Data_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"96d34f92-187d-4f52-be64-185bb9751d01\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:38:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d96889e8715e910a3e3cbb4dabb352f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD4996889ef815e9101124d01c7b7f3f2f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_0d96889e8715e910a3e3cbb4dabb352f</sys_update_name>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:38:56</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

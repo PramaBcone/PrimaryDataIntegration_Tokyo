@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe2978cde8215e910b29787c0488e8b06</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>93c7f5cb875a1950fd73642d0ebb3590</scope_name>
+        <serialized_content>{"FlowDesigner:FDe2978cde8215e910b29787c0488e8b06":{"$COCollectionField":[{"cost_center_data_child0":{"KTEXT":"String","KTEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"50550397-0cb8-48b0-9e5b-6f9452bd376d\"}"},"KOSTL":"String","KOSTL.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Cost Center\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"6805eb01-a421-4bcc-b621-69caeee7f533\"}"},"DATBI":"String","DATBI.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Valid To Date\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"0dfe8a0e-03fa-4ec5-9b2a-34aabb1d0c1a\"}"},"KOKRS":"String","KOKRS.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Controlling Area\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"37e16d02-cb6b-4887-917a-1b4be1a94ecb\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e83ce4b4-f39c-4384-a724-674c67765aa9\",\"default_value\":\"\",\"label\":\"Cost Center Data\",\"mandatory\":\"false\",\"child_name\":\"cost_center_data_child0\",\"uiUniqueId\":\"d3e57a9b-e43c-46b9-a700-34cf3af7c83c\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDe2978cde8215e910b29787c0488e8b06\",\"child_label\":\"Cost Center Data_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"e098fe09-8bde-422b-ba05-4c61a956c17c\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"723ffb1b-48e4-493d-8bb7-436f74ac9ff0\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDe2978cde8215e910b29787c0488e8b06.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e83ce4b4-f39c-4384-a724-674c67765aa9\",\"default_value\":\"\",\"label\":\"Cost Center Data\",\"mandatory\":\"false\",\"child_name\":\"cost_center_data_child0\",\"uiUniqueId\":\"d3e57a9b-e43c-46b9-a700-34cf3af7c83c\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDe2978cde8215e910b29787c0488e8b06\",\"child_label\":\"Cost Center Data_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"e098fe09-8bde-422b-ba05-4c61a956c17c\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"723ffb1b-48e4-493d-8bb7-436f74ac9ff0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6978cde8715e910a3e3cbb4dabb3506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe2978cde8215e910b29787c0488e8b06</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_complex_object_a6978cde8715e910a3e3cbb4dabb3506</sys_update_name>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
