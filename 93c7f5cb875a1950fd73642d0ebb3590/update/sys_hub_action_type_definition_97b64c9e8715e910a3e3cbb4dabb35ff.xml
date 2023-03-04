@@ -1,0 +1,2549 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>segregate_cost_center_data_for_text</internal_name>
+        <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.delimeter}}","label":"action➛Delimeter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data}}","label":"step➛Script step➛Cost Center Data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child1}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child2}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child3}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child4}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child4","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Name}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.KTEXT}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Controlling_Area}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Controlling Area","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Cost_Center}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Valid_To_Date}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Valid To Date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.KOKRS}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Controlling Area","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.KOSTL}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.DATBI}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Valid To Date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>21974cde8715e910a3e3cbb4dabb3581</master_snapshot>
+        <name>Segregate Cost Center Data For Text</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:39:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>97b64c9e8715e910a3e3cbb4dabb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Segregate Cost Center Data For Text</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_97b64c9e8715e910a3e3cbb4dabb35ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:45:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>97b64c9e8715e910a3e3cbb4dabb35ff</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>a2d3742ac3596110d10cf44ed401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e2d3742ac3596110d10cf44ed4013167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>97b64c9e8715e910a3e3cbb4dabb35ff</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>aad3742ac3596110d10cf44ed401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">2ad3742ac3596110d10cf44ed4013160</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>97b64c9e8715e910a3e3cbb4dabb35ff</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:16</sys_created_on>
+        <sys_id>dc974cde8715e910a3e3cbb4dabb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:16</sys_updated_on>
+        <value/>
+        <variable display_value="Total Rows">18974cde8715e910a3e3cbb4dabb350e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cost_center_data</field>
+        <id>97b64c9e8715e910a3e3cbb4dabb35ff</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:16</sys_created_on>
+        <sys_id>98974cde8715e910a3e3cbb4dabb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</table>
+        <value>{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_rows</field>
+        <id>97b64c9e8715e910a3e3cbb4dabb35ff</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:16</sys_created_on>
+        <sys_id>5c974cde8715e910a3e3cbb4dabb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</table>
+        <value>{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].total_rows}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>97b64c9e8715e910a3e3cbb4dabb35ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>22d3742ac3596110d10cf44ed401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>97b64c9e8715e910a3e3cbb4dabb35ff</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>6ad3742ac3596110d10cf44ed401317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT INc4970cde8715e910a3e3cbb4dabb35da"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action>
+        <cid>e83ce4b4-f39c-4384-a724-674c67765aa9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>c4970cde8715e910a3e3cbb4dabb35da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c4970cde8715e910a3e3cbb4dabb35da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4970cde8715e910a3e3cbb4dabb35da</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>1c974cde8715e910a3e3cbb4dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    var input_json = inputs.inputJSON;
+    var delimeter_value = inputs.delimeter.toString().trim();
+    var costCenterArray = new sn_sap_data_int.IntegrationsUtils().parseExecuteRFC(input_json, delimeter_value);
+    outputs.cost_center_data = costCenterArray.JSONOBJECT;
+    outputs.total_rows = costCenterArray.ROWCOUNT;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c4970cde8715e910a3e3cbb4dabb35da</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>58974cde8715e910a3e3cbb4dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c4970cde8715e910a3e3cbb4dabb35da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>delimeter</field>
+        <id>c4970cde8715e910a3e3cbb4dabb35da</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>94974cde8715e910a3e3cbb4dabb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c4970cde8715e910a3e3cbb4dabb35da</table>
+        <value>{{action.delimeter}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inputJSON</field>
+        <id>c4970cde8715e910a3e3cbb4dabb35da</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>58974cde8715e910a3e3cbb4dabb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_c4970cde8715e910a3e3cbb4dabb35da</table>
+        <value>{{action.json_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c4970cde8715e910a3e3cbb4dabb35da^id=c4970cde8715e910a3e3cbb4dabb35da"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c4970cde8715e910a3e3cbb4dabb35da"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c4970cde8715e910a3e3cbb4dabb35da^sys_idNOT IN84970cde8715e910a3e3cbb4dabb35f1,88970cde8715e910a3e3cbb4dabb35e1"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>delimeter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c4970cde8715e910a3e3cbb4dabb35da</model>
+        <model_id>c4970cde8715e910a3e3cbb4dabb35da</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c4970cde8715e910a3e3cbb4dabb35da</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>84970cde8715e910a3e3cbb4dabb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inputJSON</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c4970cde8715e910a3e3cbb4dabb35da</model>
+        <model_id>c4970cde8715e910a3e3cbb4dabb35da</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_c4970cde8715e910a3e3cbb4dabb35da</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>88970cde8715e910a3e3cbb4dabb35e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c4970cde8715e910a3e3cbb4dabb35da^sys_idNOT IN0c970cde8715e910a3e3cbb4dabb35f6,48970cde8715e910a3e3cbb4dabb35fb"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Cost Center Data_child0,child_name=cost_center_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=723ffb1b-48e4-493d-8bb7-436f74ac9ff0,co_type_name=FD08970cde4e15e910583b25fea7bd33f4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e098fe09-8bde-422b-ba05-4c61a956c17c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cost_center_data</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Cost Center Data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">c4970cde8715e910a3e3cbb4dabb35da</model>
+        <model_id>c4970cde8715e910a3e3cbb4dabb35da</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c4970cde8715e910a3e3cbb4dabb35da</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>0c970cde8715e910a3e3cbb4dabb35f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=bc06536d-9368-4997-913f-fb61a36ea455</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_rows</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Rows</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">c4970cde8715e910a3e3cbb4dabb35da</model>
+        <model_id>c4970cde8715e910a3e3cbb4dabb35da</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c4970cde8715e910a3e3cbb4dabb35da</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>48970cde8715e910a3e3cbb4dabb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4970cde8715e910a3e3cbb4dabb35da"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c4970cde8715e910a3e3cbb4dabb35da^sys_idNOT IN88970cde8715e910a3e3cbb4dabb35fa,88970cde8715e910a3e3cbb4dabb35fe"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cost_center_data</element>
+        <help/>
+        <hint/>
+        <label>Cost Center Data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c4970cde8715e910a3e3cbb4dabb35da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>88970cde8715e910a3e3cbb4dabb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Center Data</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_rows</element>
+        <help/>
+        <hint/>
+        <label>Total Rows</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c4970cde8715e910a3e3cbb4dabb35da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>88970cde8715e910a3e3cbb4dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Rows</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT INbb870cde8715e910a3e3cbb4dabb35d4,f7870cde8715e910a3e3cbb4dabb35cf"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b6d82d8e-d4f3-4ae6-83e4-242b6f5fd5a1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>delimeter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Delimeter</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>bb870cde8715e910a3e3cbb4dabb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bb870cde8715e910a3e3cbb4dabb35d4"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD73870cdec615e910f2238a4e0cc591cd,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=860df4e4-c301-438f-8127-adc5b0cc9dc4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>json_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>JSON String</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:13</sys_created_on>
+        <sys_id>f7870cde8715e910a3e3cbb4dabb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f7870cde8715e910a3e3cbb4dabb35cf"/>
+    <sys_hub_action_output action="delete_multiple" query="model=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT IN18974cde8715e910a3e3cbb4dabb350e,2ad3742ac3596110d10cf44ed4013160,dc974cde8715e910a3e3cbb4dabb3508,e2d3742ac3596110d10cf44ed4013167"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=c894e985-4b26-4952-955b-55193df5070e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_rows</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Rows</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>18974cde8715e910a3e3cbb4dabb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18974cde8715e910a3e3cbb4dabb350e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18974cde8715e910a3e3cbb4dabb350e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=93ee7976-35d3-4e21-a9c4-31fe6ca6ab79</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>2ad3742ac3596110d10cf44ed4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2ad3742ac3596110d10cf44ed4013160"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ad3742ac3596110d10cf44ed4013160"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Cost Center Data_child0,child_name=cost_center_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=723ffb1b-48e4-493d-8bb7-436f74ac9ff0,co_type_name=FD58974cde5d15e9105060357d53334706,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=e83ce4b4-f39c-4384-a724-674c67765aa9,sourceType=step,sourceUiUniqueId=e098fe09-8bde-422b-ba05-4c61a956c17c,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d3e57a9b-e43c-46b9-a700-34cf3af7c83c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cost_center_data</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Cost Center Data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>dc974cde8715e910a3e3cbb4dabb3508</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dc974cde8715e910a3e3cbb4dabb3508"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc974cde8715e910a3e3cbb4dabb3508"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=4e202060-34e8-4ebc-8100-f06d8815a851,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</model>
+        <model_id>97b64c9e8715e910a3e3cbb4dabb35ff</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>e2d3742ac3596110d10cf44ed4013167</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e2d3742ac3596110d10cf44ed4013167"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2d3742ac3596110d10cf44ed4013167"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT IN74974cde8715e910a3e3cbb4dabb3517"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action_type_id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:18</sys_created_on>
+        <sys_id>74974cde8715e910a3e3cbb4dabb3517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:18</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=74974cde8715e910a3e3cbb4dabb3517"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT IN04970cde8715e910a3e3cbb4dabb35d8,fb870cde8715e910a3e3cbb4dabb35d3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>delimeter</element>
+        <help/>
+        <hint/>
+        <label>Delimeter</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>04970cde8715e910a3e3cbb4dabb35d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delimeter</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>json_string</element>
+        <help/>
+        <hint/>
+        <label>JSON String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:14</sys_created_on>
+        <sys_id>fb870cde8715e910a3e3cbb4dabb35d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JSON String</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff^sys_idNOT IN22d3742ac3596110d10cf44ed4013166,22d3742ac3596110d10cf44ed401316c,58974cde8715e910a3e3cbb4dabb350d,90974cde8715e910a3e3cbb4dabb3512"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>22d3742ac3596110d10cf44ed4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff___action_status___en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:13</sys_created_on>
+        <sys_id>22d3742ac3596110d10cf44ed401316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cost_center_data</element>
+        <help/>
+        <hint/>
+        <label>Cost Center Data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>58974cde8715e910a3e3cbb4dabb350d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Center Data</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_rows</element>
+        <help/>
+        <hint/>
+        <label>Total Rows</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:15</sys_created_on>
+        <sys_id>90974cde8715e910a3e3cbb4dabb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Rows</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=97b64c9e8715e910a3e3cbb4dabb35ff"/>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>segregate_cost_center_data_for_text</internal_name>
+        <label_cache>[{"name":"{{action.json_string}}","label":"action➛JSON String","type":"action","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.delimeter}}","label":"action➛Delimeter","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data}}","label":"step➛Script step➛Cost Center Data","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child1}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child2}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child3}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.cost_center_data_child0_child4}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center Data_child0_child4","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Name}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.KTEXT}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Controlling_Area}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Controlling Area","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Cost_Center}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.Valid_To_Date}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Valid To Date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.KOKRS}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Controlling Area","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.KOSTL}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Cost Center","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data.cost_center_data_child0.DATBI}}","label":"step➛Script step➛Cost Center Data➛Cost Center Data_child0➛Valid To Date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].total_rows}}","label":"step➛Script step➛Total Rows","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>Segregate Cost Center Data For Text</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21974cde8715e910a3e3cbb4dabb3581</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=21974cde8715e910a3e3cbb4dabb3581"/>
+    <sys_variable_value action="delete_multiple" query="document_key=21974cde8715e910a3e3cbb4dabb3581"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>21974cde8715e910a3e3cbb4dabb3581</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>be978cde8715e910a3e3cbb4dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <value/>
+        <variable display_value="Total Rows">e2978cde8715e910a3e3cbb4dabb350e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>21974cde8715e910a3e3cbb4dabb3581</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:40</sys_created_on>
+        <sys_id>c9f3f42ac3596110d10cf44ed40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:40</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">ea978cde8715e910a3e3cbb4dabb3512</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>21974cde8715e910a3e3cbb4dabb3581</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>fa978cde8715e910a3e3cbb4dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e2978cde8715e910a3e3cbb4dabb3517</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=21974cde8715e910a3e3cbb4dabb3581"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cost_center_data</field>
+        <id>21974cde8715e910a3e3cbb4dabb3581</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>f2978cde8715e910a3e3cbb4dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</table>
+        <value>{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].cost_center_data}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>total_rows</field>
+        <id>21974cde8715e910a3e3cbb4dabb3581</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>7a978cde8715e910a3e3cbb4dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</table>
+        <value>{{step[e83ce4b4-f39c-4384-a724-674c67765aa9].total_rows}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>21974cde8715e910a3e3cbb4dabb3581</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-03 13:35:40</sys_created_on>
+        <sys_id>49f3f42ac3596110d10cf44ed40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:40</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>21974cde8715e910a3e3cbb4dabb3581</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>b6978cde8715e910a3e3cbb4dabb352c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=21974cde8715e910a3e3cbb4dabb3581^sys_idNOT IN5e974cde8715e910a3e3cbb4dabb35db"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action>
+        <cid>e83ce4b4-f39c-4384-a724-674c67765aa9</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:23</sys_created_on>
+        <sys_id>5e974cde8715e910a3e3cbb4dabb35db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e974cde8715e910a3e3cbb4dabb35db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e974cde8715e910a3e3cbb4dabb35db</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>66978cde8715e910a3e3cbb4dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    var input_json = inputs.inputJSON;
+    var delimeter_value = inputs.delimeter.toString().trim();
+    var costCenterArray = new sn_sap_data_int.IntegrationsUtils().parseExecuteRFC(input_json, delimeter_value);
+    outputs.cost_center_data = costCenterArray.JSONOBJECT;
+    outputs.total_rows = costCenterArray.ROWCOUNT;
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5e974cde8715e910a3e3cbb4dabb35db</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>a2978cde8715e910a3e3cbb4dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5e974cde8715e910a3e3cbb4dabb35db"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>delimeter</field>
+        <id>5e974cde8715e910a3e3cbb4dabb35db</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>ee978cde8715e910a3e3cbb4dabb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5e974cde8715e910a3e3cbb4dabb35db</table>
+        <value>{{action.delimeter}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>inputJSON</field>
+        <id>5e974cde8715e910a3e3cbb4dabb35db</id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>a2978cde8715e910a3e3cbb4dabb3503</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5e974cde8715e910a3e3cbb4dabb35db</table>
+        <value>{{action.json_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5e974cde8715e910a3e3cbb4dabb35db^id=5e974cde8715e910a3e3cbb4dabb35db"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5e974cde8715e910a3e3cbb4dabb35db"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5e974cde8715e910a3e3cbb4dabb35db^sys_idNOT IN52974cde8715e910a3e3cbb4dabb35df,5a974cde8715e910a3e3cbb4dabb35e3"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>inputJSON</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>inputJSON</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5e974cde8715e910a3e3cbb4dabb35db</model>
+        <model_id>5e974cde8715e910a3e3cbb4dabb35db</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_5e974cde8715e910a3e3cbb4dabb35db</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:23</sys_created_on>
+        <sys_id>52974cde8715e910a3e3cbb4dabb35df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>delimeter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>delimeter</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">5e974cde8715e910a3e3cbb4dabb35db</model>
+        <model_id>5e974cde8715e910a3e3cbb4dabb35db</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_5e974cde8715e910a3e3cbb4dabb35db</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>5a974cde8715e910a3e3cbb4dabb35e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5e974cde8715e910a3e3cbb4dabb35db^sys_idNOT IN12974cde8715e910a3e3cbb4dabb35ea,16974cde8715e910a3e3cbb4dabb35fb"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Cost Center Data_child0,child_name=cost_center_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=723ffb1b-48e4-493d-8bb7-436f74ac9ff0,co_type_name=FD1e974cdeb015e9106beab9da317bbfe7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=e098fe09-8bde-422b-ba05-4c61a956c17c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cost_center_data</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Cost Center Data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">5e974cde8715e910a3e3cbb4dabb35db</model>
+        <model_id>5e974cde8715e910a3e3cbb4dabb35db</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5e974cde8715e910a3e3cbb4dabb35db</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>12974cde8715e910a3e3cbb4dabb35ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=bc06536d-9368-4997-913f-fb61a36ea455</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_rows</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Rows</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">5e974cde8715e910a3e3cbb4dabb35db</model>
+        <model_id>5e974cde8715e910a3e3cbb4dabb35db</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_5e974cde8715e910a3e3cbb4dabb35db</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>16974cde8715e910a3e3cbb4dabb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5e974cde8715e910a3e3cbb4dabb35db"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5e974cde8715e910a3e3cbb4dabb35db^sys_idNOT IN56974cde8715e910a3e3cbb4dabb35fa,66974cde8715e910a3e3cbb4dabb35fe"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cost_center_data</element>
+        <help/>
+        <hint/>
+        <label>Cost Center Data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5e974cde8715e910a3e3cbb4dabb35db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>56974cde8715e910a3e3cbb4dabb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Center Data</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_rows</element>
+        <help/>
+        <hint/>
+        <label>Total Rows</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_5e974cde8715e910a3e3cbb4dabb35db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>66974cde8715e910a3e3cbb4dabb35fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Rows</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=21974cde8715e910a3e3cbb4dabb3581^sys_idNOT IN06974cde8715e910a3e3cbb4dabb3586,12974cde8715e910a3e3cbb4dabb35d6"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD02974cde7215e9106db3577d4f161c84,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=860df4e4-c301-438f-8127-adc5b0cc9dc4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>json_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>JSON String</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:23</sys_created_on>
+        <sys_id>06974cde8715e910a3e3cbb4dabb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=06974cde8715e910a3e3cbb4dabb3586"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b6d82d8e-d4f3-4ae6-83e4-242b6f5fd5a1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>delimeter</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Delimeter</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:23</sys_created_on>
+        <sys_id>12974cde8715e910a3e3cbb4dabb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=12974cde8715e910a3e3cbb4dabb35d6"/>
+    <sys_hub_action_output action="delete_multiple" query="model=21974cde8715e910a3e3cbb4dabb3581^sys_idNOT INe2978cde8715e910a3e3cbb4dabb350e,e2978cde8715e910a3e3cbb4dabb3517,ea978cde8715e910a3e3cbb4dabb3508,ea978cde8715e910a3e3cbb4dabb3512"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=c894e985-4b26-4952-955b-55193df5070e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_rows</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Total Rows</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>e2978cde8715e910a3e3cbb4dabb350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e2978cde8715e910a3e3cbb4dabb350e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2978cde8715e910a3e3cbb4dabb350e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=4e202060-34e8-4ebc-8100-f06d8815a851,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>e2978cde8715e910a3e3cbb4dabb3517</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e2978cde8715e910a3e3cbb4dabb3517"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2978cde8715e910a3e3cbb4dabb3517"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Cost Center Data_child0,child_name=cost_center_data_child0,child_type=object,child_type_label=Object,child_uiUniqueId=723ffb1b-48e4-493d-8bb7-436f74ac9ff0,co_type_name=FDe2978cde8215e910b29787c0488e8b06,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=e83ce4b4-f39c-4384-a724-674c67765aa9,sourceType=step,sourceUiUniqueId=e098fe09-8bde-422b-ba05-4c61a956c17c,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d3e57a9b-e43c-46b9-a700-34cf3af7c83c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cost_center_data</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Cost Center Data</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:24</sys_created_on>
+        <sys_id>ea978cde8715e910a3e3cbb4dabb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea978cde8715e910a3e3cbb4dabb3508"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea978cde8715e910a3e3cbb4dabb3508"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=93ee7976-35d3-4e21-a9c4-31fe6ca6ab79</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</model>
+        <model_id>21974cde8715e910a3e3cbb4dabb3581</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>ea978cde8715e910a3e3cbb4dabb3512</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-03 13:35:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ea978cde8715e910a3e3cbb4dabb3512"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea978cde8715e910a3e3cbb4dabb3512"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=21974cde8715e910a3e3cbb4dabb3581"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=21974cde8715e910a3e3cbb4dabb3581^sys_idNOT INfa978cde8715e910a3e3cbb4dabb352f"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action_type_id>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>fa978cde8715e910a3e3cbb4dabb352f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fa978cde8715e910a3e3cbb4dabb352f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581^sys_idNOT IN52974cde8715e910a3e3cbb4dabb35d5,5a974cde8715e910a3e3cbb4dabb35d9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>json_string</element>
+        <help/>
+        <hint/>
+        <label>JSON String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:23</sys_created_on>
+        <sys_id>52974cde8715e910a3e3cbb4dabb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JSON String</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>delimeter</element>
+        <help/>
+        <hint/>
+        <label>Delimeter</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:23</sys_created_on>
+        <sys_id>5a974cde8715e910a3e3cbb4dabb35d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delimeter</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_21974cde8715e910a3e3cbb4dabb3581"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581^sys_idNOT IN26978cde8715e910a3e3cbb4dabb350d,26978cde8715e910a3e3cbb4dabb3516,2e978cde8715e910a3e3cbb4dabb3511,66978cde8715e910a3e3cbb4dabb3529"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cost_center_data</element>
+        <help/>
+        <hint/>
+        <label>Cost Center Data</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>26978cde8715e910a3e3cbb4dabb350d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost Center Data</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>26978cde8715e910a3e3cbb4dabb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_rows</element>
+        <help/>
+        <hint/>
+        <label>Total Rows</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>2e978cde8715e910a3e3cbb4dabb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Rows</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Varun</sys_created_by>
+        <sys_created_on>2023-03-02 15:43:25</sys_created_on>
+        <sys_id>66978cde8715e910a3e3cbb4dabb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Varun</sys_updated_by>
+        <sys_updated_on>2023-03-02 15:43:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_21974cde8715e910a3e3cbb4dabb3581"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>97b64c9e8715e910a3e3cbb4dabb35ff</sys_id>
+        <latest_snapshot>21974cde8715e910a3e3cbb4dabb3581</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
