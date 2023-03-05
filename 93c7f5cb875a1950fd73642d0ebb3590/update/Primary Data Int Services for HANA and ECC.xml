@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2023-03-05 07:54:16">
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Fetch currencies from SAP ECC">920b65ed47b25d1086887562846d4351</flow>
+<import_set_tables>sn_sap_data_int_currency_stg</import_set_tables>
+<name>Currency Master</name>
+<order>20</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:47:25</sys_created_on>
+<sys_id>1b67f1c3c355e11031c77addd40131a2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Currency Master</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_1b67f1c3c355e11031c77addd40131a2</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:47:25</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Fetch currencies from SAP ECC">920b65ed47b25d1086887562846d4351</flow>
+<import_set_tables>sn_sap_data_int_currency_stg</import_set_tables>
+<name>Currency Master</name>
+<order>20</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:19:33</sys_created_on>
+<sys_id>d3d0f1cbc315e11031c77addd40131e9</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Currency Master</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_d3d0f1cbc315e11031c77addd40131e9</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:20:07</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Parallel Subflow Caller for FX rates">614dea32872f9910a3e3cbb4dabb359a</flow>
+<import_set_tables>sn_sap_data_int_fx_rate_stg</import_set_tables>
+<name>FX Exchange Data</name>
+<order>30</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:20:40</sys_created_on>
+<sys_id>b701f1cbc315e11031c77addd40131f3</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>FX Exchange Data</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_b701f1cbc315e11031c77addd40131f3</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:20:52</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Parallel Subflow Caller for FX rates">614dea32872f9910a3e3cbb4dabb359a</flow>
+<import_set_tables>sn_sap_data_int_fx_rate_stg</import_set_tables>
+<name>FX Exchange Data</name>
+<order>30</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:47:34</sys_created_on>
+<sys_id>ad7735c3c355e11031c77addd40131d9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>FX Exchange Data</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_ad7735c3c355e11031c77addd40131d9</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:47:34</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
+<import_set_tables>sn_sap_data_int_cc_stg</import_set_tables>
+<name>Cost Center</name>
+<order>40</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:21:21</sys_created_on>
+<sys_id>8b51bdcbc315e11031c77addd4013191</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Cost Center</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_8b51bdcbc315e11031c77addd4013191</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:21:38</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
+<import_set_tables>sn_sap_data_int_cc_stg</import_set_tables>
+<name>Cost Center</name>
+<order>40</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:47:42</sys_created_on>
+<sys_id>677775c3c355e11031c77addd401314e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Cost Center</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_677775c3c355e11031c77addd401314e</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:47:42</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
+<import_set_tables>sn_sap_data_int_purc_grp_stg</import_set_tables>
+<name>Purchase Group</name>
+<order>50</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:22:37</sys_created_on>
+<sys_id>5c91710fc315e11031c77addd40131f0</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Purchase Group</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_5c91710fc315e11031c77addd40131f0</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:24:53</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
+<import_set_tables>sn_sap_data_int_purc_grp_stg</import_set_tables>
+<name>Purchase Group</name>
+<order>50</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:47:52</sys_created_on>
+<sys_id>7d8775c3c355e11031c77addd401311e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Purchase Group</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_7d8775c3c355e11031c77addd401311e</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:47:52</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Fetch legal entities from SAP ECC">2b619fd0472add1086887562846d437e</flow>
+<import_set_tables>sn_sap_data_int_le_stg</import_set_tables>
+<name>Legal Entity</name>
+<order>60</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:48:11</sys_created_on>
+<sys_id>2297b5c3c355e11031c77addd4013185</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Legal Entity</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_2297b5c3c355e11031c77addd4013185</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:48:11</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Fetch legal entities from SAP ECC">2b619fd0472add1086887562846d437e</flow>
+<import_set_tables>sn_sap_data_int_le_stg</import_set_tables>
+<name>Legal Entity</name>
+<order>60</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:23:11</sys_created_on>
+<sys_id>fcc1350fc315e11031c77addd40131b6</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Legal Entity</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_fcc1350fc315e11031c77addd40131b6</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:25:40</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Fetch payment terms from SAP ECC">3faca11d87fa195093264085dabb35f9</flow>
+<import_set_tables>sn_sap_data_int_pay_term_stg</import_set_tables>
+<name>Payment Terms</name>
+<order>80</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:48:32</sys_created_on>
+<sys_id>ffa739c3c355e11031c77addd401312d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Payment Terms</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_ffa739c3c355e11031c77addd401312d</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:48:32</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Fetch payment terms from SAP ECC">3faca11d87fa195093264085dabb35f9</flow>
+<import_set_tables>sn_sap_data_int_pay_term_stg</import_set_tables>
+<name>Payment Terms</name>
+<order>80</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:23:51</sys_created_on>
+<sys_id>52e1f50fc315e11031c77addd4013184</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Payment Terms</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_52e1f50fc315e11031c77addd4013184</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:33:19</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
+<import_set_tables>sn_sap_data_int_purc_org_stg</import_set_tables>
+<name>Purchasing Organisation</name>
+<order>90</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:24:33</sys_created_on>
+<sys_id>1b02f50fc315e11031c77addd4013189</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Purchasing Organisation</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_1b02f50fc315e11031c77addd4013189</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:25:50</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
+<import_set_tables>sn_sap_data_int_purc_org_stg</import_set_tables>
+<name>Purchasing Organisation</name>
+<order>90</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:48:40</sys_created_on>
+<sys_id>a5b739c3c355e11031c77addd4013132</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Purchasing Organisation</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_a5b739c3c355e11031c77addd4013132</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:48:40</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Parallel Subflow Caller for GL accounts">0353a6314708215002367562846d4338</flow>
+<import_set_tables>sn_sap_data_int_gl_stg</import_set_tables>
+<name>Ledger Account</name>
+<order>100</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:27:10</sys_created_on>
+<sys_id>ad42fd0fc315e11031c77addd40131db</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Ledger Account</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_ad42fd0fc315e11031c77addd40131db</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:27:17</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Parallel Subflow Caller for GL accounts">0353a6314708215002367562846d4338</flow>
+<import_set_tables>sn_sap_data_int_gl_stg</import_set_tables>
+<name>Ledger Account</name>
+<order>100</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:48:46</sys_created_on>
+<sys_id>0bb739c3c355e11031c77addd401319c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Ledger Account</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_0bb739c3c355e11031c77addd401319c</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:48:46</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value=" Fetch plant addresses from SAP ECC">14b2ff3c475b111086887562846d43a4</flow>
+<import_set_tables>sn_sap_data_int_plant_add_stg</import_set_tables>
+<name>Plant Address Master Data From SAP</name>
+<order>110</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:27:52</sys_created_on>
+<sys_id>1fd2f54fc315e11031c77addd40131ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Plant Address Master Data From SAP</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_1fd2f54fc315e11031c77addd40131ea</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:27:52</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value=" Fetch plant addresses from SAP ECC">14b2ff3c475b111086887562846d43a4</flow>
+<import_set_tables>sn_sap_data_int_plant_add_stg</import_set_tables>
+<name>Plant Address Master Data From SAP</name>
+<order>110</order>
+<properties/>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:48:53</sys_created_on>
+<sys_id>fcc739c3c355e11031c77addd40131ff</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>Plant Address Master Data From SAP</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_fcc739c3c355e11031c77addd40131ff</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:48:53</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP HANA">a506b543c355e11031c77addd40131e3</erp_source_configuration>
+<flow display_value="Parallel Subflow Caller for Suppliers">2507027787b35910a3e3cbb4dabb3546</flow>
+<import_set_tables>sn_sap_data_int_supplier_stg</import_set_tables>
+<name>Vendor Master</name>
+<order>120</order>
+<properties>{"low":"","high":"","sign":"I","option":"EQ","full_pull":"True","row_count":"300"}</properties>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:49:02</sys_created_on>
+<sys_id>c7c779c3c355e11031c77addd4013183</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_name>Vendor Master</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_c7c779c3c355e11031c77addd4013183</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:50:06</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+<sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+<active>true</active>
+<erp_source_configuration display_value="SAP ECC">7bd6edcf871921508dd710683cbb3560</erp_source_configuration>
+<flow display_value="Parallel Subflow Caller for Suppliers">2507027787b35910a3e3cbb4dabb3546</flow>
+<import_set_tables>sn_sap_data_int_supplier_stg</import_set_tables>
+<name>Vendor Master</name>
+<order>120</order>
+<properties>{"low":"","high":"","sign":"I","option":"EQ","full_pull":"True","row_count":"300"}</properties>
+<source display_value=""/>
+<sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-03-05 07:30:08</sys_created_on>
+<sys_id>a2f2b94fc315e11031c77addd4013188</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>Vendor Master</sys_name>
+<sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+<sys_policy/>
+<sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+<sys_update_name>sn_sap_data_int_integrations_service_a2f2b94fc315e11031c77addd4013188</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-03-05 07:49:47</sys_updated_on>
+</sn_sap_data_int_integrations_service>
+</unload>
