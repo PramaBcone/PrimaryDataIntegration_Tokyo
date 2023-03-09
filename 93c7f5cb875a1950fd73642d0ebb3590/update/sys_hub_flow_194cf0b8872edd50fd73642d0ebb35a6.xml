@@ -15,6 +15,7 @@
         <name>Transform Job Records</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -28,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>194cf0b8872edd50fd73642d0ebb35a6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Transform Job Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_194cf0b8872edd50fd73642d0ebb35a6</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:47</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 13:54:17</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=194cf0b8872edd50fd73642d0ebb35a6"/>
@@ -88,6 +89,7 @@
         <element>job_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -134,6 +136,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -155,10 +158,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:09</sys_created_on>
         <sys_id>12a08170876edd50fd73642d0ebb35dc</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>2d16448a-c04a-4d79-bcfb-4be8d105dde6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=12a08170876edd50fd73642d0ebb35dc"/>
@@ -191,10 +194,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:50:00</sys_created_on>
         <sys_id>714c34b8872edd50fd73642d0ebb351f</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>58d4ded0-7242-4026-8165-fbe03ecdf844</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=714c34b8872edd50fd73642d0ebb351f"/>
@@ -292,10 +295,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:08</sys_created_on>
         <sys_id>86a08170876edd50fd73642d0ebb35cf</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>f98f16f7-16e1-4e46-8304-43a9b295f919</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86a08170876edd50fd73642d0ebb35cf"/>
@@ -328,10 +331,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:50:02</sys_created_on>
         <sys_id>924c34b8872edd50fd73642d0ebb353f</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>831c199f-580e-4aab-9b98-cdfd63af3a47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=924c34b8872edd50fd73642d0ebb353f"/>
@@ -429,10 +432,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:50:01</sys_created_on>
         <sys_id>ce4c34b8872edd50fd73642d0ebb3538</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>c11e1057-355f-4292-9408-90e5f757f8a3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ce4c34b8872edd50fd73642d0ebb3538"/>
@@ -530,10 +533,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:49:59</sys_created_on>
         <sys_id>f14cf0b8872edd50fd73642d0ebb35ee</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:26</sys_updated_on>
         <ui_id>a2a1dffa-a5fe-4c05-9ad3-70dd76fe1b10</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f14cf0b8872edd50fd73642d0ebb35ee"/>
@@ -566,10 +569,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:50:00</sys_created_on>
         <sys_id>f54c34b8872edd50fd73642d0ebb3518</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:26</sys_updated_on>
         <ui_id>2cfb5ecb-8c13-40ce-8917-e606d2f5f05b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f54c34b8872edd50fd73642d0ebb3518"/>
@@ -594,11 +597,11 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:50:00</sys_created_on>
         <sys_id>3d4c34b8872edd50fd73642d0ebb3519</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-12 11:09:08</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:14</sys_updated_on>
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value>integration_service={{eac1e04f-747d-4d62-b9ba-6f07559d4f02.item}}^integrations_job_tracker={{subflow.job_id}}</value>
+        <value>integration_service={{eac1e04f-747d-4d62-b9ba-6f07559d4f02.item}}^integrations_job_tracker={{subflow.job_id}}^state!=failed^state!=cancel_requested^state!=complete_with_errors^state!=complete_with_errors</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -628,10 +631,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:50:00</sys_created_on>
         <sys_id>f54cf0b8872edd50fd73642d0ebb35f7</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:57:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:26</sys_updated_on>
         <ui_id>d4c40220-b030-4ddc-8f47-711897180c33</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f54cf0b8872edd50fd73642d0ebb35f7"/>
@@ -679,7 +682,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=194cf0b8872edd50fd73642d0ebb35a6"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=194cf0b8872edd50fd73642d0ebb35a6^sys_idNOT IN294cf0b8872edd50fd73642d0ebb35d4,6d4cf0b8872edd50fd73642d0ebb35d0,e14cf0b8872edd50fd73642d0ebb35e4,e14cf0b8872edd50fd73642d0ebb35e7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">b63b7b1e8794a51063060e94dabb3573</block>
+        <block display_value="">3426ba10c325251031c77addd401319c</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -700,10 +703,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:49:59</sys_created_on>
         <sys_id>294cf0b8872edd50fd73642d0ebb35d4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:26</sys_updated_on>
         <ui_id>98132809-05fa-4d96-9e9c-dbe2075e1416</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -725,7 +728,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=294cf0b8872edd50fd73642d0ebb35d4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=294cf0b8872edd50fd73642d0ebb35d4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">5a3b7b1e8794a51063060e94dabb352d</block>
+        <block display_value="">f826ba10c325251031c77addd4013193</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -746,10 +749,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:49:58</sys_created_on>
         <sys_id>6d4cf0b8872edd50fd73642d0ebb35d0</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:26</sys_updated_on>
         <ui_id>eac1e04f-747d-4d62-b9ba-6f07559d4f02</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -771,7 +774,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6d4cf0b8872edd50fd73642d0ebb35d0"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6d4cf0b8872edd50fd73642d0ebb35d0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">873b7b1e8794a51063060e94dabb3578</block>
+        <block display_value="">b426ba10c325251031c77addd40131ba</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -792,10 +795,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:49:59</sys_created_on>
         <sys_id>e14cf0b8872edd50fd73642d0ebb35e4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>479ee50d-fb2e-484f-866d-f3c74d8413b3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -817,7 +820,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e14cf0b8872edd50fd73642d0ebb35e4"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e14cf0b8872edd50fd73642d0ebb35e4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1f3b7b1e8794a51063060e94dabb358b</block>
+        <block display_value="">3826ba10c325251031c77addd40131c1</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -838,10 +841,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 10:49:59</sys_created_on>
         <sys_id>e14cf0b8872edd50fd73642d0ebb35e7</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:27</sys_updated_on>
         <ui_id>a892c006-d9c7-4ca5-b443-42bdcc0d78f5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -878,7 +881,7 @@
         <sys_created_on>2022-10-12 10:49:58</sys_created_on>
         <sys_id>a54cf0b8872edd50fd73642d0ebb35cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Id</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -894,19 +897,19 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=194cf0b8872edd50fd73642d0ebb35a6"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=194cf0b8872edd50fd73642d0ebb35a6^sys_idNOT IN68b04570876edd50fd73642d0ebb354d"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"68b04570876edd50fd73642d0ebb354d","name":"plan","plan_signature":null}}</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@39dbfa</plan>
         <plan_id display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</plan_id>
-        <snapshot>d8d3daf2878521108dd710683cbb3598</snapshot>
+        <snapshot>9fa0c170876edd50fd73642d0ebb35b8</snapshot>
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68b04570876edd50fd73642d0ebb354d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:46</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:26</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -936,15 +939,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9fa0c170876edd50fd73642d0ebb35b8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=9fa0c170876edd50fd73642d0ebb35b8"/>
@@ -996,6 +999,7 @@
         <element>job_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1042,6 +1046,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1063,10 +1068,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>27a00570876edd50fd73642d0ebb3539</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>d4c40220-b030-4ddc-8f47-711897180c33</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=27a00570876edd50fd73642d0ebb3539"/>
@@ -1125,10 +1130,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>6fa00570876edd50fd73642d0ebb3523</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>a2a1dffa-a5fe-4c05-9ad3-70dd76fe1b10</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6fa00570876edd50fd73642d0ebb3523"/>
@@ -1161,10 +1166,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:15</sys_created_on>
         <sys_id>77a00570876edd50fd73642d0ebb3554</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>f98f16f7-16e1-4e46-8304-43a9b295f919</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77a00570876edd50fd73642d0ebb3554"/>
@@ -1197,10 +1202,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:16</sys_created_on>
         <sys_id>84b00570876edd50fd73642d0ebb358c</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>831c199f-580e-4aab-9b98-cdfd63af3a47</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=84b00570876edd50fd73642d0ebb358c"/>
@@ -1298,10 +1303,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:15</sys_created_on>
         <sys_id>8cb00570876edd50fd73642d0ebb3560</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>c11e1057-355f-4292-9408-90e5f757f8a3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cb00570876edd50fd73642d0ebb3560"/>
@@ -1399,10 +1404,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>b7a00570876edd50fd73642d0ebb3541</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>2cfb5ecb-8c13-40ce-8917-e606d2f5f05b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7a00570876edd50fd73642d0ebb3541"/>
@@ -1427,11 +1432,11 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>fba00570876edd50fd73642d0ebb3542</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-12 11:09:14</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:21</sys_updated_on>
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value>integration_service={{eac1e04f-747d-4d62-b9ba-6f07559d4f02.item}}^integrations_job_tracker={{subflow.job_id}}</value>
+        <value>integration_service={{eac1e04f-747d-4d62-b9ba-6f07559d4f02.item}}^integrations_job_tracker={{subflow.job_id}}^state!=failed^state!=cancel_requested^state!=complete_with_errors^state!=complete_with_errors</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1461,10 +1466,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:15</sys_created_on>
         <sys_id>bfa00570876edd50fd73642d0ebb355b</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>2d16448a-c04a-4d79-bcfb-4be8d105dde6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bfa00570876edd50fd73642d0ebb355b"/>
@@ -1497,10 +1502,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:15</sys_created_on>
         <sys_id>ffa00570876edd50fd73642d0ebb3548</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>58d4ded0-7242-4026-8165-fbe03ecdf844</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ffa00570876edd50fd73642d0ebb3548"/>
@@ -1587,7 +1592,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9fa0c170876edd50fd73642d0ebb35b8"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=9fa0c170876edd50fd73642d0ebb35b8^sys_idNOT IN2fa00570876edd50fd73642d0ebb3511,67a00570876edd50fd73642d0ebb3515,e3a00570876edd50fd73642d0ebb3519,e3a00570876edd50fd73642d0ebb351c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">5a3b7b1e8794a51063060e94dabb352d</block>
+        <block display_value="">f826ba10c325251031c77addd4013193</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1608,10 +1613,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:13</sys_created_on>
         <sys_id>2fa00570876edd50fd73642d0ebb3511</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:41</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>eac1e04f-747d-4d62-b9ba-6f07559d4f02</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1633,7 +1638,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2fa00570876edd50fd73642d0ebb3511"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2fa00570876edd50fd73642d0ebb3511"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">b63b7b1e8794a51063060e94dabb3573</block>
+        <block display_value="">3426ba10c325251031c77addd401319c</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1654,10 +1659,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>67a00570876edd50fd73642d0ebb3515</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>98132809-05fa-4d96-9e9c-dbe2075e1416</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1679,7 +1684,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=67a00570876edd50fd73642d0ebb3515"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=67a00570876edd50fd73642d0ebb3515"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">873b7b1e8794a51063060e94dabb3578</block>
+        <block display_value="">b426ba10c325251031c77addd40131ba</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1700,10 +1705,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>e3a00570876edd50fd73642d0ebb3519</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>479ee50d-fb2e-484f-866d-f3c74d8413b3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1725,7 +1730,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e3a00570876edd50fd73642d0ebb3519"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e3a00570876edd50fd73642d0ebb3519"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1f3b7b1e8794a51063060e94dabb358b</block>
+        <block display_value="">3826ba10c325251031c77addd40131c1</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1746,10 +1751,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 11:09:14</sys_created_on>
         <sys_id>e3a00570876edd50fd73642d0ebb351c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-02-20 04:52:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-09 10:18:22</sys_updated_on>
         <ui_id>a892c006-d9c7-4ca5-b443-42bdcc0d78f5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1786,7 +1791,7 @@
         <sys_created_on>2022-10-12 11:09:13</sys_created_on>
         <sys_id>dfa0c170876edd50fd73642d0ebb35e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Job Id</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1802,6 +1807,6 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>194cf0b8872edd50fd73642d0ebb35a6</sys_id>
         <latest_snapshot>9fa0c170876edd50fd73642d0ebb35b8</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
