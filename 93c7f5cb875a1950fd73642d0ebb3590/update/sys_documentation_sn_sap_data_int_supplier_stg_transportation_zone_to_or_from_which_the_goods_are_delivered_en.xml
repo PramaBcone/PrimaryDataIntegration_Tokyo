@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="transportation_zone_to_or_from_which_the_goods_are_delivered" label="Transportation zone to or from which the goods are delivered" language="en" table="sn_sap_data_int_supplier_stg">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>transportation_zone_to_or_from_which_the_goods_are_delivered</element>
+            <help/>
+            <hint/>
+            <label>Transportation zone to or from which the goods are delivered</label>
+            <language>en</language>
+            <name>sn_sap_data_int_supplier_stg</name>
+            <plural>Transportation zone to or from which the goods are delivered</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-01 11:05:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Transportation zone to or from which the goods are delivered</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_sn_sap_data_int_supplier_stg_transportation_zone_to_or_from_which_the_goods_are_delivered_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-01 11:05:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

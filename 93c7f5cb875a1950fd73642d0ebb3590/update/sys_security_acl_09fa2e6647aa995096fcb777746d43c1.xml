@@ -6,7 +6,7 @@
         <condition/>
         <description>Default access control on sn_sap_data_int_cc_stg</description>
         <name>sn_sap_data_int_cc_stg</name>
-        <operation display_value="Global">delete</operation>
+        <operation display_value="delete">delete</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>Midhat</sys_created_by>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_security_acl_09fa2e6647aa995096fcb777746d43c1</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-18 05:22:54</sys_updated_on>
-        <type display_value="Global">record</type>
+        <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

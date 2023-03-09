@@ -9,7 +9,7 @@
             <sys_id>a5c32464876a9d50fd73642d0ebb35b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="Primary Data Integration with SAP" name="sn_sap_data_int_integration_job_tracker" sys_domain="global" view="Default view">d1c32464876a9d50fd73642d0ebb35ad</sys_ui_form>
+            <sys_ui_form display_value="sn_sap_data_int_integration_job_tracker" name="sn_sap_data_int_integration_job_tracker" sys_domain="global" view="Default view">d1c32464876a9d50fd73642d0ebb35ad</sys_ui_form>
             <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_integration_job_tracker" sys_domain="global" view="Default view">e5632c24876a9d50fd73642d0ebb355b</sys_ui_section>
             <sys_updated_by>Mayank</sys_updated_by>
             <sys_updated_on>2022-10-11 14:24:27</sys_updated_on>

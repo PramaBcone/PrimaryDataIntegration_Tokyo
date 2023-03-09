@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Legal Entities" max_length="40" name="sn_sap_data_int_le_stg" sizeclass="3311" type="collection">
-        <element label="Accounts Receivable Pledging Active" max_length="40" name="accounts_receivable_pledging_active" type="string"/>
-        <element label="Activate Account Assignment Derivation in Funds Management" max_length="40" name="activate_account_assignment_derivation_in_funds_management" type="string"/>
-        <element label="Activate Update in Funds Management" max_length="40" name="activate_update_in_funds_management" type="string"/>
-        <element label="Additional settings variant for bus.area financial statemnts" max_length="40" name="additional_settings_variant_for_bus_area_financial_statemnts" type="string"/>
-        <element label="Address" max_length="40" name="address" type="string"/>
-        <element label="Allocation Indicator" max_length="40" name="allocation_indicator" type="string"/>
-        <element label="Cash Management and Forecast Company Code" max_length="40" name="cash_management_and_forecast_company_code" type="string"/>
-        <element label="Chart of Accounts" max_length="40" name="chart_of_accounts" type="string"/>
-        <element label="Chart of Accounts According to Country Legislation" max_length="40" name="chart_of_accounts_according_to_country_legislation" type="string"/>
-        <element label="City" max_length="40" name="city" type="string"/>
-        <element label="Client" max_length="40" name="client" type="string"/>
-        <element label="Company" max_length="40" name="company" type="string"/>
-        <element label="Company Code" max_length="40" name="company_code" type="string"/>
-        <element label="Company Code Variant (Screen)" max_length="40" name="company_code_variant_screen" type="string"/>
-        <element label="Cost of sales accounting status" max_length="40" name="cost_of_sales_accounting_status" type="string"/>
-        <element label="Country Key" max_length="40" name="country_key" type="string"/>
-        <element label="Credit control area" max_length="40" name="credit_control_area" type="string"/>
-        <element label="Currency Key" max_length="40" name="currency_key" type="string"/>
-        <element label="Deferred Tax Rule" max_length="40" name="deferred_tax_rule" type="string"/>
-        <element label="Document Type for Journal Voucher (Amount Correction)" max_length="40" name="document_type_for_journal_voucher_amount_correction" type="string"/>
-        <element label="Document Type for Journal Voucher (Tax Code Correction)" max_length="40" name="document_type_for_journal_voucher_tax_code_correction" type="string"/>
-        <element label="Document Type for Provisions for Taxes on Services Received" max_length="40" name="document_type_for_provisions_for_taxes_on_services_received" type="string"/>
-        <element label="Document Type for Remittance Challans" max_length="40" name="document_type_for_remittance_challans" type="string"/>
-        <element label="Enable Amount Split" max_length="40" name="enable_amount_split" type="string"/>
-        <element label="ERP Source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
-        <element label="Field Status Variant" max_length="40" name="field_status_variant" type="string"/>
-        <element label="Financial Management Area" max_length="40" name="financial_management_area" type="string"/>
-        <element label="Fiscal Year Variant" max_length="40" name="fiscal_year_variant" type="string"/>
-        <element label="Foreign Currency Translation for Tax Items" max_length="40" name="foreign_currency_translation_for_tax_items" type="string"/>
-        <element label="Foreign Trade: Import Data Control in MM Purchase Orders" max_length="40" name="foreign_trade_import_data_control_in_mm_purchase_orders" type="string"/>
-        <element label="Foreign trade: Import data copying control for GR" max_length="40" name="foreign_trade_import_data_copying_control_for_gr" type="string"/>
-        <element label="Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt" max_length="40" name="foreign_trade_screen_ctrl_of_imp_data_f_mm_goods_rececipt" type="string"/>
-        <element label="Funds center can be assigned to an account in HR from" max_length="40" name="funds_center_can_be_assigned_to_an_account_in_hr_from" type="string"/>
-        <element label="Funds reservation field status var." max_length="40" name="funds_reservation_field_status_var" type="string"/>
-        <element label="G/L account authorization check in contracts" max_length="40" name="g_l_account_authorization_check_in_contracts" type="string"/>
-        <element label="G/L account authorization check in inventory management" max_length="40" name="g_l_account_authorization_check_in_inventory_management" type="string"/>
-        <element label="G/L account authorization check in PO/scheduling agreement" max_length="40" name="g_l_account_authorization_check_in_po_scheduling_agreement" type="string"/>
-        <element label="G/L account authorization check in purchase requisitions" max_length="40" name="g_l_account_authorization_check_in_purchase_requisitions" type="string"/>
-        <element label="G/L account authorization check in shopping cart" max_length="40" name="g_l_account_authorization_check_in_shopping_cart" type="string"/>
-        <element label="Hide Entry in Value Help" max_length="40" name="hide_entry_in_value_help" type="string"/>
-        <element label="Indicator: Base amount for tax is net of discount ?" max_length="40" name="indicator_base_amount_for_tax_is_net_of_discount" type="string"/>
-        <element label="Indicator: Business area financial statements required?" max_length="40" name="indicator_business_area_financial_statements_required" type="string"/>
-        <element label="Indicator: Can credit control area be overwritten?" max_length="40" name="indicator_can_credit_control_area_be_overwritten" type="string"/>
-        <element label="Indicator: Cash budget management active" max_length="40" name="indicator_cash_budget_management_active" type="string"/>
-        <element label="Indicator: Cash Management activated?" max_length="40" name="indicator_cash_management_activated" type="string"/>
-        <element label="Indicator: Company code is in another system" max_length="40" name="indicator_company_code_is_in_another_system" type="string"/>
-        <element label="Indicator: Discount base amount is the net value" max_length="40" name="indicator_discount_base_amount_is_the_net_value" type="string"/>
-        <element label="Indicator: Document date as the basis for tax determination" max_length="40" name="indicator_document_date_as_the_basis_for_tax_determination" type="string"/>
-        <element label="Indicator: Extended withholding tax active" max_length="40" name="indicator_extended_withholding_tax_active" type="string"/>
-        <element label="Indicator: Financial Assets Management active" max_length="40" name="indicator_financial_assets_management_active" type="string"/>
-        <element label="Indicator: hedge request active" max_length="40" name="indicator_hedge_request_active" type="string"/>
-        <element label="Indicator: JVA Active" max_length="40" name="indicator_jva_active" type="string"/>
-        <element label="Indicator: Negative Postings Permitted" max_length="40" name="indicator_negative_postings_permitted" type="string"/>
-        <element label="Indicator: No ex.rate difference when clearing in local crcy" max_length="40" name="indicator_no_ex_rate_difference_when_clearing_in_local_crcy" type="string"/>
-        <element label="Indicator: Post translations for exchange rate differences ?" max_length="40" name="indicator_post_translations_for_exchange_rate_differences" type="string"/>
-        <element label="Indicator: Productive company code?" max_length="40" name="indicator_productive_company_code" type="string"/>
-        <element label="Indicator: Project Cash Management active?" max_length="40" name="indicator_project_cash_management_active" type="string"/>
-        <element label="Indicator: Propose current date as value date ?" max_length="40" name="indicator_propose_current_date_as_value_date" type="string"/>
-        <element label="Indicator: Propose fiscal year ?" max_length="40" name="indicator_propose_fiscal_year" type="string"/>
-        <element label="Indicator: Purchase Account Processing is Active" max_length="40" name="indicator_purchase_account_processing_is_active" type="string"/>
-        <element label="Indicator: Updating MM in Cash Mgmt/Forecast activated?" max_length="40" name="indicator_updating_mm_in_cash_mgmt_forecast_activated" type="string"/>
-        <element label="Indicator: Updating SD in Cash Mgmt/Forecast activated?" max_length="40" name="indicator_updating_sd_in_cash_mgmt_forecast_activated" type="string"/>
-        <element label="Inflation Method" max_length="40" name="inflation_method" type="string"/>
-        <element label="Input Tax Code for Non-Taxable Transactions" max_length="40" name="input_tax_code_for_non_taxable_transactions" type="string"/>
-        <element label="Jurisdiction for tax calculation - tax jurisdiction code" max_length="40" name="jurisdiction_for_tax_calculation_tax_jurisdiction_code" type="string"/>
-        <element label="Language Key" max_length="40" name="language_key" type="string"/>
-        <element label="Manage Variant of Posting Period for Company Code/Ledger" max_length="40" name="manage_variant_of_posting_period_for_company_code_ledger" type="string"/>
-        <element label="Maximum exchange rate deviation in percent" max_length="40" name="maximum_exchange_rate_deviation_in_percent" type="string"/>
-        <element label="Method for offsetting account determination" max_length="40" name="method_for_offsetting_account_determination" type="string"/>
-        <element label="Name of Company Code or Company" max_length="40" name="name_of_company_code_or_company" type="string"/>
-        <element label="Name of global company code" max_length="40" name="name_of_global_company_code" type="string"/>
-        <element label="Original Key of the Company Code" max_length="40" name="original_key_of_the_company_code" type="string"/>
-        <element label="Output Tax Code for Non-Taxable Transactions" max_length="40" name="output_tax_code_for_non_taxable_transactions" type="string"/>
-        <element label="Posting Period Variant" max_length="40" name="posting_period_variant" type="string"/>
-        <element label="Procedure for Setting the Posting Date" max_length="40" name="procedure_for_setting_the_posting_date" type="string"/>
-        <element label="Rules for Copying from the Sample Account for G/L Accounts" max_length="40" name="rules_for_copying_from_the_sample_account_for_g_l_accounts" type="string"/>
-        <element label="Sales/Purchases Tax Group" max_length="40" name="sales_purchases_tax_group" type="string"/>
-        <element label="Surcharge Calculation Method" max_length="40" name="surcharge_calculation_method" type="string"/>
-        <element label="Tax Reporting Date Active in Documents" max_length="40" name="tax_reporting_date_active_in_documents" type="string"/>
-        <element label="VAT Registration Number" max_length="40" name="vat_registration_number" type="string"/>
-        <element label="Workflow variant" max_length="40" name="workflow_variant" type="string"/>
+    <element db_object_id="124e3d79c3d1e11068187addd4013195" extends="sys_import_set_row" label="Legal Entities" max_length="40" name="sn_sap_data_int_le_stg" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Accounts Receivable Pledging Active" max_length="40" name="accounts_receivable_pledging_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Activate Account Assignment Derivation in Funds Management" max_length="40" name="activate_account_assignment_derivation_in_funds_management" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Activate Update in Funds Management" max_length="40" name="activate_update_in_funds_management" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional settings variant for bus.area financial statemnts" max_length="40" name="additional_settings_variant_for_bus_area_financial_statemnts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Allocation Indicator" max_length="40" name="allocation_indicator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cash Management and Forecast Company Code" max_length="40" name="cash_management_and_forecast_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chart of Accounts" max_length="40" name="chart_of_accounts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chart of Accounts According to Country Legislation" max_length="40" name="chart_of_accounts_according_to_country_legislation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client" max_length="40" name="client" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="40" name="company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company Code" max_length="40" name="company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company Code Variant (Screen)" max_length="40" name="company_code_variant_screen" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost of sales accounting status" max_length="40" name="cost_of_sales_accounting_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country Key" max_length="40" name="country_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Credit control area" max_length="40" name="credit_control_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Currency Key" max_length="40" name="currency_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Deferred Tax Rule" max_length="40" name="deferred_tax_rule" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Document Type for Journal Voucher (Amount Correction)" max_length="40" name="document_type_for_journal_voucher_amount_correction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Document Type for Journal Voucher (Tax Code Correction)" max_length="40" name="document_type_for_journal_voucher_tax_code_correction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Document Type for Provisions for Taxes on Services Received" max_length="40" name="document_type_for_provisions_for_taxes_on_services_received" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Document Type for Remittance Challans" max_length="40" name="document_type_for_remittance_challans" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Enable Amount Split" max_length="40" name="enable_amount_split" type="string"/>
+        <element attributes="encode_utf8=false" label="ERP Source" max_length="32" name="erp_source" reference="sn_fin_erp_source" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Field Status Variant" max_length="40" name="field_status_variant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Financial Management Area" max_length="40" name="financial_management_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fiscal Year Variant" max_length="40" name="fiscal_year_variant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foreign Currency Translation for Tax Items" max_length="40" name="foreign_currency_translation_for_tax_items" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foreign Trade: Import Data Control in MM Purchase Orders" max_length="40" name="foreign_trade_import_data_control_in_mm_purchase_orders" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foreign trade: Import data copying control for GR" max_length="40" name="foreign_trade_import_data_copying_control_for_gr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt" max_length="40" name="foreign_trade_screen_ctrl_of_imp_data_f_mm_goods_rececipt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Funds center can be assigned to an account in HR from" max_length="40" name="funds_center_can_be_assigned_to_an_account_in_hr_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Funds reservation field status var." max_length="40" name="funds_reservation_field_status_var" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L account authorization check in contracts" max_length="40" name="g_l_account_authorization_check_in_contracts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L account authorization check in inventory management" max_length="40" name="g_l_account_authorization_check_in_inventory_management" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L account authorization check in PO/scheduling agreement" max_length="40" name="g_l_account_authorization_check_in_po_scheduling_agreement" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L account authorization check in purchase requisitions" max_length="40" name="g_l_account_authorization_check_in_purchase_requisitions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="G/L account authorization check in shopping cart" max_length="40" name="g_l_account_authorization_check_in_shopping_cart" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hide Entry in Value Help" max_length="40" name="hide_entry_in_value_help" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Base amount for tax is net of discount ?" max_length="40" name="indicator_base_amount_for_tax_is_net_of_discount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Business area financial statements required?" max_length="40" name="indicator_business_area_financial_statements_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Can credit control area be overwritten?" max_length="40" name="indicator_can_credit_control_area_be_overwritten" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Cash budget management active" max_length="40" name="indicator_cash_budget_management_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Cash Management activated?" max_length="40" name="indicator_cash_management_activated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Company code is in another system" max_length="40" name="indicator_company_code_is_in_another_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Discount base amount is the net value" max_length="40" name="indicator_discount_base_amount_is_the_net_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Document date as the basis for tax determination" max_length="40" name="indicator_document_date_as_the_basis_for_tax_determination" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Extended withholding tax active" max_length="40" name="indicator_extended_withholding_tax_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Financial Assets Management active" max_length="40" name="indicator_financial_assets_management_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: hedge request active" max_length="40" name="indicator_hedge_request_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: JVA Active" max_length="40" name="indicator_jva_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Negative Postings Permitted" max_length="40" name="indicator_negative_postings_permitted" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: No ex.rate difference when clearing in local crcy" max_length="40" name="indicator_no_ex_rate_difference_when_clearing_in_local_crcy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Post translations for exchange rate differences ?" max_length="40" name="indicator_post_translations_for_exchange_rate_differences" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Productive company code?" max_length="40" name="indicator_productive_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Project Cash Management active?" max_length="40" name="indicator_project_cash_management_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Propose current date as value date ?" max_length="40" name="indicator_propose_current_date_as_value_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Propose fiscal year ?" max_length="40" name="indicator_propose_fiscal_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Purchase Account Processing is Active" max_length="40" name="indicator_purchase_account_processing_is_active" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Updating MM in Cash Mgmt/Forecast activated?" max_length="40" name="indicator_updating_mm_in_cash_mgmt_forecast_activated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indicator: Updating SD in Cash Mgmt/Forecast activated?" max_length="40" name="indicator_updating_sd_in_cash_mgmt_forecast_activated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Inflation Method" max_length="40" name="inflation_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Input Tax Code for Non-Taxable Transactions" max_length="40" name="input_tax_code_for_non_taxable_transactions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Jurisdiction for tax calculation - tax jurisdiction code" max_length="40" name="jurisdiction_for_tax_calculation_tax_jurisdiction_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language Key" max_length="40" name="language_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manage Variant of Posting Period for Company Code/Ledger" max_length="40" name="manage_variant_of_posting_period_for_company_code_ledger" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Maximum exchange rate deviation in percent" max_length="40" name="maximum_exchange_rate_deviation_in_percent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Method for offsetting account determination" max_length="40" name="method_for_offsetting_account_determination" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Company Code or Company" max_length="40" name="name_of_company_code_or_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of global company code" max_length="40" name="name_of_global_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Original Key of the Company Code" max_length="40" name="original_key_of_the_company_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Output Tax Code for Non-Taxable Transactions" max_length="40" name="output_tax_code_for_non_taxable_transactions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Posting Period Variant" max_length="40" name="posting_period_variant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Procedure for Setting the Posting Date" max_length="40" name="procedure_for_setting_the_posting_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rules for Copying from the Sample Account for G/L Accounts" max_length="40" name="rules_for_copying_from_the_sample_account_for_g_l_accounts" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sales/Purchases Tax Group" max_length="40" name="sales_purchases_tax_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Surcharge Calculation Method" max_length="40" name="surcharge_calculation_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tax Reporting Date Active in Documents" max_length="40" name="tax_reporting_date_active_in_documents" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="VAT Registration Number" max_length="40" name="vat_registration_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Workflow variant" max_length="40" name="workflow_variant" type="string"/>
         <index name="index">
             <element name="erp_source"/>
         </index>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Currencies" max_length="40" name="sn_sap_data_int_currency_stg" sizeclass="0" type="collection">
+    <element db_object_id="1f5efd79c3d1e11068187addd401314c" extends="sys_import_set_row" label="Currencies" max_length="40" name="sn_sap_data_int_currency_stg" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Alternative key for currencies" max_length="100" name="alternative_key_for_currencies" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Client" max_length="10" name="client" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Currency Key" max_length="100" name="currency_key" type="string"/>

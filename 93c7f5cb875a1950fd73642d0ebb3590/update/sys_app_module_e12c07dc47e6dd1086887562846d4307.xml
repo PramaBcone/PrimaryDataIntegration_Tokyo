@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Look up Legal Entity">e92c07dc47e6dd1086887562846d4303</application>
+        <application display_value="Legal Entity Staging">e92c07dc47e6dd1086887562846d4303</application>
         <assessment/>
         <device_type/>
         <filter/>

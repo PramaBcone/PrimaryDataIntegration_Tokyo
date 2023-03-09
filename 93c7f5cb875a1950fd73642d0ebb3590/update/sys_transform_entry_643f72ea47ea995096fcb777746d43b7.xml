@@ -5,7 +5,7 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="Primary Data Integration with SAP">531f2aaa47aa995096fcb777746d430c</map>
+        <map display_value="Transform Cost Centers">531f2aaa47aa995096fcb777746d430c</map>
         <reference_value_field/>
         <source_field>cost_center_category</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {

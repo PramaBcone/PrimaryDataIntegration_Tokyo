@@ -6,7 +6,7 @@
         <condition/>
         <description>Default access control on sn_sap_data_int_purc_grp_stg</description>
         <name>sn_sap_data_int_purc_grp_stg</name>
-        <operation display_value="Global">create</operation>
+        <operation display_value="create">create</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>bcone</sys_created_by>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_security_acl_69a598bf47f6111086887562846d43a6</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-03 01:58:41</sys_updated_on>
-        <type display_value="Global">record</type>
+        <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="check_digit_for_the_international_location_number" label="Check digit for the international location number" language="en" table="sn_sap_data_int_supplier_stg">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>check_digit_for_the_international_location_number</element>
+            <help/>
+            <hint/>
+            <label>Check digit for the international location number</label>
+            <language>en</language>
+            <name>sn_sap_data_int_supplier_stg</name>
+            <plural>Check digit for the international location numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-01 11:05:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Check digit for the international location number</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_sn_sap_data_int_supplier_stg_check_digit_for_the_international_location_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-01 11:05:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

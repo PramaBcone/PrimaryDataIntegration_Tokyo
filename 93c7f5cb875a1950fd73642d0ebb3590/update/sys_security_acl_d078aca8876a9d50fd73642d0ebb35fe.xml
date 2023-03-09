@@ -6,7 +6,7 @@
         <condition/>
         <description>Default access control on sn_sap_data_int_integrations_service</description>
         <name>sn_sap_data_int_integrations_service</name>
-        <operation display_value="Global">read</operation>
+        <operation display_value="read">read</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_security_acl_d078aca8876a9d50fd73642d0ebb35fe</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-11 14:44:52</sys_updated_on>
-        <type display_value="Global">record</type>
+        <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

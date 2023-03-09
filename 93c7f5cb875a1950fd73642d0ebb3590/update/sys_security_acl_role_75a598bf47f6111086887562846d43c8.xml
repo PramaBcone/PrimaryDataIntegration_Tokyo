@@ -9,11 +9,11 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_security_acl display_value="Primary Data Integration with SAP">21a598bf47f6111086887562846d43b9</sys_security_acl>
+        <sys_security_acl display_value="sn_sap_data_int_purc_grp_stg">21a598bf47f6111086887562846d43b9</sys_security_acl>
         <sys_update_name>sys_security_acl_role_75a598bf47f6111086887562846d43c8</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-03 01:58:42</sys_updated_on>
-        <sys_user_role display_value="Primary Data Integration with SAP" name="sn_sap_data_int.purc_grp_stg_user">49a5d4bf47f6111086887562846d43d4</sys_user_role>
+        <sys_user_role display_value="sn_sap_data_int.purc_grp_stg_user" name="sn_sap_data_int.purc_grp_stg_user">49a5d4bf47f6111086887562846d43d4</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

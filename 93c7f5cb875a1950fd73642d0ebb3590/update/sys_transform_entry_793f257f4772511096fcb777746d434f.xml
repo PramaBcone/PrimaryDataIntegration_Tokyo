@@ -5,7 +5,7 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="Primary Data Integration with SAP">78ab653b4772511096fcb777746d4320</map>
+        <map display_value="Transform Ledger Accounts">78ab653b4772511096fcb777746d4320</map>
         <reference_value_field/>
         <source_field>u_indicator_open_item_management</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {

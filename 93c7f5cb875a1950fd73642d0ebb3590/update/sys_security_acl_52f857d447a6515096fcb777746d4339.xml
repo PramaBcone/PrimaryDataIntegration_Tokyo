@@ -6,7 +6,7 @@
         <condition/>
         <description>Default access control on sn_sap_data_int_currency_stg</description>
         <name>sn_sap_data_int_currency_stg</name>
-        <operation display_value="Global">delete</operation>
+        <operation display_value="delete">delete</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>shreenag.araga</sys_created_by>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_security_acl_52f857d447a6515096fcb777746d4339</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2022-10-11 08:57:39</sys_updated_on>
-        <type display_value="Global">record</type>
+        <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

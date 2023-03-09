@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Vendors" max_length="40" name="sn_sap_data_int_supplier_stg" sizeclass="314" type="collection">
+    <element db_object_id="ef6e71b9c3d1e11068187addd40131eb" extends="sys_import_set_row" label="Vendors" max_length="40" name="sn_sap_data_int_supplier_stg" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ABC indicator" label="ABC indicator" max_length="40" name="abc_indicator" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting Clerk Abbreviation" label="Accounting Clerk Abbreviation" max_length="40" name="accounting_clerk_abbreviation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting clerk's fax number at the customer/vendor" label="Accounting clerk's fax number at the customer/vendor" max_length="40" name="accounting_clerk_s_fax_number_at_the_customer_vendor" type="string"/>
