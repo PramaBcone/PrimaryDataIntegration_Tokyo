@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sn_sap_data_int_integration_job_tracker" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_name</element>
+            <list_id display_value="sn_sap_data_int_integration_job_tracker" element="NULL" name="sn_sap_data_int_integration_job_tracker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eeeab5414726155096fcb777746d4328</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_id>b4e0b767c311a110a2d07addd40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>source</element>
+            <list_id display_value="sn_sap_data_int_integration_job_tracker" element="NULL" name="sn_sap_data_int_integration_job_tracker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eeeab5414726155096fcb777746d4328</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_id>7ce0b767c311a110a2d07addd40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_start_time</element>
+            <list_id display_value="sn_sap_data_int_integration_job_tracker" element="NULL" name="sn_sap_data_int_integration_job_tracker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eeeab5414726155096fcb777746d4328</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_id>fce0b767c311a110a2d07addd40131b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_end_time</element>
+            <list_id display_value="sn_sap_data_int_integration_job_tracker" element="NULL" name="sn_sap_data_int_integration_job_tracker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eeeab5414726155096fcb777746d4328</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_id>70e0b767c311a110a2d07addd40131b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sn_sap_data_int_integration_job_tracker" element="NULL" name="sn_sap_data_int_integration_job_tracker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eeeab5414726155096fcb777746d4328</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_id>f0e0b767c311a110a2d07addd40131b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>error_message</element>
+            <list_id display_value="sn_sap_data_int_integration_job_tracker" element="NULL" name="sn_sap_data_int_integration_job_tracker" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">eeeab5414726155096fcb777746d4328</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_id>74e0b767c311a110a2d07addd40131b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sn_sap_data_int_integration_job_tracker</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>shreenag.araga@snc</sys_created_by>
+            <sys_created_on>2023-03-07 05:55:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeeab5414726155096fcb777746d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_sap_data_int_integration_job_tracker</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_ui_list_sn_sap_data_int_integration_job_tracker_null</sys_update_name>
+            <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+            <sys_updated_on>2023-03-07 05:55:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

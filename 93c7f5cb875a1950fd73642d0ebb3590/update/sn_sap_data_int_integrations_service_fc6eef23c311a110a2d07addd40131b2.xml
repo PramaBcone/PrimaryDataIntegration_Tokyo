@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_sap_data_int_integrations_service">
+    <sn_sap_data_int_integrations_service action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <erp_source_configuration display_value="">871bc8afc39161109954f44ed401316b</erp_source_configuration>
+        <flow display_value="Fetch purchasing groups from SAP S4Hana">ce008c0947375d10f41e5d22736d43ee</flow>
+        <import_set_tables>sn_sap_data_int_purc_grp_stg</import_set_tables>
+        <name>Purchase Group</name>
+        <order>10</order>
+        <properties/>
+        <sys_class_name>sn_sap_data_int_integrations_service</sys_class_name>
+        <sys_created_by>shreenag.araga@snc</sys_created_by>
+        <sys_created_on>2023-03-07 05:44:47</sys_created_on>
+        <sys_id>fc6eef23c311a110a2d07addd40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Purchase Group</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sn_sap_data_int_integrations_service_fc6eef23c311a110a2d07addd40131b2</sys_update_name>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-03-07 05:44:47</sys_updated_on>
+    </sn_sap_data_int_integrations_service>
+</record_update>
