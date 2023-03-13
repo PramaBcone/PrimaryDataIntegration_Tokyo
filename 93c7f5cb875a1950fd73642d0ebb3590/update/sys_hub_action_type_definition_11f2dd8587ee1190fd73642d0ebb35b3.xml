@@ -19,6 +19,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
@@ -26,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>11f2dd8587ee1190fd73642d0ebb35b3</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Source Property Value</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_11f2dd8587ee1190fd73642d0ebb35b3</sys_update_name>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 11:25:58</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-03-13 07:48:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -62,10 +63,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-13 07:07:37</sys_created_on>
         <sys_id>86f211c587ee1190fd73642d0ebb353d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 09:24:34</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD31f211c58fee11906691323a3e85de06":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD31f211c58fee11906691323a3e85de06.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3d821aba-e5cf-406a-9c73-82e8f15f050d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD31f211c58fee11906691323a3e85de06\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 11:02:00</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD31f211c58fee11906691323a3e85de06":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD31f211c58fee11906691323a3e85de06.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3d821aba-e5cf-406a-9c73-82e8f15f050d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD31f211c58fee11906691323a3e85de06\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">bdf211c587ee1190fd73642d0ebb350e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=11f2dd8587ee1190fd73642d0ebb35b3"/>
@@ -123,10 +124,10 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-13 07:07:35</sys_created_on>
         <sys_id>a9f2dd8587ee1190fd73642d0ebb35e6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 11:25:48</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 11:01:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a9f2dd8587ee1190fd73642d0ebb35e6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -165,23 +166,20 @@
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-13 07:07:36</sys_created_on>
         <sys_id>bdf211c587ee1190fd73642d0ebb3501</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 11:25:48</sys_updated_on>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 11:01:59</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    if (gs.nil(inputs.properties)) {
+  
+  	if(gs.nil(inputs.properties)) {
         outputs.property_value = inputs.default_value;
         return;
     }
-
     var parsed = JSON.parse(inputs.properties);
     outputs.property_value = parsed[inputs.property_name];
-  gs.info("Get Source Property Value------- "+parsed[inputs.property_name]);
     if (gs.nil(outputs.property_value))
         outputs.property_value = inputs.default_value;
   
-  gs.info("Get Source Property Value------- "+outputs.property_value);
-
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -237,18 +235,6 @@
         <table>var__m_sys_hub_step_ext_input_a9f2dd8587ee1190fd73642d0ebb35e6</table>
         <value>{{action.property_name}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>a9f2dd8587ee1190fd73642d0ebb35e6</id>
-        <sys_created_by>Varun</sys_created_by>
-        <sys_created_on>2022-12-29 09:24:33</sys_created_on>
-        <sys_id>c7b45e3187c8ed10a3e3cbb4dabb353e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 09:24:33</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a9f2dd8587ee1190fd73642d0ebb35e6^id=a9f2dd8587ee1190fd73642d0ebb35e6"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a9f2dd8587ee1190fd73642d0ebb35e6"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=a9f2dd8587ee1190fd73642d0ebb35e6^sys_idNOT IN61f2dd8587ee1190fd73642d0ebb35f3,e1f2dd8587ee1190fd73642d0ebb35ea,e1f2dd8587ee1190fd73642d0ebb35ef"/>
@@ -283,6 +269,7 @@
         <element>default_value</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -329,6 +316,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -364,6 +352,7 @@
         <element>property_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -410,6 +399,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -445,6 +435,7 @@
         <element>properties</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -491,6 +482,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -527,6 +519,7 @@
         <element>property_value</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -573,6 +566,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -592,7 +586,7 @@
         <sys_created_on>2022-10-13 07:07:36</sys_created_on>
         <sys_id>f9f2dd8587ee1190fd73642d0ebb35fb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>property_value</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -634,6 +628,7 @@
         <element>properties</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -680,6 +675,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -716,6 +712,7 @@
         <element>property_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -762,6 +759,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -798,6 +796,7 @@
         <element>default_value</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -844,6 +843,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -882,6 +882,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -929,6 +930,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -967,6 +969,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1014,6 +1017,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1052,6 +1056,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1099,6 +1104,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1267,7 +1273,7 @@
         <sys_created_on>2022-10-13 07:07:35</sys_created_on>
         <sys_id>25f2dd8587ee1190fd73642d0ebb35e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Default Value</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1290,7 +1296,7 @@
         <sys_created_on>2022-10-13 07:07:35</sys_created_on>
         <sys_id>2df2dd8587ee1190fd73642d0ebb35df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1313,7 +1319,7 @@
         <sys_created_on>2022-10-13 07:07:35</sys_created_on>
         <sys_id>edf2dd8587ee1190fd73642d0ebb35da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Properties</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1338,7 +1344,7 @@
         <sys_created_on>2022-10-13 07:07:36</sys_created_on>
         <sys_id>3df211c587ee1190fd73642d0ebb3519</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1361,7 +1367,7 @@
         <sys_created_on>2022-10-13 07:07:36</sys_created_on>
         <sys_id>f5f211c587ee1190fd73642d0ebb3512</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1384,7 +1390,7 @@
         <sys_created_on>2022-10-13 07:07:36</sys_created_on>
         <sys_id>fdf211c587ee1190fd73642d0ebb350d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Value</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -1458,10 +1464,10 @@
         <sys_created_by>bcone</sys_created_by>
         <sys_created_on>2022-10-20 04:31:10</sys_created_on>
         <sys_id>2242bc9f47265d5096fcb777746d433a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 09:24:43</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd242bc9fb0265d50cfcd623ead99c417":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDd242bc9fb0265d50cfcd623ead99c417.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3d821aba-e5cf-406a-9c73-82e8f15f050d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd242bc9fb0265d50cfcd623ead99c417\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 11:02:28</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDd242bc9fb0265d50cfcd623ead99c417":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDd242bc9fb0265d50cfcd623ead99c417.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"3d821aba-e5cf-406a-9c73-82e8f15f050d\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd242bc9fb0265d50cfcd623ead99c417\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">1242bc9f47265d5096fcb777746d432c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1533,10 +1539,10 @@
         <sys_created_by>bcone</sys_created_by>
         <sys_created_on>2022-10-20 04:31:06</sys_created_on>
         <sys_id>35427c9f47265d5096fcb777746d43d3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 11:25:57</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 11:02:27</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=35427c9f47265d5096fcb777746d43d3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1575,23 +1581,20 @@
         <sys_created_by>bcone</sys_created_by>
         <sys_created_on>2022-10-20 04:31:08</sys_created_on>
         <sys_id>9642bc9f47265d5096fcb777746d4313</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 11:25:57</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 11:02:27</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-    if (gs.nil(inputs.properties)) {
+  
+  	if(gs.nil(inputs.properties)) {
         outputs.property_value = inputs.default_value;
         return;
     }
-
     var parsed = JSON.parse(inputs.properties);
     outputs.property_value = parsed[inputs.property_name];
-  gs.info("Get Source Property Value------- "+parsed[inputs.property_name]);
     if (gs.nil(outputs.property_value))
         outputs.property_value = inputs.default_value;
   
-  gs.info("Get Source Property Value------- "+outputs.property_value);
-
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1647,18 +1650,6 @@
         <table>var__m_sys_hub_step_ext_input_35427c9f47265d5096fcb777746d43d3</table>
         <value>{{action.property_name}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>35427c9f47265d5096fcb777746d43d3</id>
-        <sys_created_by>Varun</sys_created_by>
-        <sys_created_on>2022-12-29 09:24:43</sys_created_on>
-        <sys_id>51c49e3187c8ed10a3e3cbb4dabb3583</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-29 09:24:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_35427c9f47265d5096fcb777746d43d3^id=35427c9f47265d5096fcb777746d43d3"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=35427c9f47265d5096fcb777746d43d3"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=35427c9f47265d5096fcb777746d43d3^sys_idNOT IN4a427c9f47265d5096fcb777746d43df,8a427c9f47265d5096fcb777746d43db,bd427c9f47265d5096fcb777746d43d6"/>
@@ -1693,6 +1684,7 @@
         <element>default_value</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1739,6 +1731,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1774,6 +1767,7 @@
         <element>properties</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1820,6 +1814,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1855,6 +1850,7 @@
         <element>property_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1901,6 +1897,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1937,6 +1934,7 @@
         <element>property_value</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1983,6 +1981,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2002,7 +2001,7 @@
         <sys_created_on>2022-10-20 04:31:08</sys_created_on>
         <sys_id>c6427c9f47265d5096fcb777746d43f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>property_value</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2044,6 +2043,7 @@
         <element>properties</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2090,6 +2090,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2126,6 +2127,7 @@
         <element>property_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2172,6 +2174,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2208,6 +2211,7 @@
         <element>default_value</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2254,6 +2258,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2292,6 +2297,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2339,6 +2345,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2377,6 +2384,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2424,6 +2432,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2462,6 +2471,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2509,6 +2519,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2677,7 +2688,7 @@
         <sys_created_on>2022-10-20 04:31:06</sys_created_on>
         <sys_id>3d427c9f47265d5096fcb777746d43c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Properties</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2700,7 +2711,7 @@
         <sys_created_on>2022-10-20 04:31:06</sys_created_on>
         <sys_id>b1427c9f47265d5096fcb777746d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Default Value</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2723,7 +2734,7 @@
         <sys_created_on>2022-10-20 04:31:06</sys_created_on>
         <sys_id>b9427c9f47265d5096fcb777746d43cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2748,7 +2759,7 @@
         <sys_created_on>2022-10-20 04:31:09</sys_created_on>
         <sys_id>5242bc9f47265d5096fcb777746d432b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Property Value</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2771,7 +2782,7 @@
         <sys_created_on>2022-10-20 04:31:09</sys_created_on>
         <sys_id>6a42bc9f47265d5096fcb777746d4336</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2794,7 +2805,7 @@
         <sys_created_on>2022-10-20 04:31:09</sys_created_on>
         <sys_id>da42bc9f47265d5096fcb777746d432f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
@@ -2808,6 +2819,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>11f2dd8587ee1190fd73642d0ebb35b3</sys_id>
         <latest_snapshot>e9427c9f47265d5096fcb777746d43bd</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9-11-10-2022_11-23-2022_1843.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
