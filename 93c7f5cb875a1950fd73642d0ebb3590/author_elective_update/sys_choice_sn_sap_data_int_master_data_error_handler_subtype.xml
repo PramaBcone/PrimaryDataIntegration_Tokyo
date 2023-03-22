@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subtype" table="sn_sap_data_int_master_data_error_handler" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subtype</element>
+            <name>sn_sap_data_int_master_data_error_handler</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2023-03-15 14:26:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subtype</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_choice_sn_sap_data_int_master_data_error_handler_subtype</sys_update_name>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2023-03-15 14:26:52</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>sn_sap_data_int_master_data_error_handler</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2023-03-15 14:26:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66a2325ac3ede9104dcc9d777d0131b5</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2023-03-15 14:33:30</sys_updated_on>
+            <value>general</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Location</label>
+            <language>en</language>
+            <name>sn_sap_data_int_master_data_error_handler</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2023-03-15 14:28:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b403b65ac3ede9104dcc9d777d01319a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2023-03-15 14:33:37</sys_updated_on>
+            <value>location</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal Entity</label>
+            <language>en</language>
+            <name>sn_sap_data_int_master_data_error_handler</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2023-03-15 14:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54c2b25ac3ede9104dcc9d777d013179</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2023-03-15 14:33:43</sys_updated_on>
+            <value>legal_entity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bank Detail</label>
+            <language>en</language>
+            <name>sn_sap_data_int_master_data_error_handler</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>Prama</sys_created_by>
+            <sys_created_on>2023-03-15 14:27:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25e2b25ac3ede9104dcc9d777d01317b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Prama</sys_updated_by>
+            <sys_updated_on>2023-03-15 14:33:48</sys_updated_on>
+            <value>bank_detail</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
