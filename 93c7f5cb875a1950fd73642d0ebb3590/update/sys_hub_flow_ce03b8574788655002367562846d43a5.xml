@@ -15,6 +15,7 @@
         <name>Parallel Subflow Child GL Text Data</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -35,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_ce03b8574788655002367562846d43a5</sys_update_name>
-        <sys_updated_by>shreenag.araga</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:36:03</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-03-23 11:58:48</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ce03b8574788655002367562846d43a5"/>
@@ -89,6 +90,7 @@
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -135,6 +137,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -170,6 +173,7 @@
         <element>erp_source_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -216,6 +220,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -251,6 +256,7 @@
         <element>range</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -297,6 +303,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -332,6 +339,7 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -378,6 +386,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -414,6 +423,7 @@
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -460,6 +470,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -495,6 +506,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -541,6 +553,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -561,10 +574,10 @@
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:41</sys_created_on>
         <sys_id>2303f8574788655002367562846d43a8</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>655df318-f05b-47fd-bb57-11436e95c9a5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2303f8574788655002367562846d43a8"/>
@@ -649,10 +662,10 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-16 14:04:58</sys_created_on>
         <sys_id>428100bb8758211063060e94dabb351c</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>15d28e1b-b898-4145-b885-643ce179f415</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=428100bb8758211063060e94dabb351c"/>
@@ -723,10 +736,10 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:42</sys_created_on>
         <sys_id>7f03f8574788655002367562846d43c6</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>8e520685-eb91-475d-aa3d-159d0b613162</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7f03f8574788655002367562846d43c6"/>
@@ -825,10 +838,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:39</sys_created_on>
         <sys_id>8b03f8574788655002367562846d4344</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:51</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:49</sys_updated_on>
         <ui_id>5997cd25-219c-4e40-9395-d6311be835e9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8b03f8574788655002367562846d4344"/>
@@ -875,10 +888,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:57:16</sys_created_on>
         <sys_id>9b2efc1347c8655002367562846d43a5</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:51</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>474468c3-045f-44ad-b53b-28b069a77f38</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9b2efc1347c8655002367562846d43a5"/>
@@ -923,10 +936,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:42</sys_created_on>
         <sys_id>bb03f8574788655002367562846d43c0</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>892991b2-a257-4227-a235-6c9e58180a18</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb03f8574788655002367562846d43c0"/>
@@ -1024,10 +1037,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:39</sys_created_on>
         <sys_id>cb03f8574788655002367562846d4362</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:51</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:49</sys_updated_on>
         <ui_id>71f28c61-3094-43ad-ae84-f156fbde8dd1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cb03f8574788655002367562846d4362"/>
@@ -1052,11 +1065,11 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:39</sys_created_on>
         <sys_id>8f03f8574788655002367562846d4363</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:06:19</sys_updated_on>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:49</sys_updated_on>
         <table>var__m_sys_hub_action_input_867bd788872f111013ef52c73cbb358a</table>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d":{"$COCollectionField":[{"IT_OPTIONS":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].TEXT\\\":\\\"{{flow_variable.query}}\\\"}\",\"default_value\":\"\",\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"}},"complexObject":{"name$":"FD8a7bd788642f1110d63dd462b95e818d","$COCollectionField":[{"TEXT":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"serializationFormat":"JSON"}</value>
+        <value>{"version":"1.0","complexObject":{"name$":"FD8a7bd788642f1110d63dd462b95e818d","$COCollectionField":[{"TEXT":{"$cv":{"$c":"java.lang.String","$v":""}}}]},"complexObjectSchema":{"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d":{"$COCollectionField":[{"IT_OPTIONS":{"TEXT":"String","TEXT.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"[0].TEXT\\\":\\\"{{flow_variable.query}}\\\"}\",\"default_value\":\"\",\"label\":\"TEXT/Query\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8a7bd788642f1110d63dd462b95e818d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"IT Options\",\"mandatory\":\"false\",\"child_name\":\"IT_OPTIONS\",\"uiUniqueId\":\"630a182b-3501-44a2-b6da-d4676334ed40\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8a7bd788642f1110d63dd462b95e818d\",\"child_label\":\"IT OPTIONS\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"970571d2-48b3-4487-999b-fdf2d581f443\"}"}},"serializationFormat":"JSON"}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cb03f8574788655002367562846d4362"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cb03f8574788655002367562846d4362"/>
@@ -1074,10 +1087,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:40</sys_created_on>
         <sys_id>db03f8574788655002367562846d437c</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:51</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:49</sys_updated_on>
         <ui_id>6e20a3a7-09e6-4fe2-8ffa-06b5aa4bac5a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=db03f8574788655002367562846d437c"/>
@@ -1200,10 +1213,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:08:42</sys_created_on>
         <sys_id>e703f8574788655002367562846d43ba</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:52</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>ee98e3ba-b0e2-4d64-a9a7-2b88aea5e186</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e703f8574788655002367562846d43ba"/>
@@ -1301,10 +1314,10 @@ INCREASE COMPLETE COUNT</value>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-16 14:04:58</sys_created_on>
         <sys_id>f58100bb8758211063060e94dabb3502</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-18 19:07:51</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:02:50</sys_updated_on>
         <ui_id>c301cd99-6449-4998-b875-f864a2b2ab80</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f58100bb8758211063060e94dabb3502"/>
@@ -2123,6 +2136,7 @@ INCREASE COMPLETE COUNT</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2169,6 +2183,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2204,6 +2219,7 @@ INCREASE COMPLETE COUNT</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2250,6 +2266,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2285,6 +2302,7 @@ INCREASE COMPLETE COUNT</value>
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2331,6 +2349,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2366,6 +2385,7 @@ INCREASE COMPLETE COUNT</value>
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2412,6 +2432,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2447,6 +2468,7 @@ INCREASE COMPLETE COUNT</value>
         <element>staging_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2493,6 +2515,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2528,6 +2551,7 @@ INCREASE COMPLETE COUNT</value>
         <element>helper</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2574,6 +2598,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2596,7 +2621,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ce03b8574788655002367562846d43a5_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:08:37</sys_updated_on>
         <url/>
@@ -2619,7 +2644,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ce03b8574788655002367562846d43a5_range_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:08:37</sys_updated_on>
         <url/>
@@ -2642,7 +2667,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ce03b8574788655002367562846d43a5_row_count_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:08:37</sys_updated_on>
         <url/>
@@ -2665,7 +2690,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ce03b8574788655002367562846d43a5_erp_source_id_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:08:37</sys_updated_on>
         <url/>
@@ -2765,9 +2790,9 @@ INCREASE COMPLETE COUNT</value>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ce03b8574788655002367562846d43a5"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ce03b8574788655002367562846d43a5^sys_idNOT INe6ae3c5347c8655002367562846d4301"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@100a69a</plan>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e6ae3c5347c8655002367562846d4301","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Parallel Subflow Child GL Text Data">ce03b8574788655002367562846d43a5</plan_id>
-        <snapshot>f39e785347c8655002367562846d435b</snapshot>
+        <snapshot>784db39dc39da510c59b772ce00131ed</snapshot>
         <sys_created_by>shreenag.araga</sys_created_by>
         <sys_created_on>2023-01-02 18:59:25</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -2868,6 +2893,7 @@ INCREASE COMPLETE COUNT</value>
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2914,6 +2940,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2949,6 +2976,7 @@ INCREASE COMPLETE COUNT</value>
         <element>range</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2995,6 +3023,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3030,6 +3059,7 @@ INCREASE COMPLETE COUNT</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3076,6 +3106,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3111,6 +3142,7 @@ INCREASE COMPLETE COUNT</value>
         <element>erp_source_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3157,6 +3189,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3193,6 +3226,7 @@ INCREASE COMPLETE COUNT</value>
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3239,6 +3273,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3274,6 +3309,7 @@ INCREASE COMPLETE COUNT</value>
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3320,6 +3356,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4902,6 +4939,7 @@ INCREASE COMPLETE COUNT</value>
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4948,6 +4986,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4983,6 +5022,7 @@ INCREASE COMPLETE COUNT</value>
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5029,6 +5069,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5064,6 +5105,7 @@ INCREASE COMPLETE COUNT</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5110,6 +5152,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5145,6 +5188,7 @@ INCREASE COMPLETE COUNT</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5191,6 +5235,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5226,6 +5271,7 @@ INCREASE COMPLETE COUNT</value>
         <element>staging_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5272,6 +5318,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5307,6 +5354,7 @@ INCREASE COMPLETE COUNT</value>
         <element>helper</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5353,6 +5401,7 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5375,7 +5424,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f39e785347c8655002367562846d435b_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:59:15</sys_updated_on>
         <url/>
@@ -5398,7 +5447,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f39e785347c8655002367562846d435b_range_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:59:16</sys_updated_on>
         <url/>
@@ -5421,7 +5470,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f39e785347c8655002367562846d435b_erp_source_id_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:59:16</sys_updated_on>
         <url/>
@@ -5444,7 +5493,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f39e785347c8655002367562846d435b_row_count_en</sys_update_name>
         <sys_updated_by>shreenag.araga</sys_updated_by>
         <sys_updated_on>2023-01-02 18:59:15</sys_updated_on>
         <url/>
@@ -5544,6 +5593,6 @@ INCREASE COMPLETE COUNT</value>
     <sys_hub_flow action="UPDATE">
         <sys_id>ce03b8574788655002367562846d43a5</sys_id>
         <latest_snapshot>f39e785347c8655002367562846d435b</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
