@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" extends="sys_metadata" label="Integration Source" max_length="40" name="sn_sap_data_int_integrations_source" sizeclass="14" type="collection">
+    <element attributes="update_synch=true" db_object_id="725efd79c3d1e11068187addd401311d" extends="sys_metadata" label="Integration Source" max_length="40" name="sn_sap_data_int_integrations_source" type="collection">
         <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Connection" mandatory="true" max_length="4000" name="connection" reference="sys_alias" type="glide_list"/>
-        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Properties" max_length="4000" name="properties" type="simple_name_values"/>
     </element>
 </database>

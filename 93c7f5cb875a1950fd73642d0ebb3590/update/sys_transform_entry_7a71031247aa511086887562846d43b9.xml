@@ -5,7 +5,7 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="Primary Data Integration with SAP">ef3e76de476a511086887562846d43ea</map>
+        <map display_value="Transform FX Rates">ef3e76de476a511086887562846d43ea</map>
         <reference_value_field/>
         <source_field>from_currency</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {

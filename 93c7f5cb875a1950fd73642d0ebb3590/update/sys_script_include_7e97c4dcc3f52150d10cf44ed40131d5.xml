@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_sap_data_int.MasterDataUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Use this for Client UI Actions</description>
+        <name>MasterDataUtils</name>
+        <script><![CDATA[var MasterDataUtils = Class.create();
+MasterDataUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	callRunFailedMasters : function (){
+		var sysIdList = this.getParameter('sysparm_sysid_list');
+		try {
+			var inputs = {};
+			inputs['Master_IDs'] = []; 
+			var gr = new GlideRecord('sn_sap_data_int_master_data_error_handler');
+			gr.addQuery('sys_id', 'IN' , sysIdList);
+			gr.orderByDesc('number');
+			gr.query();
+			while(gr.next()){
+				var temp = gr.sys_id;
+				inputs['Master_IDs'].push(temp.toString());
+			}
+			var result = sn_fd.FlowAPI.getRunner().subflow('sn_sap_data_int.run_failed_masters').inBackground().withInputs(inputs).run();
+			return "Executions are running in background, please check the flow context executions for more information";
+		} catch (ex) {
+			var message = ex.getMessage();
+			return message;
+		}	
+	},
+
+	type: 'MasterDataUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-03-21 07:22:10</sys_created_on>
+        <sys_id>7e97c4dcc3f52150d10cf44ed40131d5</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>MasterDataUtils</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_script_include_7e97c4dcc3f52150d10cf44ed40131d5</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-03-21 11:54:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

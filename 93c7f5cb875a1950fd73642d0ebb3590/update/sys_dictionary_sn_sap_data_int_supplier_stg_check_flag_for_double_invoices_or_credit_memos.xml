@@ -2,7 +2,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="check_flag_for_double_invoices_or_credit_memos" table="sn_sap_data_int_supplier_stg">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true,import_attribute_name=Check Flag for Double Invoices or Credit Memos</attributes>
         <audit>false</audit>
         <calculation/>
@@ -25,6 +24,7 @@
         <element>check_flag_for_double_invoices_or_credit_memos</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
@@ -42,21 +42,18 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2022-12-02 11:45:28</sys_created_on>
-        <sys_id>d6cc1014879821108dd710683cbb3556</sys_id>
-        <sys_mod_count>2</sys_mod_count>
         <sys_name>Check Flag for Double Invoices or Credit Memos</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_dictionary_sn_sap_data_int_supplier_stg_check_flag_for_double_invoices_or_credit_memos</sys_update_name>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-01-25 04:49:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 11:06:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -64,6 +61,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

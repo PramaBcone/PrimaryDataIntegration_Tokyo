@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Vendors" max_length="40" name="sn_sap_data_int_supplier_stg" sizeclass="314" type="collection">
+    <element db_object_id="ef6e71b9c3d1e11068187addd40131eb" extends="sys_import_set_row" label="Vendors" max_length="40" name="sn_sap_data_int_supplier_stg" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=ABC indicator" label="ABC indicator" max_length="40" name="abc_indicator" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting Clerk Abbreviation" label="Accounting Clerk Abbreviation" max_length="40" name="accounting_clerk_abbreviation" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting clerk's fax number at the customer/vendor" label="Accounting clerk's fax number at the customer/vendor" max_length="40" name="accounting_clerk_s_fax_number_at_the_customer_vendor" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Accounting clerk's telephone number at business partner" label="Accounting clerk's telephone number at business partner" max_length="40" name="accounting_clerk_s_telephone_number_at_business_partner" type="string"/>
+        <element label="Account Holder" max_length="40" name="account_holder" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Number of Master Record of Tax Office Responsible" label="Account Number of Master Record of Tax Office Responsible" max_length="40" name="account_number_of_master_record_of_tax_office_responsible" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Number of the Alternative Payee" label="Account Number of the Alternative Payee" max_length="40" name="account_number_of_the_alternative_payee" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Account number of the alternative payee (FM)" label="Account number of the alternative payee (FM)" max_length="40" name="account_number_of_the_alternative_payee_fm" type="string"/>
@@ -25,6 +26,11 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Automatic evaluated receipt settlement for return items" label="Automatic evaluated receipt settlement for return items" max_length="40" name="automatic_evaluated_receipt_settlement_for_return_items" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Automatic Generation of Purchase Order Allowed" label="Automatic Generation of Purchase Order Allowed" max_length="40" name="automatic_generation_of_purchase_order_allowed" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Average daily basis points for purchase cards" label="Average daily basis points for purchase cards" max_length="40" name="average_daily_basis_points_for_purchase_cards" type="string"/>
+        <element label="Bank Account" max_length="40" name="bank_account" type="string"/>
+        <element label="Bank Control Key" max_length="4" name="bank_control_key" type="string"/>
+        <element label="Bank Country" max_length="40" name="bank_country" type="string"/>
+        <element label="Bank Key" max_length="40" name="bank_key" type="string"/>
+        <element label="Bank Name" max_length="40" name="bank_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Bill of exchange limit (in local currency)" label="Bill of exchange limit (in local currency)" max_length="40" name="bill_of_exchange_limit_in_local_currency" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Block Key for Payment" label="Block Key for Payment" max_length="40" name="block_key_for_payment" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Business Purpose Completed Flag" label="Business Purpose Completed Flag" max_length="40" name="business_purpose_completed_flag" type="string"/>
@@ -48,6 +54,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Client (EP)" label="Client (EP)" max_length="40" name="client_ep" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Client (HX)" label="Client (HX)" max_length="40" name="client_hx" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=CNAE" label="CNAE" max_length="40" name="cnae" type="string"/>
+        <element label="Collection Authorization" max_length="40" name="collection_authorization" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Company Code" label="Company Code" max_length="40" name="company_code" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Company ID of trading partner" label="Company ID of trading partner" max_length="40" name="company_id_of_trading_partner" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Company Size" label="Company Size" max_length="40" name="company_size" type="string"/>
@@ -133,6 +140,9 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Instruction key for data medium exchange" label="Instruction key for data medium exchange" max_length="40" name="instruction_key_for_data_medium_exchange" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Interest Calculation Frequency in Months" label="Interest Calculation Frequency in Months" max_length="40" name="interest_calculation_frequency_in_months" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Interest calculation indicator" label="Interest calculation indicator" max_length="40" name="interest_calculation_indicator" type="string"/>
+        <element label="International Bank Account Number" max_length="40" name="international_bank_account_number" type="string"/>
+        <element label="International Bank Country Key" max_length="40" name="international_bank_country_key" type="string"/>
+        <element label="International Bank Key" max_length="40" name="international_bank_key" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=International location number  (part 1)" label="International location number  (part 1)" max_length="40" name="international_location_number_part_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=International location number (Part 2)" label="International location number (Part 2)" max_length="40" name="international_location_number_part_2" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Internet address of partner company clerk" label="Internet address of partner company clerk" max_length="40" name="internet_address_of_partner_company_clerk" type="string"/>
@@ -177,6 +187,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Order entry by vendor" label="Order entry by vendor" max_length="40" name="order_entry_by_vendor" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Our account number with the vendor" label="Our account number with the vendor" max_length="40" name="our_account_number_with_the_vendor" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Our account number with the vendor (JR)" label="Our account number with the vendor (JR)" max_length="40" name="our_account_number_with_the_vendor_jr" type="string"/>
+        <element label="Part Bank Type" max_length="40" name="part_bank_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Payment Block" label="Payment Block" max_length="40" name="payment_block" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Payment method supplement" label="Payment method supplement" max_length="40" name="payment_method_supplement" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Payment Office" label="Payment Office" max_length="40" name="payment_office" type="string"/>
@@ -214,6 +225,7 @@
         <element attributes="edge_encryption_enabled=true" label="Reconciliation Account in General Ledger" max_length="120" name="reconciliation_account_in_general_ledger" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Reconciliation Account in General Ledger" label="Reconciliation Account in General Ledger" max_length="40" name="reconciliation_account_in_general_ledger_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Reference Account Group for One-Time Account (Vendor)" label="Reference Account Group for One-Time Account (Vendor)" max_length="40" name="reference_account_group_for_one_time_account_vendor" type="string"/>
+        <element label="Reference Details" max_length="40" name="reference_details" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Region (State, Province, County)" max_length="120" name="region_state_province_county" type="string"/>
         <element attributes="County)=true,Province=true,edge_encryption_enabled=true,import_attribute_name=Region (State" label="Region (State, Province, County)" max_length="40" name="region_state_province_county_1" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Registered for Social Insurance" label="Registered for Social Insurance" max_length="40" name="registered_for_social_insurance" type="string"/>
@@ -251,6 +263,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Subcontractor Type" label="Subcontractor Type" max_length="40" name="subcontractor_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Subledger acct preprocessing procedure" label="Subledger acct preprocessing procedure" max_length="40" name="subledger_acct_preprocessing_procedure" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Subsidy Indicator for Determining the Reduction Rates" label="Subsidy Indicator for Determining the Reduction Rates" max_length="40" name="subsidy_indicator_for_determining_the_reduction_rates" type="string"/>
+        <element label="SWIFT/BIC for International Payment" max_length="40" name="swift_bic_for_international_payment" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Base in Percentage" label="Tax Base in Percentage" max_length="40" name="tax_base_in_percentage" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Declaration Type" label="Tax Declaration Type" max_length="40" name="tax_declaration_type" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Jurisdiction" label="Tax Jurisdiction" max_length="40" name="tax_jurisdiction" type="string"/>
@@ -286,6 +299,8 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Title (EG)" label="Title (EG)" max_length="40" name="u_title_eg" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Validity date for withholding tax exemption certificate" label="Validity date for withholding tax exemption certificate" max_length="40" name="validity_date_for_withholding_tax_exemption_certificate" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Validity date of certification" label="Validity date of certification" max_length="40" name="validity_date_of_certification" type="string"/>
+        <element label="Valid from" max_length="40" name="valid_from" type="string"/>
+        <element label="Valid to" max_length="40" name="valid_to" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=VAS Determination Mode" label="VAS Determination Mode" max_length="40" name="vas_determination_mode" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=VAT Registration Number" label="VAT Registration Number" max_length="40" name="vat_registration_number" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor account group" label="Vendor account group" max_length="40" name="vendor_account_group" type="string"/>

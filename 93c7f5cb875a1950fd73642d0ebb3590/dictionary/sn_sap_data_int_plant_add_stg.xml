@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Plant Address" max_length="40" name="sn_sap_data_int_plant_add_stg" sizeclass="0" type="collection">
+    <element db_object_id="996e31b9c3d1e11068187addd4013174" extends="sys_import_set_row" label="Plant Address" max_length="40" name="sn_sap_data_int_plant_add_stg" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Activating requirements planning" max_length="1" name="u_activating_requirements_planning" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="10" name="u_address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label=" Batch Record: Type of DMS Used" max_length="1" name="u_batch_record_type_of_dms_used" type="string"/>

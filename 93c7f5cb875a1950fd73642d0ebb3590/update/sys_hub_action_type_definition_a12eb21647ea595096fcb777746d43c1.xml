@@ -34,8 +34,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a12eb21647ea595096fcb777746d43c1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-03 13:45:39</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-03-23 12:21:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2861,6 +2861,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>a12eb21647ea595096fcb777746d43c1</sys_id>
         <latest_snapshot>5612c71a47ea595096fcb777746d4379</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

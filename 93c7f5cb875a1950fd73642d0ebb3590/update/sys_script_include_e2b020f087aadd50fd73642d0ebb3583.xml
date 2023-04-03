@@ -3,14 +3,14 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>sn_sap_data_int. IntegrationsUtilsSNC</api_name>
-        <caller_access/>
+        <caller_access>2</caller_access>
         <client_callable>false</client_callable>
-        <description>Utility Functions</description>
+        <description/>
         <name> IntegrationsUtilsSNC</name>
         <script><![CDATA[var IntegrationsUtilsSNC = Class.create();
 IntegrationsUtilsSNC.prototype = {
-    initialize: function() {},   
-
+    initialize: function() {},
+ 
     createJobTracker: function(source, jobName) {
         var trackerGr = new GlideRecord('sn_sap_data_int_integration_job_tracker');
         trackerGr.job_name = jobName;
@@ -25,7 +25,6 @@ IntegrationsUtilsSNC.prototype = {
         serviceTrackerGr.integration_service = service;
         serviceTrackerGr.integrations_job_tracker = jobId;
         serviceTrackerGr.state = 'pending';
-        //serviceTrackerGr.last_run_date=this.getLastSuccessfulServiceRunDate(service);
         serviceTrackerGr.insert();
     },
 
@@ -47,12 +46,7 @@ IntegrationsUtilsSNC.prototype = {
         serviceTrackerGr.query();
         if (!serviceTrackerGr.next())
             return '';
-        var jobTrackerGr = new GlideRecord('sn_sap_data_int_integration_job_tracker');
-        jobTrackerGr.get(serviceTrackerGr.integrations_job_tracker);
-        jobTrackerGr.query();
-        if (!jobTrackerGr.next())
-            return '';
-        return jobTrackerGr.getDisplayValue('job_start_time');
+        return serviceTrackerGr.getDisplayValue('integrations_job_tracker.job_start_time') ;
     },
 
     transformImportSet: function(importSetId) {
@@ -60,25 +54,26 @@ IntegrationsUtilsSNC.prototype = {
         importSetGr.addQuery("sys_id", importSetId);
         importSetGr.query();
         if (importSetGr.next()) {
-            gs.info("inside  IntegrationsUtilsSNC 5 " + importSetGr.getValue('sys_id'));
+            var importSetRun = new GlideImportSetRun(importSetId);
+            var importLog = new GlideImportLog(importSetRun, "Integrations Transform");
+            var transformer = new GlideImportSetTransformer();
+            transformer.setLogger(importLog);
+            transformer.setImportSetRun(importSetRun);
+            transformer.setSyncImport(true);
+            transformer.setImportSetID(importSetId);
+            transformer.transformAllMaps(importSetGr);
         }
-        var importSetRun = new GlideImportSetRun(importSetId);
-        var importLog = new GlideImportLog(importSetRun, "Integrations Transform");
-        var transformer = new GlideImportSetTransformer();
-        transformer.setLogger(importLog);
-        transformer.setImportSetRun(importSetRun);
-        transformer.setSyncImport(true);
-        transformer.setImportSetID(importSetId);
-        transformer.transformAllMaps(importSetGr);
     },
 
     isFullPull: function(fullPull, modifiedDate) {
         var propertyValue = 'true';
-        if (!gs.nil(fullPull) && propertyValue == fullPull.toLowerCase())
+        if (!gs.nil(fullPull) && propertyValue == fullPull.toLowerCase()) {
             return true;
-        if (gs.nil(modifiedDate))
+        } else if (gs.nil(modifiedDate)) {
             return true;
-        return false;
+        } else {
+            return false;
+        }
     },
 
     getPulledTodo: function(todoID) {
@@ -94,22 +89,26 @@ IntegrationsUtilsSNC.prototype = {
             todoObj.url = pullGr.getValue("todo_url");
             todoObj.finished = (pullGr.getValue("todo_state") == 3);
         }
+
         return todoObj;
     },
 
     isNotRunning: function(source) {
-        gs.info("inside sncUtils isNotRunning sysid " + source);
-        var job = new GlideRecord('sn_sap_data_int_integration_job_tracker');
-        job.addQuery('state', 'running');
-        job.addEncodedQuery('source.sys_id=' + source);
-        job.orderByDesc('job_start_time');
-        job.query();
+        if (!gs.nil(source)) {
+            var job = new GlideAggregate('sn_sap_data_int_integration_job_tracker');
+            job.addQuery('state', 'running').addOrCondition('state', 'hold');
+            job.addEncodedQuery('source.sys_id=' + source);
+            job.orderByDesc('job_start_time');
+            job.query();
 
-        if (!job.next()) {
-            gs.info("inside sncUtils isNotRunning  returning true");
-            return true;
+            if (!job.next()) {
+                return true;
+            }
+            return false;
+
+        } else {
+            throw ("Source is Empty, Please try again");
         }
-        return false;
     },
 
     getTransformHelper: function(sourceRecord, extensionName) {
@@ -132,51 +131,43 @@ IntegrationsUtilsSNC.prototype = {
         }
     },
 
-    parseExecuteRFC: function(rfcJson, deli) {
-        var count, actualCount;
-        var jsonOut1 = rfcJson;
-        deli = deli.toString().trim();
-        var jsonOut2 = jsonOut1.IT_DATA;
-        var json_final = [];
-
-        var jsonOut3 = jsonOut1.IT_DATA;
-        count = jsonOut3[0];
-        actualCount = (count.WA).split(":")[1];
-
-        var total_rows = actualCount;
-
-        for (var i = 1; i < jsonOut2.length; i++) {
-            var json_array = [];
-            for (var z = 0; z < Object.keys(jsonOut2[i]).length; z++) {
-                var y = '';
-                if (z == 0)
-                    y = "WA";
-                else
-                    y = "WA" + z;
-                if (gs.nil(JSON.stringify(jsonOut2[i][y])) || JSON.stringify(jsonOut2[i][y]) == 'null') {
-                    break;
+    parseExecuteRFC: function(inputJsonReponse, inputDelimiter) {
+        if (Object.keys(inputJsonReponse).length == 0) {
+            throw new Error("Null Json passed.");
+        } else {
+            var responseCountObject, inputJsonCount;
+            inputDelimiter = inputDelimiter.toString().trim();
+            var inputData = inputJsonReponse.IT_DATA;
+            var responseJsonList = [];
+            responseCountObject = inputData[0];
+            inputJsonCount = (responseCountObject.WA).split(":")[1];
+            for (var iterator = 1; iterator < inputData.length; iterator++) {
+                var tempJson = [];
+                for (var loopingIterator = 0; loopingIterator < Object.keys(inputData[iterator]).length; loopingIterator++) {
+                    var parentKey = '';
+                    if (loopingIterator == 0) parentKey = "WA";
+                    else parentKey = "WA" + loopingIterator;
+                    if (gs.nil(JSON.stringify(inputData[iterator][parentKey])) || JSON.stringify(inputData[iterator][parentKey]) == 'null') {
+                        break;
+                    }
+                    var tempKeyValues = JSON.parse(JSON.stringify(inputData[iterator][parentKey])).toString().split(inputDelimiter);
+                    var tempArray = {};
+                    for (var tempArrayIterator = 0; tempArrayIterator < tempKeyValues.length; tempArrayIterator++) {
+                        var keyValuePair = tempKeyValues[tempArrayIterator];
+                        tempArray[(keyValuePair.split(":")[0])] = (keyValuePair.split(":")[1]);
+                        tempArray = this.trimInputs(tempArray);
+                    }
+                    if (!Object.keys(tempArray).length == 0) {
+                        tempJson.push(JSON.stringify(tempArray));
+                    }
                 }
-                var colJson = JSON.parse(JSON.stringify(jsonOut2[i][y]));
-                var colsString = colJson.toString();
-                var colsArray = colsString.split(deli);
-                var Json_array_obj = {};
-
-                for (var j = 0; j < colsArray.length; j++) {
-                    var keyValuePair = colsArray[j];
-                    Json_array_obj[(keyValuePair.split(":")[0])] = (keyValuePair.split(":")[1]);
-                    Json_array_obj = this.trimInputs(Json_array_obj);
-                }
-
-                if (!Object.keys(Json_array_obj).length == 0) {
-                    json_array.push(JSON.stringify(Json_array_obj));
-                }
+                responseJsonList.push(tempJson.join("").replace(/{}/g, "").replace(/}{/g, ","));
             }
-            json_final.push(json_array.join("").replace(/{}/g, "").replace(/}{/g, ","));
+            var returnArray = {};
+            returnArray["JSONOBJECT"] = (this.seggregateArr(responseJsonList));
+            returnArray["ROWCOUNT"] = inputJsonCount;
+            return returnArray;
         }
-        var returnArray = {};
-        returnArray["JSONOBJECT"] = (this.seggregateArr(json_final));
-        returnArray["ROWCOUNT"] = total_rows;
-        return returnArray;
     },
 
     trimInputs: function(inputs) {
@@ -206,7 +197,17 @@ IntegrationsUtilsSNC.prototype = {
         return location_name;
     },
 
-    updateLocation: function(location_id, location_details) {
+   checkForSupplierLocation: function(supplierID){
+		var gr_supp = new GlideAggregate('sn_supplier_m2m_location');
+		gr_supp.addQuery('supplier', supplierID);
+		gr_supp.query();
+		if (gr_supp.next())
+			return true;
+		else 
+			return false;
+	},
+	
+	updateLocation: function(location_id, location_details) {
         var gr_loc = new GlideRecord('cmn_location');
         gr_loc.addQuery('sys_id', location_id);
         gr_loc.query();
@@ -222,58 +223,49 @@ IntegrationsUtilsSNC.prototype = {
             gr_loc.update();
         }
     },
-
-    createLocation: function(supLocSysId, location_details, supplierErp) {
-        var findLocation = new IntegrationsUtils()._checkForLocation(location_details);
-        if (!gs.nil(findLocation)) {
-            new IntegrationsUtils().updateLocation(findLocation, location_details);
-        } else {
-            var loc = new GlideRecord('cmn_location');
-            loc.initialize();
-            loc.street = location_details.street;
-            loc.city = location_details.city;
-            loc.state = location_details.state;
-            loc.zip = location_details.zip;
-            loc.country = location_details.country;
-            loc.name = location_details.name;
-            loc.fax_phone = location_details.fax_phone;
-            loc.phone = location_details.phone;
-            loc.insert();
-            var locSysId = loc.getUniqueValue();
-            if (!gs.nil(locSysId)) { //updating
-                var supp_loc = new GlideRecord('sn_supplier_m2m_location');
-                supp_loc.initialize();
-                supp_loc.location = locSysId;
-                supp_loc.supplier = supLocSysId;
-                supp_loc.external_unique_id = supplierErp;
-                supp_loc.insert();
-            }
-        }
-    },
-
-    checkForSupplierLocation: function(supplierErp) {
-        var gr_supp = new GlideRecord('sn_supplier_m2m_location');
-        gr_supp.addQuery('external_unique_id', supplierErp);
-        gr_supp.query();
-        if (gr_supp.next()) {
-            return gr_supp.location;
-        } else {
-            return "";
-        }
-    },
-
-    _checkForLocation: function(location_details) {
-        var gr_location = new GlideRecord('cmn_location');
-        gr_location.addQuery('street', location_details.street);
-        gr_location.addQuery('city', location_details.city);
-        gr_location.addQuery('state', location_details.state);
-        gr_location.addQuery('zip', location_details.zip);
-        gr_location.addQuery('country', location_details.country);
-        gr_location.query();
-        if (gr_location.next()) {
-            return gr_location.getUniqueValue();
-        }
-    },
+	
+	getLocationID: function(location_details){
+		var gr_location = new GlideAggregate('cmn_location');
+		gr_location.addQuery('street', location_details.street);
+		gr_location.addQuery('city', location_details.city);
+		gr_location.addQuery('state', location_details.state);
+		gr_location.addQuery('zip', location_details.zip);
+		gr_location.addQuery('country', location_details.country);
+		gr_location.query();
+		if (gr_location.next()) {
+			return gr_location.getUniqueValue();
+		} else {
+			return null;
+		}
+	},
+	
+	createLocation: function(location_details){
+		var loc = new GlideRecord('cmn_location');
+		loc.initialize();
+		loc.street = location_details.street;
+		loc.city = location_details.city;
+		loc.state = location_details.state;
+		loc.zip = location_details.zip;
+		loc.country = location_details.country;
+		loc.name = location_details.name;
+		loc.fax_phone = location_details.fax_phone;
+		loc.phone = location_details.phone;
+		loc.insert();
+		return loc;
+	},
+	
+	createSupplierLocation: function(supSysId, locSysId) {
+		if (!gs.nil(locSysId) || !gs.nil(supSysId)) {
+			var supp_loc = new GlideRecord('sn_supplier_m2m_location');
+			supp_loc.initialize();
+			supp_loc.location = locSysId;
+			supp_loc.supplier = supSysId;
+			supp_loc.insert();
+			return supp_loc;
+		} else {
+			throw "Mandatory field(s) Suppier or Location cannot be blank.";
+		}
+	},
 
     increaseCount: function(recordSysId) {
         var batchCountResumeCounter = 0,
@@ -296,22 +288,39 @@ IntegrationsUtilsSNC.prototype = {
         gr.u_resume_count = batchCountResumeCounter;
         gr.u_completed_count = completedCountResumeCounter;
         gr.update();
-        return "Done";
+        return true;
     },
 
+    getIntegrationService: function(jobTracker) {
+        var obj = {};
+        var setList = [];
+        var importSetTables = [];
+        var gr = new GlideRecord('sn_sap_data_int_integration_service_job_tracker');
+        if (gr.get(jobTracker)) {
+            if (!gs.nil(gr.getValue('sets')))
+                setList = gr.getValue('sets').split(",");
+            var serviceId = gr.getValue('integration_service');
+        }
+        var service = new GlideRecord('sn_sap_data_int_integrations_service');
+        if (service.get(serviceId))
+            importSetTables = service.getValue('import_set_tables').split(",");
+        obj['set_list'] = setList;
+        obj['import_set_tables'] = importSetTables;
+        return obj;
+    },
     type: 'IntegrationsUtilsSNC'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
         <sys_created_on>2022-10-12 08:49:37</sys_created_on>
         <sys_id>e2b020f087aadd50fd73642d0ebb3583</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_name> IntegrationsUtilsSNC</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_script_include_e2b020f087aadd50fd73642d0ebb3583</sys_update_name>
-        <sys_updated_by>akash</sys_updated_by>
-        <sys_updated_on>2023-02-25 06:11:46</sys_updated_on>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-03-12 19:03:07</sys_updated_on>
     </sys_script_include>
 </record_update>

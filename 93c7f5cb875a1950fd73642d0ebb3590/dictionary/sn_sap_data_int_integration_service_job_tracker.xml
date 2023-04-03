@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Integration Service Job Tracker" max_length="40" name="sn_sap_data_int_integration_service_job_tracker" sizeclass="121" type="collection">
+    <element db_object_id="a86e31b9c3d1e11068187addd4013110" label="Integration Service Job Tracker" max_length="40" name="sn_sap_data_int_integration_service_job_tracker" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Errors" max_length="40" name="errors" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Error code" max_length="40" name="error_code" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Error message" max_length="1000" name="error_message" type="string"/>

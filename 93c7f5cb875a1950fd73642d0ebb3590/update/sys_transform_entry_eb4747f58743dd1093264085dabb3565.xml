@@ -5,7 +5,7 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="Primary Data Integration with SAP">e135c7758743dd1093264085dabb3589</map>
+        <map display_value="Transform Suppliers">e135c7758743dd1093264085dabb3589</map>
         <reference_value_field/>
         <source_field>name_1</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {

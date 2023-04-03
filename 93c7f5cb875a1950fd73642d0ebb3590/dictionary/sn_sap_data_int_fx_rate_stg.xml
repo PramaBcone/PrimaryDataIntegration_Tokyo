@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="FX Rates" max_length="40" name="sn_sap_data_int_fx_rate_stg" sizeclass="0" type="collection">
+    <element db_object_id="ae5ebd79c3d1e11068187addd40131f5" extends="sys_import_set_row" label="FX Rates" max_length="40" name="sn_sap_data_int_fx_rate_stg" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Client" max_length="100" name="client" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date As of Which the Exchange Rate Is Effective" max_length="500" name="effective_date" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Exchange Rate" max_length="500" name="exchange_rate" type="string"/>

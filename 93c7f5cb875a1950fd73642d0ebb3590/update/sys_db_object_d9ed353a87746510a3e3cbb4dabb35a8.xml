@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Master Data Error Handler</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_sap_data_int_master_data_error_handler</name>
+        <number_ref display_value="MDE">9fa2ef0cc3752150d10cf44ed401314a</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>Prama</sys_created_by>
+        <sys_created_on>2023-02-07 17:06:58</sys_created_on>
+        <sys_id>d9ed353a87746510a3e3cbb4dabb35a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Master Data Error Handler</sys_name>
+        <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+        <sys_update_name>sys_db_object_d9ed353a87746510a3e3cbb4dabb35a8</sys_update_name>
+        <sys_updated_by>Prama</sys_updated_by>
+        <sys_updated_on>2023-03-21 04:25:51</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="sn_sap_data_int.master_data_error_handler_user" name="sn_sap_data_int.master_data_error_handler_user">ce2e353a87746510a3e3cbb4dabb35b2</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

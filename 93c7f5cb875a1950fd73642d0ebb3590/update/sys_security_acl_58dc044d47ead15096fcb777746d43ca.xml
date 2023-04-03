@@ -6,7 +6,7 @@
         <condition/>
         <description>Default access control on sn_sap_data_int_plant_add_stg</description>
         <name>sn_sap_data_int_plant_add_stg</name>
-        <operation display_value="Global">delete</operation>
+        <operation display_value="delete">delete</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>bcone</sys_created_by>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_security_acl_58dc044d47ead15096fcb777746d43ca</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-10-13 02:01:07</sys_updated_on>
-        <type display_value="Global">record</type>
+        <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

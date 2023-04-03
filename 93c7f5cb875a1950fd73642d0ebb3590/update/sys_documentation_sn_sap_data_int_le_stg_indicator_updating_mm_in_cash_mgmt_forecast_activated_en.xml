@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="indicator_updating_mm_in_cash_mgmt_forecast_activated" label="Indicator: Updating MM in Cash Mgmt/Forecast activated?" language="en" table="sn_sap_data_int_le_stg">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>indicator_updating_mm_in_cash_mgmt_forecast_activated</element>
+            <help/>
+            <hint/>
+            <label>Indicator: Updating MM in Cash Mgmt/Forecast activated?</label>
+            <language>en</language>
+            <name>sn_sap_data_int_le_stg</name>
+            <plural>Indicator: Updating MM in Cash Mgmt/Forecast activated?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-01 11:05:05</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Indicator: Updating MM in Cash Mgmt/Forecast activated?</sys_name>
+            <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
+            <sys_update_name>sys_documentation_sn_sap_data_int_le_stg_indicator_updating_mm_in_cash_mgmt_forecast_activated_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-01 11:05:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

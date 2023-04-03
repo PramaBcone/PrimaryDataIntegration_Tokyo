@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d9ed353a87746510a3e3cbb4dabb35a8" label="Master Data Error Handler" max_length="40" name="sn_sap_data_int_master_data_error_handler" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Error Message" max_length="400" name="error_message" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Event" max_length="40" name="event" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Create" sequence="100" value="create"/>
+                <element inactive_on_update="false" label="Update" sequence="200" value="update"/>
+            </choice>
+        </element>
+        <element label="Flow Execution ID" max_length="40" name="flow_execution_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="table" dependent_on_field="table" label="Record ID" max_length="32" name="record_id" type="document_id" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Failed" value="failed"/>
+                <element inactive_on_update="false" label="Running" value="running"/>
+            </choice>
+        </element>
+        <element choice="1" label="Subtype" max_length="100" name="subtype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="General" sequence="10" value="general"/>
+                <element inactive_on_update="false" label="Location" sequence="20" value="location"/>
+                <element inactive_on_update="false" label="Legal Entity" sequence="30" value="legal_entity"/>
+                <element inactive_on_update="false" label="Bank Detail" sequence="40" value="bank_detail"/>
+            </choice>
+        </element>
+        <element attributes="base_start=true,edge_encryption_enabled=true" label="Table" max_length="80" name="table" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Legal Entity" value="legal_entity"/>
+                <element inactive_on_update="false" label="Payment Terms" value="payment_terms"/>
+                <element inactive_on_update="false" label="Purchasing Entity" value="purchasing_entity"/>
+                <element inactive_on_update="false" label="Supplier" value="supplier"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="record_id"/>
+        </index>
+    </element>
+</database>

@@ -350,6 +350,216 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_control_key</element>
+            <position>25</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 10:59:44</sys_created_on>
+            <sys_id>dd6314b0c36565104dcc9d777d013162</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 10:59:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_account</element>
+            <position>26</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:02:16</sys_created_on>
+            <sys_id>aaf3dc70c36565104dcc9d777d013112</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_name</element>
+            <position>27</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:03:42</sys_created_on>
+            <sys_id>af4454f0c36565104dcc9d777d01311b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:03:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_key</element>
+            <position>28</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:04:16</sys_created_on>
+            <sys_id>636418f0c36565104dcc9d777d0131f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:04:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bank_country</element>
+            <position>29</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:05:08</sys_created_on>
+            <sys_id>d4a4d8f0c36565104dcc9d777d013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:05:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_authorization</element>
+            <position>30</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:06:08</sys_created_on>
+            <sys_id>c3d45cf0c36565104dcc9d777d0131a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:06:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference_details</element>
+            <position>31</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:06:54</sys_created_on>
+            <sys_id>da05d434c36565104dcc9d777d0131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:06:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>valid_from</element>
+            <position>32</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:07:54</sys_created_on>
+            <sys_id>8d45dc34c36565104dcc9d777d01311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:07:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>valid_to</element>
+            <position>33</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:08:42</sys_created_on>
+            <sys_id>e875d074c36565104dcc9d777d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:08:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>account_holder</element>
+            <position>34</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:09:22</sys_created_on>
+            <sys_id>5a95d474c36565104dcc9d777d0131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:09:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>part_bank_type</element>
+            <position>35</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:09:55</sys_created_on>
+            <sys_id>d6b5d874c36565104dcc9d777d0131a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:09:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>international_bank_country_key</element>
+            <position>36</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:10:28</sys_created_on>
+            <sys_id>22d5d874c36565104dcc9d777d013108</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:10:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>international_bank_key</element>
+            <position>37</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:11:04</sys_created_on>
+            <sys_id>9ff590b4c36565104dcc9d777d013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:11:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>swift_bic_for_international_payment</element>
+            <position>38</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:11:48</sys_created_on>
+            <sys_id>822694b4c36565104dcc9d777d013176</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:11:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>international_bank_account_number</element>
+            <position>39</position>
+            <sys_created_by>Anusha</sys_created_by>
+            <sys_created_on>2023-03-10 11:12:48</sys_created_on>
+            <sys_id>70665cb4c36565104dcc9d777d0131e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_sap_data_int_supplier_stg" sys_domain="global" view="Default view">bc3d21b9870f9d1093264085dabb355f</sys_ui_section>
+            <sys_updated_by>Anusha</sys_updated_by>
+            <sys_updated_on>2023-03-10 11:12:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

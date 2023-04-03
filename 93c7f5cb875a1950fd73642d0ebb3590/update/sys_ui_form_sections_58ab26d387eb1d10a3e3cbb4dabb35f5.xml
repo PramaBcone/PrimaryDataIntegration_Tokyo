@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="sn_sap_data_int_integration_service_job_tracker" name="sn_sap_data_int_integration_service_job_tracker" sys_domain="global" view="Default view">58ab26d387eb1d10a3e3cbb4dabb35f5</sys_ui_form>
-            <sys_ui_section caption="For Parallel Processing" display_value="For Parallel Processing" name="sn_sap_data_int_integration_service_job_tracker" sys_domain="global" view="Default view">9549f79747c8a55002367562846d43f5</sys_ui_section>
+            <sys_ui_section caption="Helper Fields for Parallel Events" display_value="Helper Fields for Parallel Events" name="sn_sap_data_int_integration_service_job_tracker" sys_domain="global" view="Default view">9549f79747c8a55002367562846d43f5</sys_ui_section>
             <sys_updated_by>shreenag.araga</sys_updated_by>
             <sys_updated_on>2023-01-03 08:34:42</sys_updated_on>
         </sys_ui_form_section>

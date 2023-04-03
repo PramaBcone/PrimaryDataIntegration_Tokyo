@@ -5,48 +5,50 @@
         <order>100</order>
         <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
 
-	var gr = new GlideRecord('sn_sap_data_int_supplier_stg');
-	gr.addQuery('sys_import_set', source.sys_import_set);
-	gr.query();
-	while (gr.next()) {
-		var location_details = {};
-		location_details['street'] = gr.street_and_house_number;
-		location_details['city'] = gr.district_1 + " " + gr.district_2;
-		location_details['state'] = gr.region_state_province_county;
-		location_details['zip'] = gr.postal_code;
-		location_details['country'] = gr.country_key;
-		location_details['fax_phone'] = gr.fax_number;
-		location_details['phone'] = gr.first_telephone_number;
-		var name = new IntegrationsUtils().getLocationName(location_details.street, location_details.city, location_details.state, location_details.zip);
-		location_details['name'] = name;
-		var targetRecordSysId = gr.sys_target_sys_id;
-		var supplier = new GlideRecord('sn_fin_supplier');
-		supplier.addQuery('sys_id', targetRecordSysId);
-		supplier.query();
-		if (supplier.next()) {
-			var loc_id = new IntegrationsUtils().checkForSupplierLocation(supplier.erp_company_code);
-			if(!gs.nil(loc_id)){
-				new IntegrationsUtils().updateLocation(loc_id, location_details);
-			} else {
-				new IntegrationsUtils().createLocation(targetRecordSysId, location_details, supplier.erp_company_code);
-			}
-		}
-	}
-	
+    var gr = new GlideRecord('sn_sap_data_int_supplier_stg');
+    gr.addQuery('sys_import_set', source.sys_import_set);
+    gr.query();
+    while (gr.next()) {
+        var loc_details = {};
+        loc_details['street'] = gr.street_and_house_number;
+        loc_details['city'] = gr.district_1 + " " + gr.district_2;
+        loc_details['state'] = gr.region_state_province_county;
+        loc_details['zip'] = gr.postal_code;
+        loc_details['country'] = gr.country_key;
+        loc_details['fax_phone'] = gr.fax_number;
+        loc_details['phone'] = gr.first_telephone_number;
+        var name = new IntegrationsUtils().getLocationName(loc_details.street, loc_details.city, loc_details.state, loc_details.zip);
+        loc_details['name'] = name;
+        var targetRecordSysId = gr.sys_target_sys_id;
+        if (targetRecordSysId) {
+            var supplierLocation = new IntegrationsUtils().checkForSupplierLocation(targetRecordSysId);
+            if (supplierLocation) {
+                new IntegrationsUtils().updateLocation(targetRecordSysId.location, loc_details);
+            } else {
+                var getLocSysId = new IntegrationsUtils().getLocationID(loc_details);
+                if (!gs.nil(getLocSysId)) {
+                    var cr = new IntegrationsUtils().createSupplierLocation(targetRecordSysId, getLocSysId);
+                } else {
+                    var locationSysId = new IntegrationsUtils().createLocation(loc_details);
+                    new IntegrationsUtils().createSupplierLocation(targetRecordSysId, locationSysId.sys_id);
+                }
+            }
+        }
+    }
 
 })(source, map, log, target);]]></script>
         <sys_class_name>sys_transform_script</sys_class_name>
         <sys_created_by>Prama</sys_created_by>
         <sys_created_on>2023-01-20 03:33:29</sys_created_on>
         <sys_id>9f71def087e0e590a3e3cbb4dabb35a7</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>onComplete</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_transform_script_9f71def087e0e590a3e3cbb4dabb35a7</sys_update_name>
         <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2023-02-02 03:43:24</sys_updated_on>
+        <sys_updated_on>2023-03-12 19:10:22</sys_updated_on>
         <when>onComplete</when>
     </sys_transform_script>
 </record_update>

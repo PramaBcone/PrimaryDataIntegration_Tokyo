@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="266e71b9c3d1e11068187addd4013180" extends="sys_import_set_row" label="Payment Terms" max_length="40" name="sn_sap_data_int_pay_term_stg" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language Key" max_length="40" name="language_key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment Term" max_length="100" name="payment_term" type="string"/>
+    </element>
+</database>

@@ -6,7 +6,7 @@
         <condition/>
         <description>Default access control on sn_sap_data_int_integration_job_tracker</description>
         <name>sn_sap_data_int_integration_job_tracker</name>
-        <operation display_value="Global">create</operation>
+        <operation display_value="create">create</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>Mayank</sys_created_by>
@@ -20,6 +20,6 @@
         <sys_update_name>sys_security_acl_363fd4ec872a9d50fd73642d0ebb3576</sys_update_name>
         <sys_updated_by>Mayank</sys_updated_by>
         <sys_updated_on>2022-10-11 14:04:37</sys_updated_on>
-        <type display_value="Global">record</type>
+        <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

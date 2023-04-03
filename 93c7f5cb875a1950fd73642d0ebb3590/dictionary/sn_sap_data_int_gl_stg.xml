@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Ledger Accounts" max_length="40" name="sn_sap_data_int_gl_stg" sizeclass="0" type="collection">
+    <element db_object_id="3d5ebd79c3d1e11068187addd4013195" extends="sys_import_set_row" label="Ledger Accounts" max_length="40" name="sn_sap_data_int_gl_stg" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Accounting Clerk Abbreviation" max_length="5" name="u_accounting_clerk_abbreviation" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Account currency" max_length="10" name="u_account_currency" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Account is reconciliation account" max_length="10" name="u_account_is_reconciliation_account" type="string"/>
