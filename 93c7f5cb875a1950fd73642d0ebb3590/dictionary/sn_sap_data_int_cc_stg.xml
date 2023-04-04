@@ -26,7 +26,7 @@
         <element attributes="edge_encryption_enabled=true" label="Fax Number" max_length="40" name="fax_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First telephone number" max_length="40" name="first_telephone_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Functional Area" max_length="40" name="functional_area" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Function of cost center" max_length="40" name="function_of_cost_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Function of cost center" max_length="41" name="function_of_cost_center" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator for Allowed Allocation Methods" max_length="40" name="indicator_for_allowed_allocation_methods" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator for Recording Consumption Quantities" max_length="40" name="indicator_for_recording_consumption_quantities" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Indicator. object is statistical" max_length="40" name="indicator_object_is_statistical" type="string"/>

@@ -11,15 +11,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d5a31e94797d11086887562846d433b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>FDa95a31e93897d1103d6e2fb64184eb3b</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_complex_object_6d5a31e94797d11086887562846d433b</sys_update_name>
-        <sys_updated_by>Priyanshi</sys_updated_by>
-        <sys_updated_on>2022-11-28 04:16:36</sys_updated_on>
+        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
+        <sys_updated_on>2023-03-31 08:24:52</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
 </record_update>

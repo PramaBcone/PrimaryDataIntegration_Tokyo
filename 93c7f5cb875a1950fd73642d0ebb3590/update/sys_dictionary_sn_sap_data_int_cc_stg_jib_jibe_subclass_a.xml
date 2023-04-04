@@ -52,8 +52,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_dictionary_sn_sap_data_int_cc_stg_jib_jibe_subclass_a</sys_update_name>
-        <sys_updated_by>Prama</sys_updated_by>
-        <sys_updated_on>2022-12-08 11:09:38</sys_updated_on>
+        <sys_updated_by>Mayank</sys_updated_by>
+        <sys_updated_on>2023-04-03 17:20:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
